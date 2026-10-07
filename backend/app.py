@@ -43,6 +43,7 @@ _metadata = None
 _stats = None
 _presets = None
 _df_cache = None
+_suitability_bundle = None
 
 def get_model_bundle():
     global _model_bundle
@@ -91,6 +92,21 @@ def get_dataframe():
         else:
             _df_cache = pd.DataFrame()
     return _df_cache
+
+
+def get_suitability_bundle():
+    """Lazy-load the ML suitability sub-model bundle.
+
+    If the artifact does not exist (e.g. first run or user deleted artifacts),
+    retrain everything so that the main model and suitability models stay in sync.
+    """
+    global _suitability_bundle
+    if _suitability_bundle is None:
+        if not config.SUITABILITY_MODEL_PATH.exists():
+            from ml.model_trainer import train_and_evaluate
+            train_and_evaluate()
+        _suitability_bundle = joblib.load(config.SUITABILITY_MODEL_PATH)
+    return _suitability_bundle
 
 
 # Pydantic Schemas
@@ -334,11 +350,16 @@ def predict_crop_yield(req: PredictionRequest):
     advisory = generate_agronomic_advisory(req, pred_yield)
     economics = compute_economics(req.crop, total_production, req.area, req.fertilizer, req.pesticide)
 
-    # Suitability index score (0 - 100)
-    soil_score = min(100, max(20, int(70 + (req.fertilizer / 200.0) * 30)))
-    moisture_score = min(100, max(30, int(100 - abs(req.rainfall - 1000) * 0.05)))
-    temp_score = min(100, max(25, int(100 - abs(req.temperature - 25) * 4)))
-    protection_score = min(100, max(30, int(85 - (req.pesticide / 60.0) * 20)))
+    # --- ML-based suitability scores (replaces hand-coded arithmetic) ---
+    suitability_bundle = get_suitability_bundle()
+    suit_models = suitability_bundle['models']
+    suit_preprocessor = suitability_bundle['preprocessor']
+    X_suit = suit_preprocessor.transform(input_df)
+
+    soil_score       = int(round(max(10.0, min(100.0, float(suit_models['soil_nutrition'].predict(X_suit)[0])))))
+    moisture_score   = int(round(max(10.0, min(100.0, float(suit_models['moisture_level'].predict(X_suit)[0])))))
+    temp_score       = int(round(max(10.0, min(100.0, float(suit_models['thermal_fit'].predict(X_suit)[0])))))
+    protection_score = int(round(max(10.0, min(100.0, float(suit_models['protection_balance'].predict(X_suit)[0])))))
     overall_suitability = int(np.mean([soil_score, moisture_score, temp_score, protection_score]))
 
     return {

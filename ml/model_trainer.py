@@ -16,6 +16,71 @@ from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 
 from ml import config
 
+
+def _score_in_range(value: float, opt_low: float, opt_high: float, penalty_above: bool = True) -> float:
+    """Return a 0-100 suitability score for a single value against an optimal [low, high] range.
+
+    - Within range  : near-perfect (100 at midpoint, minor quadratic falloff toward edges).
+    - Below range   : linear decay, floored at 15.
+    - Above range   : steeper decay if penalty_above=True (e.g. over-fertilization),
+                      gentle decay otherwise (e.g. abundant rainfall is usually fine).
+    """
+    mid = (opt_low + opt_high) / 2.0
+    half_span = max((opt_high - opt_low) / 2.0, 1e-3)
+
+    if opt_low <= value <= opt_high:
+        # Quadratic penalty for distance from midpoint; max -8 pts at edge of range
+        dist_frac = abs(value - mid) / half_span
+        return max(15.0, 100.0 - dist_frac * dist_frac * 8.0)
+    elif value < opt_low:
+        shortfall = (opt_low - value) / max(opt_low, 1e-3)
+        return max(15.0, 95.0 - min(1.0, shortfall) * 80.0)
+    else:  # value > opt_high
+        excess = (value - opt_high) / max(opt_high, 1e-3)
+        penalty = 65.0 if penalty_above else 30.0
+        return max(15.0, 95.0 - min(1.0, excess) * penalty)
+
+
+def _compute_suitability_labels(df: pd.DataFrame, profiles: dict) -> pd.DataFrame:
+    """Derive per-record agronomic suitability scores (0-100) for the four radar dimensions.
+
+    These serve as supervised labels for training the four suitability sub-models.
+    Because labels are crop-specific, the trained models will learn that e.g.
+    the same fertilizer dose scores differently for Wheat vs. Sugarcane.
+
+    Returns a DataFrame with columns:
+        soil_nutrition, moisture_level, thermal_fit, protection_balance
+    """
+    default = {
+        'opt_fertilizer': (70, 140),
+        'opt_rainfall':   (600, 1200),
+        'opt_temp':       (18, 32),
+        'opt_pesticide':  (10, 35),
+    }
+
+    soil, moisture, thermal, protection = [], [], [], []
+
+    for _, row in df.iterrows():
+        profile = profiles.get(row['Crop'], default)
+
+        fl, fh = profile.get('opt_fertilizer', default['opt_fertilizer'])
+        rl, rh = profile.get('opt_rainfall',   default['opt_rainfall'])
+        tl, th = profile.get('opt_temp',       default['opt_temp'])
+        pl, ph = profile.get('opt_pesticide',  default['opt_pesticide'])
+
+        soil.append(_score_in_range(row['Fertilizer'], fl, fh, penalty_above=True))
+        # Extra rainfall rarely harms crops as much as deficit, so penalty_above=False
+        moisture.append(_score_in_range(row['Rainfall'], rl, rh, penalty_above=False))
+        thermal.append(_score_in_range(row['Temperature'], tl, th, penalty_above=True))
+        protection.append(_score_in_range(row['Pesticide'], pl, ph, penalty_above=True))
+
+    return pd.DataFrame({
+        'soil_nutrition':    [round(v, 1) for v in soil],
+        'moisture_level':    [round(v, 1) for v in moisture],
+        'thermal_fit':       [round(v, 1) for v in thermal],
+        'protection_balance':[round(v, 1) for v in protection],
+    })
+
 def train_and_evaluate():
     print(f'Reading dataset from {config.DATA_PATH}...')
     df = pd.read_csv(config.DATA_PATH)
@@ -268,7 +333,46 @@ def train_and_evaluate():
     with open(config.PRESETS_PATH, 'w', encoding='utf-8') as f:
         json.dump(presets, f, indent=2)
 
+    # ---------------------------------------------------------------
+    # Train ML-based suitability sub-models (replaces hand-coded rules)
+    # ---------------------------------------------------------------
+    print('\nComputing suitability training labels...')
+    suitability_labels = _compute_suitability_labels(df, config.AGRONOMIC_PROFILES)
+
+    # Use all (non-target) features transformed by the already-fitted preprocessor
+    X_all = df[config.NUMERICAL_COLUMNS + config.CATEGORICAL_COLUMNS]
+    X_all_trans = preprocessor.transform(X_all)
+
+    suitability_dimensions = [
+        'soil_nutrition',
+        'moisture_level',
+        'thermal_fit',
+        'protection_balance',
+    ]
+
+    suitability_models = {}
+    for dim in suitability_dimensions:
+        print(f'  Training suitability sub-model: {dim}...')
+        sub_model = RandomForestRegressor(
+            n_estimators=120,
+            max_depth=8,
+            random_state=42,
+            n_jobs=-1,
+        )
+        sub_model.fit(X_all_trans, suitability_labels[dim])
+        sub_r2 = r2_score(suitability_labels[dim], sub_model.predict(X_all_trans))
+        print(f'    -> R² on training set: {sub_r2:.4f}')
+        suitability_models[dim] = sub_model
+
+    suitability_bundle = {
+        'models': suitability_models,
+        'preprocessor': preprocessor,  # shared — already fitted on full feature set
+    }
+    joblib.dump(suitability_bundle, config.SUITABILITY_MODEL_PATH)
+    print(f'Suitability model bundle saved to: {config.SUITABILITY_MODEL_PATH}')
+
     print('Training and artifact generation completed successfully!')
+
 
 if __name__ == '__main__':
     train_and_evaluate()

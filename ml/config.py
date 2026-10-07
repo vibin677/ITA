@@ -1,4 +1,4 @@
-﻿import os
+import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -9,6 +9,8 @@ MODEL_PATH = ARTIFACTS_DIR / "best_crop_model.joblib"
 METRICS_PATH = ARTIFACTS_DIR / "model_comparison.json"
 STATS_PATH = ARTIFACTS_DIR / "dataset_stats.json"
 PRESETS_PATH = ARTIFACTS_DIR / "presets.json"
+SUITABILITY_MODEL_PATH = ARTIFACTS_DIR / "suitability_models.joblib"
+
 
 TARGET_COLUMN = "Yield"
 NUMERICAL_COLUMNS = ["Area", "Rainfall", "Temperature", "Fertilizer", "Pesticide"]
