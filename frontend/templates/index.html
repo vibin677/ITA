@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgroPredict AI — Crop Production & Yield Intelligence</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            agro: {
+              50: '#ecfdf5', 100: '#d1fae5', 200: '#a7f3d0',
+              500: '#10b981', 600: '#059669', 700: '#047857',
+              800: '#065f46', 900: '#064e3b',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="antialiased min-h-screen flex flex-col justify-between">
+
+  <!-- Header -->
+  <header class="border-b border-slate-200/80 bg-white/90 backdrop-blur sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <div class="flex items-center space-x-3">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-agro-700 to-emerald-500 flex items-center justify-center text-white shadow-md shadow-emerald-500/20">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+            </svg>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-xl font-bold font-heading tracking-tight text-slate-900">AgroPredict <span class="text-agro-600">AI</span></span>
+              <span class="px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-agro-100 text-agro-800 rounded-full border border-agro-200">v2.0 PRO</span>
+            </div>
+            <p class="text-[11px] text-slate-500 hidden sm:block">Intelligent Crop Yield & Production Forecasting Engine</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-3">
+          <div id="header-model-badge" class="hidden md:inline-flex items-center text-xs px-3 py-1.5 rounded-full bg-slate-100 text-slate-700 border border-slate-200 font-medium">
+            <span class="w-2 h-2 rounded-full bg-emerald-500 inline-block mr-1.5 animate-pulse"></span>
+            Loading Model...
+          </div>
+          <button onclick="window.print()" class="text-xs px-3 py-1.5 bg-white border border-slate-300 hover:bg-slate-50 text-slate-700 rounded-lg shadow-sm transition flex items-center gap-1.5 cursor-pointer">
+            <svg class="w-3.5 h-3.5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/>
+            </svg>
+            <span>Report</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <nav class="flex space-x-1 sm:space-x-2 border-t border-slate-100 py-2 overflow-x-auto no-scrollbar">
+        <button data-tab="predict" class="nav-tab active px-3.5 py-1.5 text-xs rounded-lg text-slate-600 hover:text-slate-900 transition flex items-center gap-1.5 whitespace-nowrap cursor-pointer">
+          <span>🌾</span>
+          <span>Predictor Studio</span>
+        </button>
+        <button data-tab="sensitivity" class="nav-tab px-3.5 py-1.5 text-xs rounded-lg text-slate-600 hover:text-slate-900 transition flex items-center gap-1.5 whitespace-nowrap cursor-pointer">
+          <span>📈</span>
+          <span>Sensitivity ("What-If")</span>
+        </button>
+        <button data-tab="leaderboard" class="nav-tab px-3.5 py-1.5 text-xs rounded-lg text-slate-600 hover:text-slate-900 transition flex items-center gap-1.5 whitespace-nowrap cursor-pointer">
+          <span>🏆</span>
+          <span>Model Leaderboard & XAI</span>
+        </button>
+        <button data-tab="dataset" class="nav-tab px-3.5 py-1.5 text-xs rounded-lg text-slate-600 hover:text-slate-900 transition flex items-center gap-1.5 whitespace-nowrap cursor-pointer">
+          <span>📊</span>
+          <span>Dataset Explorer</span>
+        </button>
+        <button data-tab="batch" class="nav-tab px-3.5 py-1.5 text-xs rounded-lg text-slate-600 hover:text-slate-900 transition flex items-center gap-1.5 whitespace-nowrap cursor-pointer">
+          <span>📁</span>
+          <span>Batch CSV Predictor</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Quick Presets -->
+  <section id="preset-pills" class="bg-gradient-to-r from-emerald-50/60 to-teal-50/60 border-b border-emerald-100 py-2.5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center gap-3 overflow-x-auto no-scrollbar">
+        <span class="text-xs font-semibold uppercase tracking-wider text-emerald-900 flex items-center gap-1 whitespace-nowrap">
+          <svg class="w-3.5 h-3.5 text-emerald-600" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd" />
+          </svg>
+          Presets:
+        </span>
+        <div id="preset-container" class="flex items-center gap-2">
+          <span class="text-xs text-slate-400">Loading agronomic scenarios...</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 w-full flex-1">
+
+    <!-- TAB 1: PREDICTOR STUDIO -->
+    <div id="tab-predict" class="tab-content space-y-6">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+        
+        <!-- Form -->
+        <div class="lg:col-span-5 space-y-5">
+          <div class="glass-card rounded-2xl p-5 border border-slate-200">
+            <div class="flex items-center justify-between pb-3 border-b border-slate-100 mb-4">
+              <div>
+                <h2 class="text-base font-bold font-heading text-slate-900 flex items-center gap-2">
+                  <span>🌱</span> Field & Climate Parameters
+                </h2>
+                <p class="text-xs text-slate-500">Configure agronomic inputs for AI yield inference</p>
+              </div>
+              <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-600 rounded">Step 1 of 2</span>
+            </div>
+
+            <form id="crop-prediction-form" class="space-y-4">
+              <div class="grid grid-cols-2 gap-3">
+                <div>
+                  <label class="block text-xs font-semibold text-slate-700 mb-1">Target Crop</label>
+                  <select id="select-crop" class="w-full text-xs font-medium bg-slate-50 border border-slate-300 rounded-lg p-2.5 focus:ring-2 focus:ring-emerald-500 focus:bg-white transition"></select>
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold text-slate-700 mb-1">Region / State</label>
+                  <select id="select-state" class="w-full text-xs font-medium bg-slate-50 border border-slate-300 rounded-lg p-2.5 focus:ring-2 focus:ring-emerald-500 focus:bg-white transition"></select>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-3">
+                <div>
+                  <label class="block text-xs font-semibold text-slate-700 mb-1">Agricultural Season</label>
+                  <select id="select-season" class="w-full text-xs font-medium bg-slate-50 border border-slate-300 rounded-lg p-2.5 focus:ring-2 focus:ring-emerald-500 focus:bg-white transition"></select>
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold text-slate-700 mb-1">Cultivated Area (ha)</label>
+                  <input type="number" id="input-area" min="1" step="10" value="1200" required class="w-full text-xs font-medium bg-slate-50 border border-slate-300 rounded-lg p-2 focus:ring-2 focus:ring-emerald-500 focus:bg-white transition">
+                </div>
+              </div>
+
+              <div class="flex items-center gap-1.5">
+                <span class="text-[10px] text-slate-400">Quick adjust:</span>
+                <button type="button" class="btn-area-add text-[11px] px-2 py-0.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded transition cursor-pointer" data-add="100">+100 ha</button>
+                <button type="button" class="btn-area-add text-[11px] px-2 py-0.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded transition cursor-pointer" data-add="500">+500 ha</button>
+                <button type="button" class="btn-area-add text-[11px] px-2 py-0.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded transition cursor-pointer" data-add="1000">+1,000 ha</button>
+              </div>
+
+              <!-- Weather Card -->
+              <div class="bg-slate-50/80 rounded-xl p-3 border border-slate-200/80 space-y-3">
+                <div class="flex items-center justify-between text-xs font-bold text-slate-800">
+                  <span class="flex items-center gap-1.5"><span>🌧️</span> Rainfall & Thermal Profile</span>
+                  <span class="text-[10px] text-slate-500">Weather Variables</span>
+                </div>
+                <div>
+                  <div class="flex justify-between text-xs text-slate-600 mb-1">
+                    <span>Annual / Seasonal Rainfall</span>
+                    <span id="val-rainfall" class="font-mono font-bold text-emerald-700">850 mm</span>
+                  </div>
+                  <input type="range" id="slider-rainfall" min="300" max="2500" step="20" value="850" class="w-full h-1.5 bg-slate-200 rounded-lg cursor-pointer">
+                  <input type="hidden" id="input-rainfall" value="850">
+                </div>
+                <div>
+                  <div class="flex justify-between text-xs text-slate-600 mb-1">
+                    <span>Mean Temperature</span>
+                    <span id="val-temp" class="font-mono font-bold text-emerald-700">22.0 °C</span>
+                  </div>
+                  <input type="range" id="slider-temp" min="10" max="42" step="0.5" value="22" class="w-full h-1.5 bg-slate-200 rounded-lg cursor-pointer">
+                  <input type="hidden" id="input-temp" value="22">
+                </div>
+              </div>
+
+              <!-- Nutrients Card -->
+              <div class="bg-slate-50/80 rounded-xl p-3 border border-slate-200/80 space-y-3">
+                <div class="flex items-center justify-between text-xs font-bold text-slate-800">
+                  <span class="flex items-center gap-1.5"><span>🧪</span> Soil Nutrients & Crop Protection</span>
+                  <span class="text-[10px] text-slate-500">Agrochemicals</span>
+                </div>
+                <div>
+                  <div class="flex justify-between text-xs text-slate-600 mb-1">
+                    <span>Fertilizer Rate</span>
+                    <span id="val-fertilizer" class="font-mono font-bold text-emerald-700">125 kg/ha</span>
+                  </div>
+                  <input type="range" id="slider-fertilizer" min="10" max="250" step="5" value="125" class="w-full h-1.5 bg-slate-200 rounded-lg cursor-pointer">
+                  <input type="hidden" id="input-fertilizer" value="125">
+                </div>
+                <div>
+                  <div class="flex justify-between text-xs text-slate-600 mb-1">
+                    <span>Pesticide Application</span>
+                    <span id="val-pesticide" class="font-mono font-bold text-emerald-700">18 kg/ha</span>
+                  </div>
+                  <input type="range" id="slider-pesticide" min="2" max="65" step="1" value="18" class="w-full h-1.5 bg-slate-200 rounded-lg cursor-pointer">
+                  <input type="hidden" id="input-pesticide" value="18">
+                </div>
+              </div>
+
+              <button type="submit" id="btn-submit-predict" class="w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-agro-700 via-agro-600 to-emerald-500 hover:from-agro-800 hover:to-emerald-600 text-white font-bold text-sm shadow-lg shadow-emerald-700/20 transition transform active:scale-[0.99] flex items-center justify-center gap-2 cursor-pointer">
+                <span>⚡</span>
+                <span>Run AI Crop Yield Inference</span>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Result -->
+        <div class="lg:col-span-7 space-y-5">
+          <div id="prediction-results-card" class="glass-card rounded-2xl p-6 border border-slate-200">
+            <div class="flex flex-wrap items-center justify-between gap-2 pb-4 border-b border-slate-100">
+              <div>
+                <span class="text-xs font-semibold uppercase tracking-wider text-slate-400">Prediction Output</span>
+                <h3 class="text-lg font-bold font-heading text-slate-900">Yield & Production Forecast</h3>
+              </div>
+              <div id="res-category-badge" class="px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-emerald-100 text-emerald-800 border border-emerald-300">
+                Outstanding (Bumper Yield)
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-5">
+              <div class="bg-gradient-to-br from-emerald-50 to-teal-50/50 p-4 rounded-xl border border-emerald-200/80">
+                <div class="text-xs font-semibold text-emerald-800 uppercase tracking-wider">Estimated Total Production</div>
+                <div class="mt-1 flex items-baseline gap-2">
+                  <span id="res-production-value" class="text-3xl font-extrabold font-heading text-slate-900">--</span>
+                </div>
+                <div class="text-[11px] text-emerald-700 mt-1 flex items-center gap-1">
+                  <span>📦</span> Aggregate volume across full acreage
+                </div>
+              </div>
+              <div class="bg-gradient-to-br from-blue-50 to-indigo-50/50 p-4 rounded-xl border border-blue-200/80">
+                <div class="text-xs font-semibold text-blue-800 uppercase tracking-wider">Estimated Yield Rate</div>
+                <div class="mt-1 flex items-baseline gap-2">
+                  <span id="res-yield-value" class="text-3xl font-extrabold font-heading text-slate-900">--</span>
+                </div>
+                <div class="text-[11px] text-blue-700 mt-1 flex items-center gap-1">
+                  <span>🎯</span> Normalized farm productivity (Tonnes / Hectare)
+                </div>
+              </div>
+            </div>
+
+            <!-- Suitability & Radar -->
+            <div class="grid grid-cols-1 sm:grid-cols-12 gap-4 mt-5 pt-4 border-t border-slate-100 items-center">
+              <div class="sm:col-span-6 space-y-3">
+                <div>
+                  <div class="flex justify-between items-center text-xs font-semibold text-slate-700 mb-1">
+                    <span>Agro-climatic Suitability Score</span>
+                    <span id="res-suitability-score" class="font-bold text-emerald-700">--/100</span>
+                  </div>
+                  <div class="w-full bg-slate-100 rounded-full h-2.5 overflow-hidden">
+                    <div id="res-suitability-bar" class="bg-gradient-to-r from-emerald-500 to-teal-600 h-2.5 rounded-full transition-all duration-700" style="width: 85%"></div>
+                  </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-2 text-left">
+                  <div id="diag-rainfall" class="bg-slate-50 p-2.5 rounded-lg border border-slate-200/60">
+                    <div class="text-xs font-semibold text-slate-900">Optimal Moisture</div>
+                    <div class="text-[10px] text-slate-500">Checking rainfall...</div>
+                  </div>
+                  <div id="diag-temp" class="bg-slate-50 p-2.5 rounded-lg border border-slate-200/60">
+                    <div class="text-xs font-semibold text-slate-900">Ideal Thermal Zone</div>
+                    <div class="text-[10px] text-slate-500">Checking temperature...</div>
+                  </div>
+                  <div id="diag-fertilizer" class="bg-slate-50 p-2.5 rounded-lg border border-slate-200/60">
+                    <div class="text-xs font-semibold text-slate-900">Balanced Nutrition</div>
+                    <div class="text-[10px] text-slate-500">Checking NPK...</div>
+                  </div>
+                  <div id="diag-pesticide" class="bg-slate-50 p-2.5 rounded-lg border border-slate-200/60">
+                    <div class="text-xs font-semibold text-slate-900">Controlled IPM</div>
+                    <div class="text-[10px] text-slate-500">Checking chemical load...</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="sm:col-span-6 h-44 relative flex items-center justify-center">
+                <canvas id="chart-suitability-radar"></canvas>
+              </div>
+            </div>
+
+            <!-- Economics -->
+            <div class="mt-5 p-4 rounded-xl bg-amber-50/60 border border-amber-200/80 space-y-3">
+              <div class="flex items-center justify-between">
+                <div class="text-xs font-bold text-amber-900 flex items-center gap-1.5">
+                  <span>💰</span> Projected Farm Economics & Revenue
+                </div>
+                <div id="res-msp-rate" class="text-[11px] font-mono text-amber-800 font-semibold bg-amber-100/80 px-2 py-0.5 rounded">
+                  MSP Rate: ₹22,750 / Tonne
+                </div>
+              </div>
+              <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 text-center pt-1">
+                <div class="bg-white p-2 rounded-lg border border-amber-200/50">
+                  <div class="text-[10px] text-slate-500 uppercase font-semibold">Gross Revenue</div>
+                  <div id="res-gross-revenue" class="text-xs font-bold text-slate-900 font-mono mt-0.5">--</div>
+                  <div id="res-gross-revenue-usd" class="text-[9px] text-slate-400">≈ $--</div>
+                </div>
+                <div class="bg-white p-2 rounded-lg border border-amber-200/50">
+                  <div class="text-[10px] text-slate-500 uppercase font-semibold">Est. Total Cost</div>
+                  <div id="res-total-cost" class="text-xs font-bold text-slate-700 font-mono mt-0.5">--</div>
+                  <div class="text-[9px] text-slate-400">Inputs + Operations</div>
+                </div>
+                <div class="bg-white p-2 rounded-lg border border-amber-200/50">
+                  <div class="text-[10px] text-emerald-700 uppercase font-semibold">Est. Net Profit</div>
+                  <div id="res-net-profit" class="text-xs font-bold text-emerald-800 font-mono mt-0.5">--</div>
+                  <div class="text-[9px] text-emerald-600 font-medium">After input costs</div>
+                </div>
+                <div class="bg-white p-2 rounded-lg border border-amber-200/50">
+                  <div class="text-[10px] text-indigo-700 uppercase font-semibold">Return on Cost</div>
+                  <div id="res-roi" class="text-xs font-bold text-indigo-800 font-mono mt-0.5">--% ROI</div>
+                  <div class="text-[9px] text-indigo-600 font-medium">Yield Efficiency</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Agronomic Directives -->
+            <div class="mt-5 p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-2">
+              <div class="text-xs font-bold text-slate-800 flex items-center gap-1.5">
+                <span>🌾</span> Agronomist Action Advisory & Field Directives
+              </div>
+              <ul id="res-advisory-list" class="space-y-1.5 pl-1">
+                <li class="text-xs text-slate-600">Enter parameters and run prediction to view tailored agronomist advice.</li>
+              </ul>
+            </div>
+
+            <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
+              <button onclick="switchTab('sensitivity')" class="text-xs font-semibold text-emerald-700 hover:text-emerald-900 flex items-center gap-1 transition cursor-pointer">
+                <span>Simulate Weather & Fertilizer Sensitivity ("What-If")</span>
+                <span>→</span>
+              </button>
+              <button onclick="window.print()" class="text-xs text-slate-500 hover:text-slate-800 transition cursor-pointer">
+                Print Summary 🖨️
+              </button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- TAB 2: SENSITIVITY -->
+    <div id="tab-sensitivity" class="tab-content hidden space-y-6">
+      <div class="glass-card rounded-2xl p-6 border border-slate-200 space-y-6">
+        <div class="flex flex-wrap items-center justify-between gap-2">
+          <div>
+            <span class="text-xs font-semibold uppercase tracking-wider text-slate-400">Dynamic Agronomic Simulation</span>
+            <h2 class="text-xl font-bold font-heading text-slate-900">What-If Sensitivity Analyzer</h2>
+            <p class="text-xs text-slate-500">Observe how production responds when weather or chemical inputs fluctuate</p>
+          </div>
+          
+          <div class="bg-slate-100 p-1 rounded-xl flex items-center gap-1 border border-slate-200">
+            <label class="px-3 py-1.5 text-xs font-semibold rounded-lg cursor-pointer transition has-[:checked]:bg-white has-[:checked]:text-emerald-800 has-[:checked]:shadow-sm">
+              <input type="radio" name="sensitivity-param" value="rainfall" checked class="hidden">
+              🌧️ Rainfall (mm)
+            </label>
+            <label class="px-3 py-1.5 text-xs font-semibold rounded-lg cursor-pointer transition has-[:checked]:bg-white has-[:checked]:text-emerald-800 has-[:checked]:shadow-sm">
+              <input type="radio" name="sensitivity-param" value="fertilizer" class="hidden">
+              🧪 Fertilizer (kg/ha)
+            </label>
+            <label class="px-3 py-1.5 text-xs font-semibold rounded-lg cursor-pointer transition has-[:checked]:bg-white has-[:checked]:text-emerald-800 has-[:checked]:shadow-sm">
+              <input type="radio" name="sensitivity-param" value="temperature" class="hidden">
+              🌡️ Temperature (°C)
+            </label>
+          </div>
+        </div>
+
+        <div class="h-80 w-full relative">
+          <canvas id="chart-sensitivity"></canvas>
+        </div>
+
+        <div>
+          <h4 class="text-xs font-bold text-slate-700 mb-2 uppercase tracking-wider">Step-by-Step Response Data (-30% to +30%)</h4>
+          <div class="overflow-x-auto rounded-xl border border-slate-200">
+            <table class="min-w-full text-left bg-white divide-y divide-slate-200">
+              <thead class="bg-slate-50 text-[11px] font-bold text-slate-600 uppercase">
+                <tr>
+                  <th class="px-4 py-2.5">Input Variation</th>
+                  <th class="px-4 py-2.5">Simulated Parameter Value</th>
+                  <th class="px-4 py-2.5">Estimated Yield Rate</th>
+                  <th class="px-4 py-2.5">Projected Total Production</th>
+                </tr>
+              </thead>
+              <tbody id="sensitivity-table-body" class="divide-y divide-slate-100 text-xs"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 3: LEADERBOARD -->
+    <div id="tab-leaderboard" class="tab-content hidden space-y-6">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+        <div class="lg:col-span-7 glass-card rounded-2xl p-6 border border-slate-200 space-y-4">
+          <div>
+            <span class="text-xs font-semibold uppercase tracking-wider text-slate-400">Regression Benchmark</span>
+            <h2 class="text-lg font-bold font-heading text-slate-900">Multi-Model Comparative Leaderboard</h2>
+            <p class="text-xs text-slate-500">5 regression algorithms trained, validated, and ranked by test R² score</p>
+          </div>
+
+          <div class="overflow-x-auto rounded-xl border border-slate-200">
+            <table class="min-w-full text-left bg-white divide-y divide-slate-200">
+              <thead class="bg-slate-50 text-[11px] font-bold text-slate-600 uppercase">
+                <tr>
+                  <th class="px-4 py-3">Algorithm</th>
+                  <th class="px-4 py-3">R² Score</th>
+                  <th class="px-4 py-3">RMSE</th>
+                  <th class="px-4 py-3">MAE</th>
+                  <th class="px-4 py-3">CV-R²</th>
+                </tr>
+              </thead>
+              <tbody id="leaderboard-table-body" class="divide-y divide-slate-100"></tbody>
+            </table>
+          </div>
+
+          <div class="p-3.5 bg-blue-50/80 rounded-xl border border-blue-200 text-xs text-blue-900 space-y-1">
+            <div class="font-bold flex items-center gap-1.5">
+              <span>💡</span> Why Tree Ensembles Win on Agricultural Datasets
+            </div>
+            <p class="text-blue-800 leading-relaxed text-[11px]">
+              Crop yield depends strongly on <em>non-linear threshold effects</em> (e.g. fertilizer boosts yield up to an optimal saturation point, after which excess chemical burning reduces yield). Gradient Boosting and Random Forest naturally capture these multi-way interactions and resist outliers, whereas Linear Regression assumes strictly linear relationships.
+            </p>
+          </div>
+        </div>
+
+        <div class="lg:col-span-5 glass-card rounded-2xl p-6 border border-slate-200 space-y-4">
+          <div>
+            <span class="text-xs font-semibold uppercase tracking-wider text-slate-400">Explainable AI (XAI)</span>
+            <h2 class="text-lg font-bold font-heading text-slate-900">Feature Importance Breakdown</h2>
+            <p class="text-xs text-slate-500">Relative influence of environmental and input drivers on yield</p>
+          </div>
+          <div class="h-72 w-full relative">
+            <canvas id="chart-feature-importance"></canvas>
+          </div>
+          <div class="text-[11px] text-slate-500 text-center italic">
+            Relative Gini importance extracted directly from the champion ensemble model.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 4: DATASET EXPLORER -->
+    <div id="tab-dataset" class="tab-content hidden space-y-6">
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <div class="glass-card rounded-xl p-4 border border-slate-200">
+          <div class="text-xs text-slate-500 font-semibold uppercase">Total Curated Records</div>
+          <div id="stat-total-records" class="text-2xl font-bold font-heading text-slate-900 mt-1">1,805</div>
+          <div class="text-[10px] text-emerald-600 mt-0.5">Cleaned agricultural rows</div>
+        </div>
+        <div class="glass-card rounded-xl p-4 border border-slate-200">
+          <div class="text-xs text-slate-500 font-semibold uppercase">Average Crop Yield</div>
+          <div id="stat-avg-yield" class="text-2xl font-bold font-heading text-slate-900 mt-1">54.2 T/ha</div>
+          <div class="text-[10px] text-slate-400 mt-0.5">Across all crops & zones</div>
+        </div>
+        <div class="glass-card rounded-xl p-4 border border-slate-200">
+          <div class="text-xs text-slate-500 font-semibold uppercase">Peak Crop Yield</div>
+          <div id="stat-max-yield" class="text-2xl font-bold font-heading text-slate-900 mt-1">128.5 T/ha</div>
+          <div class="text-[10px] text-slate-400 mt-0.5">Sugarcane high biomass</div>
+        </div>
+        <div class="glass-card rounded-xl p-4 border border-slate-200">
+          <div class="text-xs text-slate-500 font-semibold uppercase">Average Annual Rain</div>
+          <div id="stat-avg-rain" class="text-2xl font-bold font-heading text-slate-900 mt-1">980 mm</div>
+          <div class="text-[10px] text-slate-400 mt-0.5">Monsoon & tropical rainfall</div>
+        </div>
+      </div>
+
+      <div class="glass-card rounded-2xl p-6 border border-slate-200 space-y-4">
+        <div class="flex flex-wrap items-center justify-between gap-3">
+          <div>
+            <h2 class="text-lg font-bold font-heading text-slate-900">Crop Agricultural Dataset</h2>
+            <p class="text-xs text-slate-500">Browse historical field records used for machine learning training</p>
+          </div>
+          <div class="flex flex-wrap items-center gap-2">
+            <input type="text" id="input-dataset-search" placeholder="Search crop or state..." class="text-xs bg-slate-50 border border-slate-300 rounded-lg px-3 py-1.5 focus:ring-2 focus:ring-emerald-500 w-44">
+            <select id="filter-dataset-crop" class="text-xs bg-slate-50 border border-slate-300 rounded-lg px-2.5 py-1.5 focus:ring-2 focus:ring-emerald-500">
+              <option value="">All Crops</option>
+            </select>
+            <select id="filter-dataset-state" class="text-xs bg-slate-50 border border-slate-300 rounded-lg px-2.5 py-1.5 focus:ring-2 focus:ring-emerald-500">
+              <option value="">All States</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="overflow-x-auto rounded-xl border border-slate-200">
+          <table class="min-w-full text-left bg-white divide-y divide-slate-200">
+            <thead class="bg-slate-50 text-[11px] font-bold text-slate-600 uppercase">
+              <tr>
+                <th class="px-3 py-2.5">Crop</th>
+                <th class="px-3 py-2.5">State</th>
+                <th class="px-3 py-2.5">Season</th>
+                <th class="px-3 py-2.5">Area (ha)</th>
+                <th class="px-3 py-2.5">Rainfall (mm)</th>
+                <th class="px-3 py-2.5">Temp (°C)</th>
+                <th class="px-3 py-2.5">Fertilizer (kg)</th>
+                <th class="px-3 py-2.5">Pesticide (kg)</th>
+                <th class="px-3 py-2.5">Yield (T/ha)</th>
+              </tr>
+            </thead>
+            <tbody id="dataset-table-body" class="divide-y divide-slate-100"></tbody>
+          </table>
+        </div>
+
+        <div class="flex items-center justify-between pt-2">
+          <span id="dataset-page-info" class="text-xs text-slate-500 font-medium">Page 1 of 1</span>
+          <div class="flex items-center gap-2">
+            <button id="btn-dataset-prev" class="px-3 py-1 text-xs border border-slate-300 rounded-lg bg-white hover:bg-slate-50 disabled:opacity-40 transition cursor-pointer">Previous</button>
+            <button id="btn-dataset-next" class="px-3 py-1 text-xs border border-slate-300 rounded-lg bg-white hover:bg-slate-50 disabled:opacity-40 transition cursor-pointer">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 5: BATCH PREDICTOR -->
+    <div id="tab-batch" class="tab-content hidden space-y-6">
+      <div class="glass-card rounded-2xl p-6 border border-slate-200 space-y-6">
+        <div>
+          <span class="text-xs font-semibold uppercase tracking-wider text-slate-400">Enterprise Bulk Prediction</span>
+          <h2 class="text-xl font-bold font-heading text-slate-900">Batch CSV Crop Production Inference</h2>
+          <p class="text-xs text-slate-500">Upload a spreadsheet of multi-farm records to predict yield and total production in bulk</p>
+        </div>
+
+        <div id="batch-drop-zone" class="border-2 border-dashed border-slate-300 hover:border-emerald-500 rounded-2xl p-8 text-center bg-slate-50/50 hover:bg-emerald-50/30 transition cursor-pointer space-y-3">
+          <div class="w-12 h-12 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center mx-auto">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+            </svg>
+          </div>
+          <div>
+            <span class="font-bold text-sm text-slate-800">Click to upload</span> <span class="text-xs text-slate-500">or drag and drop your CSV file here</span>
+            <div class="text-[11px] text-slate-400 mt-1">Columns required: Area, Rainfall, Temperature, Fertilizer, Pesticide, State, Crop, Season</div>
+          </div>
+          <input type="file" id="input-batch-file" accept=".csv" class="hidden">
+        </div>
+
+        <div class="flex flex-wrap items-center justify-between gap-3 pt-2">
+          <button type="button" id="btn-download-sample-csv" class="text-xs px-3 py-1.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-lg transition font-medium flex items-center gap-1.5 cursor-pointer">
+            <span>📥</span> Download Sample CSV Template
+          </button>
+          <div id="batch-status-text" class="text-xs text-slate-600">
+            Awaiting CSV upload...
+          </div>
+        </div>
+
+        <div id="batch-results-panel" class="hidden space-y-4 pt-4 border-t border-slate-200">
+          <div class="flex items-center justify-between">
+            <h4 class="text-xs font-bold text-slate-800 uppercase tracking-wider">Processed Records Preview (First 15 Rows)</h4>
+            <button type="button" id="btn-download-batch-results" class="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-bold shadow-md shadow-emerald-600/20 transition flex items-center gap-1.5 cursor-pointer">
+              <span>📥</span> Download Enriched CSV with Predictions
+            </button>
+          </div>
+
+          <div class="overflow-x-auto rounded-xl border border-slate-200">
+            <table class="min-w-full text-left bg-white divide-y divide-slate-200">
+              <thead class="bg-slate-50 text-[11px] font-bold text-slate-600 uppercase">
+                <tr>
+                  <th class="px-3 py-2.5">Crop</th>
+                  <th class="px-3 py-2.5">State</th>
+                  <th class="px-3 py-2.5">Season</th>
+                  <th class="px-3 py-2.5">Area (ha)</th>
+                  <th class="px-3 py-2.5">Predicted Yield</th>
+                  <th class="px-3 py-2.5">Total Production</th>
+                </tr>
+              </thead>
+              <tbody id="batch-preview-table-body" class="divide-y divide-slate-100"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="border-t border-slate-200 bg-white py-5 text-center text-xs text-slate-500">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
+      <div>
+        <strong>AgroPredict AI Platform</strong> — Crop Yield and Production Prediction System
+      </div>
+      <div class="text-[11px] text-slate-400">
+        Powered by Scikit-Learn Ensemble Regressors & FastAPI • Production Ready
+      </div>
+    </div>
+  </footer>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
+

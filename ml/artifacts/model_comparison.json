@@ -1,0 +1,372 @@
+{
+  "best_model": {
+    "name": "Gradient Boosting",
+    "r2": 0.8134,
+    "rmse": 9.711,
+    "mae": 6.43,
+    "cv_r2": 0.7822
+  },
+  "models": [
+    {
+      "name": "Gradient Boosting",
+      "r2": 0.8134,
+      "rmse": 9.711,
+      "mae": 6.43,
+      "cv_r2": 0.7822
+    },
+    {
+      "name": "Random Forest",
+      "r2": 0.7856,
+      "rmse": 10.408,
+      "mae": 6.769,
+      "cv_r2": 0.7706
+    },
+    {
+      "name": "Linear Regression",
+      "r2": 0.7445,
+      "rmse": 11.361,
+      "mae": 8.002,
+      "cv_r2": 0.732
+    },
+    {
+      "name": "Ridge Regression",
+      "r2": 0.7444,
+      "rmse": 11.365,
+      "mae": 8.008,
+      "cv_r2": 0.7322
+    },
+    {
+      "name": "Decision Tree",
+      "r2": 0.6561,
+      "rmse": 13.182,
+      "mae": 8.503,
+      "cv_r2": 0.6453
+    }
+  ],
+  "feature_importances": [
+    {
+      "feature": "Fertilizer",
+      "importance": 0.5996
+    },
+    {
+      "feature": "Crop",
+      "importance": 0.1083
+    },
+    {
+      "feature": "Temperature",
+      "importance": 0.0815
+    },
+    {
+      "feature": "Area",
+      "importance": 0.0752
+    },
+    {
+      "feature": "Rainfall",
+      "importance": 0.0513
+    },
+    {
+      "feature": "Season",
+      "importance": 0.0327
+    },
+    {
+      "feature": "Pesticide",
+      "importance": 0.0324
+    },
+    {
+      "feature": "State",
+      "importance": 0.0191
+    }
+  ],
+  "detailed_importances": [
+    {
+      "feature": "Fertilizer",
+      "importance": 0.5996
+    },
+    {
+      "feature": "Temperature",
+      "importance": 0.0815
+    },
+    {
+      "feature": "Crop_Cotton",
+      "importance": 0.0772
+    },
+    {
+      "feature": "Area",
+      "importance": 0.0752
+    },
+    {
+      "feature": "Rainfall",
+      "importance": 0.0513
+    },
+    {
+      "feature": "Pesticide",
+      "importance": 0.0324
+    },
+    {
+      "feature": "Season_Kharif",
+      "importance": 0.0179
+    },
+    {
+      "feature": "Crop_Sugarcane",
+      "importance": 0.0129
+    },
+    {
+      "feature": "Season_Whole Year",
+      "importance": 0.0111
+    },
+    {
+      "feature": "Crop_Potatoes",
+      "importance": 0.0079
+    },
+    {
+      "feature": "State_Kerala",
+      "importance": 0.0046
+    },
+    {
+      "feature": "Crop_Rice",
+      "importance": 0.0045
+    }
+  ],
+  "crops": [
+    "Cotton",
+    "Groundnut",
+    "Maize",
+    "Potatoes",
+    "Rice",
+    "Soybean",
+    "Sugarcane",
+    "Wheat"
+  ],
+  "states": [
+    "Andhra Pradesh",
+    "Bihar",
+    "Gujarat",
+    "Haryana",
+    "Karnataka",
+    "Kerala",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Punjab",
+    "Tamil Nadu",
+    "Uttar Pradesh",
+    "West Bengal"
+  ],
+  "seasons": [
+    "Kharif",
+    "Rabi",
+    "Whole Year"
+  ],
+  "ranges": {
+    "Area": {
+      "min": 124.8,
+      "max": 4965.53,
+      "mean": 2218.08,
+      "median": 2093.77
+    },
+    "Rainfall": {
+      "min": 405.1,
+      "max": 2325.57,
+      "mean": 985.1,
+      "median": 933.99
+    },
+    "Temperature": {
+      "min": 14.01,
+      "max": 37.99,
+      "mean": 27.02,
+      "median": 28.06
+    },
+    "Fertilizer": {
+      "min": 10.61,
+      "max": 199.69,
+      "mean": 117.74,
+      "median": 122.95
+    },
+    "Pesticide": {
+      "min": 1.08,
+      "max": 52.0,
+      "mean": 25.52,
+      "median": 24.56
+    }
+  },
+  "agronomic_profiles": {
+    "Rice": {
+      "opt_rainfall": [
+        1000,
+        1600
+      ],
+      "opt_temp": [
+        20,
+        32
+      ],
+      "opt_fertilizer": [
+        80,
+        140
+      ],
+      "opt_pesticide": [
+        15,
+        35
+      ],
+      "typical_yield_range": [
+        30,
+        80
+      ],
+      "irrigation_advice": "Maintain 2-5 cm standing water during vegetative stage. Implement Alternate Wetting and Drying (AWD) to conserve water.",
+      "nutrient_advice": "Apply split Nitrogen application (50% basal, 25% tillering, 25% panicle initiation) with balanced Zinc Sulfate."
+    },
+    "Wheat": {
+      "opt_rainfall": [
+        600,
+        1100
+      ],
+      "opt_temp": [
+        15,
+        25
+      ],
+      "opt_fertilizer": [
+        90,
+        150
+      ],
+      "opt_pesticide": [
+        10,
+        30
+      ],
+      "typical_yield_range": [
+        35,
+        95
+      ],
+      "irrigation_advice": "Crucial irrigation at Crown Root Initiation (CRI) stage (21 days after sowing) and flowering stage.",
+      "nutrient_advice": "Apply Phosphorus and Potash as basal dose; top-dress Urea before 1st and 2nd irrigations."
+    },
+    "Cotton": {
+      "opt_rainfall": [
+        600,
+        1200
+      ],
+      "opt_temp": [
+        21,
+        35
+      ],
+      "opt_fertilizer": [
+        70,
+        130
+      ],
+      "opt_pesticide": [
+        20,
+        50
+      ],
+      "typical_yield_range": [
+        15,
+        65
+      ],
+      "irrigation_advice": "Avoid waterlogging; cotton requires well-drained loamy soil. Drip irrigation improves boll retention.",
+      "nutrient_advice": "Supplement with Boron and Magnesium sulfate to avoid leaf reddening and square dropping."
+    },
+    "Sugarcane": {
+      "opt_rainfall": [
+        1100,
+        1800
+      ],
+      "opt_temp": [
+        24,
+        38
+      ],
+      "opt_fertilizer": [
+        120,
+        200
+      ],
+      "opt_pesticide": [
+        15,
+        40
+      ],
+      "typical_yield_range": [
+        50,
+        120
+      ],
+      "irrigation_advice": "Requires 1500-2500 mm total water across season. Trash mulching helps conserve root zone moisture.",
+      "nutrient_advice": "Heavy feeder of Potassium for sucrose synthesis; apply organic press-mud compost if available."
+    },
+    "Maize": {
+      "opt_rainfall": [
+        500,
+        900
+      ],
+      "opt_temp": [
+        18,
+        30
+      ],
+      "opt_fertilizer": [
+        80,
+        140
+      ],
+      "opt_pesticide": [
+        10,
+        30
+      ],
+      "typical_yield_range": [
+        25,
+        75
+      ],
+      "irrigation_advice": "Critical stages for water are knee-high, tasseling, and grain filling.",
+      "nutrient_advice": "Balanced NPK 120:60:40 kg/ha with micronutrient Zinc application."
+    },
+    "Potatoes": {
+      "opt_rainfall": [
+        400,
+        700
+      ],
+      "opt_temp": [
+        15,
+        24
+      ],
+      "opt_fertilizer": [
+        110,
+        180
+      ],
+      "opt_pesticide": [
+        15,
+        45
+      ],
+      "typical_yield_range": [
+        40,
+        110
+      ],
+      "irrigation_advice": "Maintain uniform soil moisture; tuber cracking occurs if soil cycles between dry and wet.",
+      "nutrient_advice": "High Potash demand for tuber sizing; avoid excess Nitrogen late in season."
+    },
+    "Groundnut": {
+      "opt_rainfall": [
+        500,
+        850
+      ],
+      "opt_temp": [
+        22,
+        32
+      ],
+      "opt_fertilizer": [
+        30,
+        70
+      ],
+      "opt_pesticide": [
+        10,
+        25
+      ],
+      "typical_yield_range": [
+        20,
+        55
+      ],
+      "irrigation_advice": "Flowering and peg penetration stages require adequate moisture; avoid water stress during pod development.",
+      "nutrient_advice": "Apply Gypsum (200-400 kg/ha) at pegging to supply Calcium and Sulfur for robust pod filling."
+    }
+  },
+  "crop_prices_inr": {
+    "Rice": 23000,
+    "Wheat": 22750,
+    "Cotton": 71200,
+    "Sugarcane": 3400,
+    "Maize": 20900,
+    "Potatoes": 12000,
+    "Groundnut": 67800,
+    "Soybean": 48920
+  },
+  "usd_inr_rate": 86.5
+}

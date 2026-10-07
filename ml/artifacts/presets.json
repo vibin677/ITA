@@ -1,0 +1,67 @@
+[
+  {
+    "id": "punjab_wheat",
+    "title": "Punjab Wheat Belt (Rabi)",
+    "desc": "High-yield irrigated fertile plains with optimal nitrogen & winter temp.",
+    "crop": "Wheat",
+    "state": "Punjab",
+    "season": "Rabi",
+    "area": 1850.0,
+    "rainfall": 680.0,
+    "temperature": 18.5,
+    "fertilizer": 135.0,
+    "pesticide": 18.0
+  },
+  {
+    "id": "maharashtra_cotton",
+    "title": "Maharashtra Black Soil (Cotton)",
+    "desc": "Major Kharif commercial cash-crop with moderate rainfall & warm climate.",
+    "crop": "Cotton",
+    "state": "Maharashtra",
+    "season": "Kharif",
+    "area": 2400.0,
+    "rainfall": 880.0,
+    "temperature": 29.5,
+    "fertilizer": 110.0,
+    "pesticide": 38.0
+  },
+  {
+    "id": "up_sugarcane",
+    "title": "Uttar Pradesh Cane Basin (Annual)",
+    "desc": "Heavy biomass cash crop demanding high nutrient dosage and water.",
+    "crop": "Sugarcane",
+    "state": "Uttar Pradesh",
+    "season": "Whole Year",
+    "area": 2100.0,
+    "rainfall": 1180.0,
+    "temperature": 28.0,
+    "fertilizer": 165.0,
+    "pesticide": 28.0
+  },
+  {
+    "id": "tn_paddy",
+    "title": "Tamil Nadu Cauvery Delta (Rice)",
+    "desc": "High rainfall tropical paddy cultivation with intensive management.",
+    "crop": "Rice",
+    "state": "Tamil Nadu",
+    "season": "Kharif",
+    "area": 1600.0,
+    "rainfall": 1250.0,
+    "temperature": 30.0,
+    "fertilizer": 125.0,
+    "pesticide": 24.0
+  },
+  {
+    "id": "kerala_monsoon",
+    "title": "Kerala Coastal Strip (Rice)",
+    "desc": "Heavy monsoon precipitation, humid coastal temperature, organic rich soils.",
+    "crop": "Rice",
+    "state": "Kerala",
+    "season": "Kharif",
+    "area": 950.0,
+    "rainfall": 1650.0,
+    "temperature": 28.5,
+    "fertilizer": 105.0,
+    "pesticide": 20.0
+  }
+]

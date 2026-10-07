@@ -1,0 +1,61 @@
+{
+  "total_records": 1805,
+  "avg_yield": 59.24,
+  "max_yield": 129.5,
+  "min_yield": 1.0,
+  "avg_rainfall": 985.1,
+  "avg_fertilizer": 117.7,
+  "avg_yield_by_crop": {
+    "Cotton": 41.95,
+    "Groundnut": 39.24,
+    "Maize": 55.32,
+    "Potatoes": 83.39,
+    "Rice": 59.21,
+    "Soybean": 38.99,
+    "Sugarcane": 74.09,
+    "Wheat": 62.41
+  },
+  "avg_yield_by_state": {
+    "Andhra Pradesh": 50.5,
+    "Bihar": 56.98,
+    "Gujarat": 38.14,
+    "Haryana": 67.51,
+    "Karnataka": 70.25,
+    "Kerala": 57.51,
+    "Madhya Pradesh": 50.65,
+    "Maharashtra": 51.34,
+    "Punjab": 57.36,
+    "Tamil Nadu": 63.42,
+    "Uttar Pradesh": 77.89,
+    "West Bengal": 73.81
+  },
+  "crop_counts": {
+    "Rice": 539,
+    "Sugarcane": 351,
+    "Cotton": 303,
+    "Wheat": 297,
+    "Potatoes": 90,
+    "Soybean": 90,
+    "Maize": 90,
+    "Groundnut": 45
+  },
+  "state_counts": {
+    "Tamil Nadu": 268,
+    "Maharashtra": 267,
+    "Kerala": 256,
+    "Punjab": 249,
+    "Uttar Pradesh": 135,
+    "Haryana": 90,
+    "Gujarat": 90,
+    "Andhra Pradesh": 90,
+    "Madhya Pradesh": 90,
+    "Karnataka": 90,
+    "Bihar": 90,
+    "West Bengal": 90
+  },
+  "season_counts": {
+    "Kharif": 846,
+    "Rabi": 570,
+    "Whole Year": 389
+  }
+}

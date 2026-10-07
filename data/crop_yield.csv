@@ -1,0 +1,1806 @@
+Area,Rainfall,Temperature,Fertilizer,Pesticide,State,Crop,Season,Yield
+1935.25,1167.98,18.7,108.63,13.82,Kerala,Sugarcane,Whole Year,43.01
+4758.5,989.71,25.84,101.04,13.1,Kerala,Sugarcane,Kharif,84.42
+3686.77,740.48,32.46,14.87,45.41,Kerala,Cotton,Kharif,6.26
+3033.43,1295.17,29.64,74.84,13.23,Kerala,Sugarcane,Whole Year,61.87
+864.49,1153.2,31.13,82.24,14.33,Maharashtra,Sugarcane,Rabi,23.95
+864.37,578.88,28.18,85.78,38.21,Kerala,Rice,Whole Year,47.99
+384.61,1402.02,28.85,120.23,23.04,Tamil Nadu,Rice,Whole Year,41.0
+4344.26,1304.79,31.98,111.38,39.06,Kerala,Sugarcane,Rabi,52.08
+3045.46,1444.78,19.99,125.5,4.2,Maharashtra,Cotton,Whole Year,97.89
+3569.56,1198.29,24.79,155.33,24.89,Kerala,Wheat,Whole Year,76.74
+200.86,1074.76,19.42,164.47,2.65,Tamil Nadu,Cotton,Whole Year,55.4
+4852.56,860.07,34.75,146.44,4.07,Maharashtra,Wheat,Rabi,53.34
+4178.97,1426.0,33.88,191.55,45.42,Maharashtra,Cotton,Kharif,93.44
+1140.46,1352.67,15.79,13.46,7.82,Tamil Nadu,Rice,Kharif,6.72
+990.94,449.74,29.11,47.2,27.09,Tamil Nadu,Sugarcane,Rabi,55.63
+998.68,429.0,33.5,11.44,21.14,Tamil Nadu,Sugarcane,Kharif,61.88
+1590.79,814.11,18.61,133.02,18.02,Tamil Nadu,Rice,Whole Year,66.78
+2671.31,1291.61,26.36,180.63,45.09,Tamil Nadu,Wheat,Kharif,94.26
+2216.53,1486.0,33.31,56.26,2.07,Maharashtra,Wheat,Whole Year,29.29
+1527.02,565.46,15.68,186.14,33.53,Maharashtra,Wheat,Kharif,90.85
+3098.08,1053.54,28.95,21.45,48.21,Kerala,Rice,Rabi,37.58
+783.52,818.98,20.95,187.54,28.45,Kerala,Wheat,Kharif,59.09
+1531.51,1466.91,33.49,76.81,46.9,Punjab,Rice,Kharif,8.03
+1895.17,1326.33,34.42,29.27,3.56,Kerala,Cotton,Kharif,6.33
+2334.74,1322.16,33.89,102.32,21.52,Kerala,Cotton,Rabi,20.62
+3947.36,915.56,24.48,58.79,13.75,Tamil Nadu,Rice,Kharif,41.74
+1078.4,856.3,32.24,64.13,36.81,Tamil Nadu,Sugarcane,Rabi,5.83
+2619.75,700.75,31.89,68.39,49.08,Kerala,Cotton,Whole Year,13.48
+3002.83,462.01,21.38,162.57,13.57,Punjab,Wheat,Kharif,81.78
+327.61,1351.19,31.58,112.44,33.05,Tamil Nadu,Rice,Rabi,29.92
+3076.97,1294.19,15.74,69.15,10.71,Kerala,Wheat,Rabi,63.54
+935.57,1499.69,26.93,125.96,28.7,Kerala,Wheat,Kharif,64.57
+418.75,1496.3,19.6,146.07,23.73,Maharashtra,Sugarcane,Whole Year,57.54
+4749.54,1010.97,17.41,61.8,48.63,Punjab,Wheat,Rabi,66.2
+4831.6,1245.89,16.54,88.57,30.82,Maharashtra,Sugarcane,Kharif,66.26
+4061.15,1439.24,28.93,33.16,18.13,Punjab,Cotton,Whole Year,7.39
+1592.61,1334.61,21.8,44.42,6.59,Tamil Nadu,Rice,Rabi,20.42
+578.59,672.08,29.5,139.41,8.41,Punjab,Wheat,Rabi,35.38
+3452.74,895.6,16.31,44.47,12.04,Kerala,Rice,Whole Year,58.37
+2256.75,542.08,21.31,109.78,13.3,Kerala,Wheat,Whole Year,69.89
+697.99,1449.46,25.79,144.72,42.68,Punjab,Rice,Kharif,69.95
+2526.37,1066.79,30.81,30.31,28.5,Punjab,Wheat,Kharif,7.4
+268.5,651.51,21.38,117.79,26.65,Punjab,Wheat,Rabi,33.46
+4555.67,1138.87,27.52,58.75,6.62,Maharashtra,Wheat,Whole Year,27.36
+1368.02,1079.94,32.72,192.96,43.15,Punjab,Wheat,Whole Year,64.86
+3346.36,793.98,27.32,101.87,36.42,Tamil Nadu,Wheat,Whole Year,58.55
+1627.38,524.91,19.66,163.14,4.32,Maharashtra,Wheat,Rabi,78.01
+2648.33,1138.73,15.49,114.54,35.68,Maharashtra,Wheat,Whole Year,62.69
+2778.88,972.34,32.4,18.25,27.63,Punjab,Wheat,Whole Year,63.41
+1005.79,1249.55,15.43,130.3,5.0,Tamil Nadu,Wheat,Rabi,74.63
+4850.96,972.18,32.49,190.77,23.46,Maharashtra,Rice,Kharif,101.85
+3898.15,1337.4,25.58,124.31,24.75,Kerala,Sugarcane,Kharif,76.45
+4703.54,1007.1,33.78,165.65,9.12,Maharashtra,Wheat,Rabi,89.09
+4484.65,1017.03,30.98,178.0,47.34,Punjab,Sugarcane,Whole Year,99.21
+3029.71,1364.32,34.96,53.34,42.65,Tamil Nadu,Wheat,Rabi,7.92
+4617.18,843.83,22.01,50.29,33.78,Punjab,Wheat,Kharif,48.71
+533.61,547.42,30.34,126.09,23.65,Kerala,Rice,Kharif,16.75
+1060.32,431.66,23.04,88.1,21.18,Kerala,Cotton,Rabi,2.33
+321.61,1230.65,24.6,169.57,32.9,Kerala,Cotton,Rabi,57.8
+1694.12,1082.34,27.55,181.0,27.73,Punjab,Rice,Kharif,58.35
+2004.52,1174.49,32.47,77.15,4.05,Maharashtra,Sugarcane,Rabi,26.96
+1429.61,634.26,34.68,55.01,26.11,Punjab,Cotton,Kharif,34.92
+4160.81,550.01,30.37,158.3,40.51,Tamil Nadu,Rice,Rabi,67.47
+1848.09,416.0,23.36,62.21,23.5,Maharashtra,Rice,Rabi,25.4
+1476.58,785.65,23.43,166.3,3.55,Kerala,Cotton,Rabi,67.45
+2759.21,1048.91,29.75,90.51,39.53,Punjab,Sugarcane,Kharif,20.01
+790.53,831.47,19.78,136.83,10.87,Kerala,Rice,Rabi,49.01
+4030.77,881.22,17.21,28.15,13.67,Kerala,Wheat,Kharif,53.92
+465.3,1394.57,22.09,128.53,9.07,Tamil Nadu,Sugarcane,Kharif,45.93
+4935.75,783.08,20.74,95.84,17.18,Maharashtra,Sugarcane,Rabi,74.2
+3884.0,965.39,20.93,121.46,38.08,Tamil Nadu,Cotton,Rabi,84.46
+1073.71,1262.02,19.67,41.92,26.45,Tamil Nadu,Cotton,Kharif,23.49
+127.06,836.2,15.84,150.01,11.04,Tamil Nadu,Wheat,Kharif,85.81
+4095.76,1084.3,15.36,173.93,44.01,Kerala,Rice,Whole Year,107.13
+3563.6,1348.6,34.75,51.18,44.1,Tamil Nadu,Cotton,Kharif,7.92
+3672.14,1444.47,23.56,28.19,43.66,Tamil Nadu,Cotton,Whole Year,21.0
+3879.22,561.78,22.69,14.49,12.7,Maharashtra,Sugarcane,Whole Year,8.94
+462.82,1419.25,28.59,131.97,23.11,Maharashtra,Cotton,Whole Year,52.81
+1856.48,941.33,19.37,125.35,49.26,Tamil Nadu,Cotton,Rabi,51.02
+667.76,684.07,34.0,113.87,38.83,Maharashtra,Cotton,Rabi,20.43
+4329.21,905.05,30.73,54.07,2.33,Maharashtra,Cotton,Kharif,27.33
+3154.16,1478.04,16.79,84.27,4.2,Tamil Nadu,Sugarcane,Whole Year,58.57
+1721.4,941.88,23.35,122.95,23.73,Kerala,Wheat,Rabi,33.31
+411.44,761.63,32.58,104.39,45.55,Tamil Nadu,Wheat,Rabi,67.3
+1623.81,1096.74,33.89,197.68,27.4,Maharashtra,Rice,Rabi,62.56
+1693.4,664.16,24.35,35.92,25.39,Kerala,Cotton,Rabi,20.17
+3675.07,483.45,27.27,142.08,6.17,Punjab,Sugarcane,Rabi,76.38
+3224.03,541.77,18.34,86.82,33.18,Kerala,Rice,Whole Year,57.8
+4447.34,540.85,34.82,91.36,41.28,Maharashtra,Rice,Whole Year,22.93
+2413.85,567.09,19.63,146.34,19.64,Kerala,Wheat,Whole Year,73.47
+686.01,552.71,33.85,141.56,39.0,Tamil Nadu,Sugarcane,Whole Year,37.5
+3594.9,1104.96,27.99,198.34,48.26,Punjab,Sugarcane,Kharif,119.97
+3827.85,600.07,27.15,34.39,10.98,Punjab,Sugarcane,Whole Year,10.02
+2850.26,780.23,25.25,29.78,26.64,Punjab,Wheat,Rabi,18.07
+3877.74,1386.47,19.61,147.62,15.07,Maharashtra,Wheat,Whole Year,114.99
+2519.6,921.36,18.53,119.89,39.85,Maharashtra,Wheat,Kharif,51.44
+2661.39,1134.31,19.41,62.09,29.3,Punjab,Wheat,Rabi,36.4
+2194.95,589.55,18.73,25.09,32.09,Kerala,Wheat,Whole Year,31.03
+224.55,611.52,30.59,26.28,40.1,Punjab,Cotton,Whole Year,28.55
+628.67,444.96,22.0,179.9,20.4,Kerala,Cotton,Whole Year,31.84
+254.0,585.83,16.16,46.45,45.84,Kerala,Sugarcane,Rabi,3.96
+3218.41,706.45,34.38,71.44,27.12,Maharashtra,Rice,Rabi,24.52
+1640.34,594.71,32.68,53.06,8.74,Kerala,Sugarcane,Kharif,55.74
+2592.0,497.57,33.56,77.45,35.1,Punjab,Rice,Rabi,14.64
+4547.08,532.7,34.9,23.19,39.87,Maharashtra,Wheat,Rabi,7.31
+1321.53,906.86,18.48,108.62,16.52,Tamil Nadu,Rice,Whole Year,45.16
+2110.88,626.97,22.92,22.85,43.0,Tamil Nadu,Sugarcane,Rabi,60.47
+3802.2,800.7,30.16,162.07,45.4,Maharashtra,Sugarcane,Whole Year,76.27
+1221.11,953.76,28.92,54.41,14.57,Punjab,Rice,Whole Year,2.43
+477.2,1159.43,18.08,112.6,49.19,Tamil Nadu,Cotton,Rabi,48.65
+1519.78,443.24,31.32,177.22,7.89,Tamil Nadu,Wheat,Kharif,50.99
+889.98,1279.35,19.49,133.67,10.9,Kerala,Wheat,Kharif,54.86
+4655.52,1090.69,19.48,111.26,10.03,Kerala,Sugarcane,Rabi,92.55
+4059.79,489.93,25.74,71.62,44.81,Punjab,Cotton,Kharif,40.72
+3203.68,1360.94,26.86,73.27,33.06,Maharashtra,Rice,Whole Year,28.81
+4370.16,1412.96,26.6,137.2,8.45,Punjab,Wheat,Whole Year,83.47
+4037.99,467.19,16.83,198.89,22.58,Maharashtra,Cotton,Rabi,116.44
+1014.19,704.57,32.55,135.75,31.15,Tamil Nadu,Wheat,Kharif,21.67
+4473.54,1286.82,20.31,115.98,5.09,Kerala,Cotton,Kharif,94.21
+2742.78,1223.09,17.59,148.82,44.24,Punjab,Cotton,Whole Year,90.45
+4056.46,602.97,32.77,98.39,40.38,Punjab,Sugarcane,Rabi,37.96
+4490.85,630.28,34.11,21.43,25.76,Maharashtra,Wheat,Kharif,57.63
+1658.22,807.52,32.24,116.84,48.39,Maharashtra,Rice,Rabi,6.73
+639.25,932.98,31.19,191.95,21.47,Punjab,Sugarcane,Kharif,38.14
+1216.88,1080.08,28.1,43.31,49.22,Maharashtra,Sugarcane,Whole Year,5.11
+2192.83,805.81,26.02,141.1,33.73,Punjab,Rice,Whole Year,59.23
+4108.27,908.79,16.74,48.18,32.1,Punjab,Sugarcane,Rabi,54.25
+4317.58,1222.22,23.17,111.81,9.13,Punjab,Cotton,Whole Year,78.53
+134.07,440.35,22.45,28.37,44.21,Tamil Nadu,Cotton,Kharif,18.66
+2602.66,677.68,20.2,95.57,21.95,Maharashtra,Wheat,Whole Year,56.67
+2145.31,1184.68,29.47,153.67,8.95,Kerala,Wheat,Rabi,67.49
+1188.33,1384.73,24.92,76.04,1.62,Kerala,Rice,Rabi,38.17
+687.34,962.85,16.62,136.33,28.43,Maharashtra,Wheat,Rabi,62.77
+1754.31,985.32,19.4,161.14,26.84,Punjab,Cotton,Kharif,76.01
+4720.26,517.89,28.67,186.16,36.25,Kerala,Rice,Kharif,95.25
+1683.69,892.15,16.52,54.58,44.62,Kerala,Rice,Kharif,20.56
+2642.07,985.88,32.02,85.87,4.89,Maharashtra,Wheat,Kharif,21.23
+3544.79,666.72,24.9,38.96,36.84,Kerala,Cotton,Kharif,20.23
+1881.79,696.17,24.61,198.57,10.18,Punjab,Rice,Whole Year,84.45
+4861.73,815.01,26.85,186.13,43.05,Maharashtra,Cotton,Kharif,103.22
+4815.99,422.08,31.49,112.59,41.13,Punjab,Cotton,Kharif,36.03
+1333.73,754.29,21.96,169.99,27.5,Kerala,Cotton,Whole Year,75.87
+2536.52,632.59,28.56,108.98,35.8,Kerala,Wheat,Kharif,43.73
+1574.3,760.25,26.31,128.48,16.4,Punjab,Sugarcane,Rabi,59.0
+1495.72,531.74,20.34,26.93,24.09,Tamil Nadu,Sugarcane,Kharif,2.8
+280.75,1379.58,32.57,153.5,41.26,Kerala,Rice,Kharif,42.02
+3086.87,1052.95,30.95,34.27,23.5,Tamil Nadu,Cotton,Rabi,22.97
+2563.13,1147.01,28.17,166.95,18.53,Kerala,Wheat,Rabi,90.63
+352.25,1268.09,32.01,158.59,25.22,Tamil Nadu,Cotton,Rabi,46.63
+1465.37,948.29,32.35,144.66,41.58,Tamil Nadu,Cotton,Rabi,43.19
+4550.5,495.61,29.17,16.87,17.43,Tamil Nadu,Wheat,Kharif,2.98
+1273.85,990.82,31.74,67.59,9.51,Punjab,Sugarcane,Rabi,71.25
+809.98,1045.53,28.95,59.99,35.89,Tamil Nadu,Cotton,Rabi,7.99
+2498.32,1219.98,28.6,78.43,41.47,Tamil Nadu,Cotton,Whole Year,21.18
+4929.69,874.83,27.37,26.65,5.93,Tamil Nadu,Sugarcane,Rabi,41.63
+1286.07,540.34,30.05,188.02,12.75,Kerala,Wheat,Rabi,71.65
+3393.46,712.15,18.17,115.22,7.96,Tamil Nadu,Rice,Whole Year,65.9
+3831.94,799.39,32.62,68.05,18.05,Kerala,Sugarcane,Whole Year,14.46
+1264.42,1110.51,32.44,85.43,23.07,Tamil Nadu,Rice,Kharif,45.62
+3668.26,1027.86,15.58,94.97,37.69,Tamil Nadu,Rice,Whole Year,61.04
+1902.14,791.71,31.52,124.11,32.91,Punjab,Sugarcane,Kharif,41.18
+3198.3,1485.17,17.58,107.98,31.43,Kerala,Cotton,Whole Year,83.67
+3204.3,1066.35,21.7,184.68,18.27,Tamil Nadu,Rice,Whole Year,107.24
+2725.3,660.95,29.87,104.42,42.23,Kerala,Rice,Kharif,14.49
+542.42,511.96,18.22,198.51,24.09,Kerala,Wheat,Whole Year,74.53
+4192.98,568.15,31.36,171.77,48.98,Maharashtra,Cotton,Kharif,90.13
+1671.82,670.55,31.64,49.62,32.07,Punjab,Rice,Whole Year,37.51
+1013.94,576.75,25.15,186.81,7.19,Punjab,Wheat,Rabi,52.06
+299.8,605.22,15.13,32.11,34.13,Punjab,Cotton,Whole Year,32.73
+2995.38,713.6,20.74,165.32,16.93,Maharashtra,Sugarcane,Kharif,77.69
+3420.07,590.71,27.34,82.32,34.63,Maharashtra,Sugarcane,Whole Year,35.83
+181.28,1386.44,34.62,176.82,4.41,Punjab,Wheat,Kharif,48.91
+2609.26,488.26,27.64,174.93,9.57,Maharashtra,Sugarcane,Kharif,73.48
+1209.83,976.96,20.2,163.13,42.93,Maharashtra,Rice,Rabi,60.63
+3261.35,851.44,27.68,160.11,12.13,Maharashtra,Cotton,Rabi,69.85
+954.4,1480.62,25.8,67.89,42.02,Punjab,Rice,Kharif,32.41
+3485.59,523.24,30.6,25.37,14.68,Punjab,Rice,Whole Year,52.24
+1995.0,837.64,17.14,86.57,32.5,Punjab,Sugarcane,Kharif,35.68
+4689.98,1466.42,30.22,42.97,35.01,Maharashtra,Rice,Kharif,39.26
+773.85,1352.06,25.83,142.04,26.12,Punjab,Sugarcane,Whole Year,57.02
+1771.23,1298.78,34.26,75.76,15.96,Maharashtra,Cotton,Whole Year,8.16
+656.02,683.69,21.84,195.37,11.42,Tamil Nadu,Cotton,Whole Year,71.46
+4631.0,587.98,27.65,131.78,2.63,Maharashtra,Rice,Whole Year,73.99
+4398.96,1135.51,33.64,166.27,15.89,Kerala,Wheat,Kharif,91.05
+1363.91,1422.31,17.05,35.18,33.0,Punjab,Sugarcane,Kharif,14.88
+3333.92,1012.44,33.74,173.78,46.98,Punjab,Sugarcane,Rabi,76.63
+4104.39,1028.77,28.76,185.32,43.69,Kerala,Rice,Kharif,111.89
+2820.48,707.98,16.36,102.54,38.54,Maharashtra,Sugarcane,Whole Year,59.76
+2695.29,1246.44,21.02,125.19,39.63,Tamil Nadu,Sugarcane,Rabi,61.64
+1285.08,605.75,29.16,155.31,33.58,Kerala,Wheat,Whole Year,33.03
+556.2,756.05,16.35,43.22,13.75,Kerala,Wheat,Kharif,7.99
+4496.36,867.98,26.64,105.49,45.45,Maharashtra,Rice,Rabi,72.14
+4512.05,958.37,21.92,85.75,33.87,Punjab,Wheat,Whole Year,62.92
+3202.2,666.65,27.42,37.81,28.46,Maharashtra,Rice,Rabi,11.32
+1761.25,526.32,15.91,79.83,6.44,Kerala,Cotton,Rabi,26.26
+1811.13,1071.68,32.43,22.95,22.91,Kerala,Rice,Kharif,32.16
+3657.18,717.49,34.47,14.9,23.56,Punjab,Cotton,Whole Year,38.15
+4495.84,1039.36,34.38,35.68,43.36,Punjab,Rice,Rabi,9.79
+4446.72,569.8,29.99,192.99,27.79,Punjab,Sugarcane,Rabi,98.67
+3921.39,929.25,17.6,114.41,19.64,Maharashtra,Wheat,Whole Year,59.41
+3245.96,985.85,30.17,193.51,48.86,Punjab,Cotton,Rabi,90.34
+512.29,457.01,15.49,92.17,6.43,Kerala,Rice,Rabi,18.98
+891.98,770.26,15.44,69.25,21.7,Kerala,Wheat,Rabi,28.23
+4502.92,547.86,21.47,106.17,3.06,Tamil Nadu,Rice,Whole Year,62.6
+3071.5,469.71,24.77,93.51,37.26,Maharashtra,Wheat,Whole Year,58.38
+145.07,1488.96,30.41,30.08,45.99,Tamil Nadu,Wheat,Whole Year,62.45
+597.21,754.59,28.67,131.76,14.72,Kerala,Rice,Whole Year,48.04
+3351.16,1290.86,23.92,51.05,43.06,Tamil Nadu,Cotton,Kharif,42.89
+124.8,680.1,20.47,127.72,15.32,Kerala,Cotton,Rabi,29.75
+887.96,1149.65,34.94,133.54,45.63,Tamil Nadu,Sugarcane,Whole Year,32.06
+2788.8,1236.25,23.52,38.88,37.94,Punjab,Wheat,Rabi,21.96
+3490.29,1055.2,24.03,21.66,40.44,Tamil Nadu,Sugarcane,Rabi,21.2
+3294.61,918.73,18.27,158.34,1.88,Punjab,Sugarcane,Kharif,86.81
+1198.92,853.03,30.9,97.36,48.18,Punjab,Rice,Whole Year,32.84
+3589.68,783.76,28.87,21.05,36.61,Maharashtra,Rice,Whole Year,13.6
+1262.52,1422.48,19.42,199.02,15.93,Punjab,Rice,Rabi,102.07
+1694.46,1313.68,16.65,20.98,41.64,Punjab,Wheat,Whole Year,37.7
+3757.81,1461.53,28.61,142.06,14.79,Tamil Nadu,Rice,Rabi,81.36
+3283.2,536.73,28.09,196.9,43.76,Kerala,Rice,Rabi,96.81
+4261.19,1203.95,20.47,55.44,6.52,Maharashtra,Wheat,Kharif,53.87
+3322.3,1432.17,34.02,37.03,35.48,Punjab,Wheat,Kharif,16.28
+2884.71,599.36,18.02,33.06,27.49,Maharashtra,Cotton,Kharif,20.51
+559.01,473.15,23.65,67.62,5.73,Tamil Nadu,Rice,Rabi,2.52
+1901.81,1215.23,33.87,29.2,12.85,Punjab,Rice,Whole Year,40.51
+1399.49,1031.92,23.39,141.51,1.61,Tamil Nadu,Rice,Kharif,51.9
+1295.55,1326.01,27.77,21.84,23.97,Maharashtra,Cotton,Whole Year,21.89
+4867.75,553.75,22.95,106.79,15.76,Tamil Nadu,Rice,Kharif,65.08
+2026.18,1274.79,20.48,199.37,30.32,Maharashtra,Cotton,Kharif,106.77
+4471.03,621.79,34.68,164.65,15.56,Tamil Nadu,Sugarcane,Rabi,69.81
+3192.58,580.02,23.19,126.89,15.7,Maharashtra,Cotton,Kharif,72.33
+3994.58,580.69,32.88,68.19,37.42,Kerala,Sugarcane,Kharif,28.36
+2562.92,1296.03,19.6,128.54,3.36,Tamil Nadu,Rice,Rabi,74.66
+2926.83,1131.72,19.26,110.14,45.24,Tamil Nadu,Sugarcane,Whole Year,82.27
+2513.34,975.37,15.62,90.96,42.76,Kerala,Cotton,Kharif,77.6
+1056.69,794.71,28.03,34.83,33.72,Kerala,Wheat,Rabi,68.93
+3640.02,1364.92,22.37,178.45,30.07,Tamil Nadu,Sugarcane,Kharif,117.51
+1475.78,831.69,32.29,95.46,44.72,Kerala,Sugarcane,Rabi,7.62
+219.15,1298.26,24.46,46.98,10.08,Punjab,Rice,Whole Year,10.72
+3262.81,883.05,34.36,79.87,4.87,Maharashtra,Cotton,Whole Year,33.88
+967.84,814.64,18.71,88.68,12.74,Maharashtra,Sugarcane,Rabi,24.12
+4708.25,908.95,32.37,167.23,39.93,Maharashtra,Sugarcane,Rabi,65.61
+4774.25,731.52,30.53,149.39,2.7,Punjab,Sugarcane,Rabi,84.36
+4582.84,1222.37,30.42,156.17,29.56,Kerala,Sugarcane,Whole Year,88.88
+1913.78,952.99,31.9,12.1,49.78,Kerala,Wheat,Kharif,53.41
+175.74,655.43,30.22,89.07,42.93,Tamil Nadu,Cotton,Whole Year,24.26
+4648.76,1389.53,27.52,101.46,26.55,Kerala,Rice,Rabi,76.2
+2198.1,822.28,17.62,13.65,4.12,Tamil Nadu,Rice,Rabi,16.7
+4836.61,997.91,15.65,59.36,41.74,Punjab,Wheat,Whole Year,80.36
+4821.74,1397.12,33.42,154.46,30.35,Maharashtra,Cotton,Rabi,80.75
+4279.75,1086.66,27.33,36.05,6.63,Maharashtra,Sugarcane,Whole Year,29.19
+1542.8,528.59,30.93,111.71,5.6,Maharashtra,Wheat,Rabi,6.8
+1986.98,1433.82,24.63,50.89,45.57,Kerala,Cotton,Kharif,18.65
+4270.57,1090.48,17.35,12.3,33.79,Tamil Nadu,Sugarcane,Kharif,39.83
+1652.92,768.4,17.5,55.83,41.64,Tamil Nadu,Wheat,Rabi,8.15
+930.51,553.2,28.71,195.42,44.07,Punjab,Cotton,Whole Year,54.29
+2828.33,1273.43,23.61,162.29,29.02,Kerala,Rice,Kharif,78.41
+4687.16,1082.08,19.01,192.32,26.35,Punjab,Rice,Whole Year,128.07
+3510.55,986.81,24.83,102.69,22.09,Tamil Nadu,Cotton,Rabi,62.27
+2893.3,1383.28,16.28,30.85,16.53,Tamil Nadu,Rice,Whole Year,46.88
+576.16,1267.46,26.64,114.11,22.3,Maharashtra,Cotton,Kharif,44.88
+3113.54,566.84,20.38,96.33,38.92,Kerala,Sugarcane,Whole Year,63.6
+4951.26,742.89,30.95,170.43,30.49,Tamil Nadu,Cotton,Whole Year,93.75
+786.41,673.34,21.21,28.64,44.73,Maharashtra,Sugarcane,Rabi,12.11
+2639.82,1218.34,24.1,102.77,22.73,Kerala,Wheat,Rabi,55.13
+4399.13,436.89,15.23,38.51,30.75,Punjab,Cotton,Rabi,39.79
+3729.77,1026.88,16.45,71.69,31.93,Kerala,Wheat,Kharif,66.85
+3515.38,1238.7,22.85,150.1,29.99,Kerala,Rice,Kharif,87.11
+3542.17,1364.44,24.6,100.44,35.43,Tamil Nadu,Sugarcane,Rabi,82.26
+1861.51,776.29,27.0,81.42,12.63,Tamil Nadu,Cotton,Rabi,32.16
+1538.6,1303.38,20.83,84.95,26.11,Kerala,Wheat,Kharif,49.77
+4065.87,521.69,28.9,97.29,6.11,Tamil Nadu,Sugarcane,Kharif,43.25
+4069.56,1331.1,32.2,159.15,19.84,Tamil Nadu,Sugarcane,Kharif,78.41
+4348.65,540.24,30.6,179.5,24.9,Tamil Nadu,Rice,Kharif,89.86
+4574.88,837.02,15.79,191.51,32.96,Maharashtra,Rice,Rabi,115.39
+2605.58,1277.02,24.61,159.51,47.58,Maharashtra,Sugarcane,Kharif,97.48
+2557.43,564.91,17.1,69.93,30.43,Kerala,Sugarcane,Rabi,35.86
+4011.65,652.18,19.84,140.75,37.44,Tamil Nadu,Cotton,Whole Year,86.9
+3284.82,1194.48,34.73,93.14,25.81,Maharashtra,Sugarcane,Whole Year,24.75
+3539.64,1192.04,17.85,58.39,32.07,Kerala,Cotton,Kharif,59.96
+3999.38,1105.26,24.98,169.77,4.48,Tamil Nadu,Sugarcane,Whole Year,92.49
+4461.03,1163.34,27.36,17.3,13.47,Punjab,Rice,Whole Year,28.29
+1756.18,997.0,29.05,181.33,18.73,Tamil Nadu,Cotton,Whole Year,77.64
+1940.36,676.98,26.19,97.68,24.15,Tamil Nadu,Wheat,Kharif,22.92
+560.51,780.27,15.2,131.07,3.24,Maharashtra,Rice,Kharif,45.12
+2933.57,599.76,21.53,135.28,7.86,Kerala,Cotton,Whole Year,81.23
+276.12,1399.3,25.35,180.07,14.56,Kerala,Cotton,Rabi,68.15
+2381.43,1041.73,16.76,130.97,48.61,Maharashtra,Wheat,Whole Year,78.87
+2758.96,840.94,22.01,126.65,17.24,Tamil Nadu,Cotton,Kharif,68.56
+1504.05,908.21,15.66,22.66,24.62,Punjab,Sugarcane,Kharif,0.67
+2995.08,1442.01,16.57,108.5,10.61,Tamil Nadu,Wheat,Kharif,84.52
+249.45,568.69,22.94,38.53,30.93,Tamil Nadu,Rice,Whole Year,34.32
+283.01,1044.85,17.65,150.11,14.75,Punjab,Rice,Rabi,57.04
+4130.74,956.48,26.35,107.32,11.14,Maharashtra,Sugarcane,Kharif,49.83
+1864.93,1072.6,28.79,139.24,26.31,Kerala,Rice,Kharif,58.2
+722.6,419.92,31.01,17.92,1.27,Maharashtra,Cotton,Whole Year,20.42
+2658.99,1359.34,19.0,26.11,1.38,Maharashtra,Cotton,Rabi,30.61
+3872.97,1425.33,18.35,146.1,11.73,Tamil Nadu,Sugarcane,Whole Year,89.24
+1157.52,1021.65,17.09,23.7,2.8,Kerala,Rice,Kharif,53.19
+3152.16,1166.32,27.73,23.54,6.29,Kerala,Rice,Rabi,6.84
+518.2,1414.75,29.13,12.3,17.6,Maharashtra,Sugarcane,Rabi,70.09
+353.24,1177.96,15.63,191.74,40.33,Punjab,Wheat,Kharif,89.23
+2703.64,567.79,33.72,150.13,29.03,Maharashtra,Rice,Rabi,41.32
+2749.11,1033.92,16.04,77.12,26.12,Punjab,Wheat,Rabi,37.91
+3223.41,1067.39,25.83,66.34,15.38,Kerala,Rice,Whole Year,28.53
+3657.85,866.54,29.18,76.44,46.66,Maharashtra,Rice,Kharif,21.44
+4881.68,1210.09,32.42,157.18,20.45,Tamil Nadu,Rice,Kharif,76.74
+2629.87,1427.8,29.28,135.66,5.27,Maharashtra,Rice,Kharif,65.32
+1682.49,1418.13,31.03,45.19,31.24,Kerala,Cotton,Kharif,1.7
+3996.41,895.92,21.79,43.08,6.58,Tamil Nadu,Wheat,Kharif,52.84
+1427.08,524.56,31.3,28.7,17.92,Tamil Nadu,Wheat,Rabi,65.18
+2250.96,1483.33,16.6,135.46,25.86,Punjab,Rice,Whole Year,80.61
+484.44,1322.79,32.9,155.23,43.84,Tamil Nadu,Rice,Kharif,33.95
+224.22,537.13,25.95,60.36,25.18,Tamil Nadu,Wheat,Whole Year,5.09
+4816.98,1412.93,31.35,13.98,35.41,Maharashtra,Cotton,Whole Year,37.33
+4196.3,1356.89,24.05,25.61,49.65,Kerala,Sugarcane,Rabi,11.87
+3510.27,970.72,27.87,193.89,7.44,Punjab,Sugarcane,Kharif,96.65
+2103.87,1050.4,25.53,66.13,14.46,Maharashtra,Wheat,Rabi,21.54
+949.14,838.9,29.63,156.15,20.33,Tamil Nadu,Rice,Kharif,51.57
+866.54,460.24,16.63,128.69,21.67,Tamil Nadu,Rice,Rabi,68.37
+1326.19,768.72,16.21,82.57,21.14,Punjab,Cotton,Whole Year,32.67
+2791.21,1283.14,19.94,49.08,45.47,Kerala,Sugarcane,Kharif,17.62
+3601.52,405.1,18.19,33.06,35.99,Punjab,Cotton,Whole Year,30.06
+3334.97,766.85,32.44,126.85,30.79,Maharashtra,Sugarcane,Whole Year,61.14
+1471.68,837.99,19.38,157.18,16.16,Punjab,Wheat,Rabi,68.26
+4778.84,991.14,34.52,132.34,41.37,Tamil Nadu,Sugarcane,Kharif,57.7
+3715.69,1411.84,21.74,110.76,47.8,Maharashtra,Cotton,Whole Year,72.92
+2816.33,780.98,18.64,17.97,41.24,Tamil Nadu,Cotton,Rabi,23.99
+3097.43,781.65,30.79,194.01,1.08,Kerala,Cotton,Kharif,77.48
+2156.04,1211.25,28.17,161.76,32.18,Tamil Nadu,Wheat,Kharif,73.6
+1313.88,897.44,24.96,65.64,3.51,Tamil Nadu,Sugarcane,Whole Year,14.26
+1844.27,647.07,26.11,196.19,13.62,Punjab,Sugarcane,Kharif,76.51
+3813.45,897.68,29.38,124.36,3.92,Tamil Nadu,Cotton,Whole Year,66.51
+170.53,554.94,19.57,120.66,30.59,Maharashtra,Sugarcane,Kharif,29.21
+668.76,594.03,34.93,152.13,34.64,Maharashtra,Rice,Rabi,20.48
+325.41,948.2,34.5,164.24,6.61,Kerala,Rice,Whole Year,43.32
+299.57,860.82,28.01,134.73,19.81,Maharashtra,Rice,Whole Year,21.7
+4291.76,1406.33,18.99,34.34,23.36,Punjab,Sugarcane,Kharif,41.43
+3547.92,798.63,28.6,74.27,19.08,Kerala,Wheat,Kharif,18.78
+2423.45,1038.65,16.44,186.34,6.93,Maharashtra,Wheat,Whole Year,113.78
+579.39,1095.49,15.61,52.68,21.53,Punjab,Wheat,Kharif,21.76
+2508.92,414.4,20.15,80.71,37.81,Maharashtra,Wheat,Rabi,20.29
+2420.01,1129.89,24.25,92.09,4.48,Maharashtra,Rice,Kharif,52.88
+948.69,595.84,32.37,93.49,4.93,Tamil Nadu,Rice,Rabi,50.24
+2225.87,1457.18,29.54,126.46,18.38,Maharashtra,Cotton,Rabi,46.83
+2052.67,563.53,29.85,189.18,47.14,Maharashtra,Sugarcane,Rabi,64.72
+3117.67,856.09,23.51,55.73,33.76,Punjab,Sugarcane,Rabi,43.93
+3211.96,493.88,21.92,33.09,34.25,Punjab,Wheat,Rabi,10.75
+321.99,1496.56,22.42,47.52,18.73,Tamil Nadu,Rice,Kharif,17.82
+1935.6,952.41,34.75,178.52,30.09,Maharashtra,Wheat,Rabi,65.43
+3166.71,1054.92,15.8,132.7,1.5,Tamil Nadu,Cotton,Kharif,91.95
+2565.37,473.78,32.34,64.32,32.17,Maharashtra,Sugarcane,Rabi,15.32
+4296.8,1224.96,26.57,165.03,45.75,Kerala,Sugarcane,Whole Year,89.76
+3327.6,630.9,23.77,173.66,31.02,Kerala,Wheat,Rabi,74.75
+898.38,1387.86,29.51,170.84,43.81,Tamil Nadu,Cotton,Whole Year,52.52
+445.79,625.65,24.73,184.6,36.47,Tamil Nadu,Sugarcane,Rabi,58.36
+3247.85,609.76,32.47,57.93,6.91,Tamil Nadu,Cotton,Rabi,31.41
+229.91,440.2,33.01,153.46,45.22,Punjab,Cotton,Rabi,23.28
+2970.3,919.27,23.43,97.5,4.26,Punjab,Wheat,Whole Year,50.74
+4707.13,1021.33,20.54,169.98,27.16,Punjab,Rice,Whole Year,121.6
+2919.82,472.28,26.85,148.41,7.96,Tamil Nadu,Wheat,Rabi,62.07
+2002.03,1253.08,33.25,157.53,1.57,Maharashtra,Rice,Kharif,53.19
+3252.11,898.62,19.21,134.67,21.68,Kerala,Cotton,Rabi,83.51
+2345.44,976.83,27.46,43.71,15.46,Tamil Nadu,Rice,Whole Year,56.33
+2773.52,884.84,27.63,113.56,24.81,Punjab,Cotton,Rabi,46.57
+4713.18,840.84,29.66,197.09,29.28,Punjab,Sugarcane,Whole Year,106.36
+1991.9,1015.6,17.63,188.1,3.14,Tamil Nadu,Sugarcane,Whole Year,100.31
+4809.83,570.76,29.32,18.2,7.03,Tamil Nadu,Sugarcane,Whole Year,14.13
+4536.22,600.12,33.18,41.31,28.37,Punjab,Wheat,Rabi,5.22
+1059.38,1347.96,18.59,35.03,17.82,Maharashtra,Wheat,Whole Year,29.4
+439.87,1440.73,19.75,147.94,36.73,Punjab,Cotton,Whole Year,85.9
+593.81,810.64,34.43,165.38,32.96,Punjab,Sugarcane,Rabi,19.96
+189.29,697.82,18.62,50.57,42.43,Tamil Nadu,Wheat,Whole Year,54.46
+562.77,1108.4,32.09,106.11,34.93,Maharashtra,Sugarcane,Rabi,17.11
+3446.73,849.61,24.85,169.73,22.07,Punjab,Wheat,Whole Year,84.07
+448.82,427.92,19.94,149.23,33.98,Punjab,Rice,Kharif,66.74
+1662.98,571.77,32.41,113.03,14.49,Kerala,Rice,Kharif,21.95
+4239.89,1187.57,23.91,122.17,16.01,Tamil Nadu,Sugarcane,Whole Year,93.35
+214.03,1124.82,25.3,106.59,39.66,Kerala,Cotton,Kharif,6.85
+4090.9,429.81,22.18,66.53,22.87,Kerala,Wheat,Rabi,46.54
+1481.09,644.17,26.86,117.35,40.12,Punjab,Wheat,Kharif,25.5
+679.01,654.18,18.27,140.89,41.3,Tamil Nadu,Rice,Whole Year,46.46
+3514.01,1139.08,22.82,175.93,43.02,Maharashtra,Rice,Whole Year,97.76
+3181.82,421.68,34.39,130.9,45.92,Punjab,Cotton,Rabi,22.68
+4399.61,514.52,20.16,154.61,22.12,Maharashtra,Cotton,Whole Year,95.7
+3701.85,1279.91,28.13,40.41,16.62,Maharashtra,Cotton,Rabi,28.46
+4037.06,596.4,21.5,97.7,29.53,Tamil Nadu,Sugarcane,Kharif,60.8
+1481.97,1118.02,30.47,11.77,19.19,Kerala,Rice,Kharif,45.8
+969.45,662.0,17.62,56.87,30.45,Tamil Nadu,Sugarcane,Rabi,31.28
+3778.01,509.39,34.4,148.03,35.57,Maharashtra,Rice,Rabi,49.55
+4053.49,667.49,24.08,198.44,34.73,Punjab,Rice,Whole Year,109.73
+4953.48,1194.49,19.72,28.84,19.35,Maharashtra,Wheat,Kharif,51.33
+2121.83,1341.27,16.47,86.28,9.18,Punjab,Rice,Rabi,62.02
+1922.89,1313.24,18.4,162.01,22.1,Punjab,Rice,Kharif,93.64
+3904.42,836.9,25.4,48.77,7.99,Tamil Nadu,Sugarcane,Rabi,45.28
+1769.94,1134.89,21.74,115.47,44.61,Maharashtra,Rice,Kharif,50.05
+4660.71,625.48,31.58,149.28,17.95,Kerala,Sugarcane,Whole Year,55.35
+4306.22,722.46,23.62,127.04,8.57,Maharashtra,Cotton,Kharif,66.82
+2202.07,1385.97,19.97,45.72,2.25,Maharashtra,Rice,Kharif,40.23
+3779.27,414.3,27.34,77.52,32.65,Kerala,Rice,Kharif,30.39
+3797.26,494.06,29.14,158.92,32.21,Tamil Nadu,Sugarcane,Kharif,64.37
+605.31,628.67,18.34,115.3,17.69,Maharashtra,Cotton,Kharif,28.83
+4522.51,429.19,18.35,10.99,4.51,Maharashtra,Wheat,Whole Year,24.81
+2575.74,599.58,15.73,154.59,21.07,Punjab,Cotton,Rabi,90.02
+4149.64,1041.35,29.73,16.71,16.25,Maharashtra,Sugarcane,Kharif,14.28
+1668.24,863.57,28.28,151.69,34.18,Kerala,Cotton,Whole Year,50.71
+4488.06,1381.94,24.49,48.47,30.68,Punjab,Sugarcane,Kharif,49.24
+2007.09,1299.19,31.88,192.03,18.87,Tamil Nadu,Sugarcane,Kharif,79.71
+153.1,776.0,31.11,79.91,11.68,Punjab,Wheat,Rabi,65.74
+4536.37,685.37,26.71,72.12,49.41,Kerala,Rice,Kharif,29.87
+547.3,817.66,32.37,38.29,23.25,Kerala,Sugarcane,Whole Year,70.46
+1664.64,1049.32,19.12,68.06,34.73,Punjab,Sugarcane,Whole Year,29.03
+4755.3,694.87,17.24,176.56,7.89,Tamil Nadu,Wheat,Rabi,125.66
+4757.98,1086.56,20.39,199.3,24.79,Punjab,Sugarcane,Kharif,129.5
+2909.85,850.35,16.14,79.98,2.35,Tamil Nadu,Rice,Whole Year,62.17
+3196.0,1007.25,25.62,95.24,25.77,Punjab,Wheat,Kharif,45.46
+2297.38,879.74,33.73,147.19,48.24,Kerala,Rice,Kharif,44.04
+1536.73,723.91,15.79,178.38,19.83,Maharashtra,Rice,Kharif,102.4
+1710.46,1443.3,17.44,122.68,2.91,Maharashtra,Wheat,Rabi,76.79
+3395.34,1239.97,24.04,84.39,2.52,Tamil Nadu,Sugarcane,Kharif,45.71
+3786.64,554.12,33.68,88.4,20.01,Tamil Nadu,Rice,Whole Year,34.76
+3978.74,1355.31,21.32,142.17,8.84,Tamil Nadu,Rice,Kharif,90.0
+3969.13,936.17,25.14,10.61,2.14,Kerala,Rice,Whole Year,15.69
+546.91,1384.01,15.83,127.72,38.05,Punjab,Rice,Kharif,83.71
+2522.66,1279.84,17.97,77.54,23.47,Kerala,Wheat,Whole Year,39.35
+382.04,867.73,34.73,160.9,15.17,Maharashtra,Wheat,Whole Year,30.4
+2792.69,424.72,34.3,27.67,45.1,Tamil Nadu,Cotton,Kharif,39.54
+2263.5,695.55,15.1,121.76,6.69,Punjab,Cotton,Kharif,74.87
+4449.75,995.8,34.04,101.38,47.84,Maharashtra,Rice,Whole Year,34.62
+1819.48,1096.83,27.78,132.04,16.38,Maharashtra,Sugarcane,Rabi,35.23
+673.63,683.68,32.36,22.32,44.53,Maharashtra,Rice,Kharif,46.43
+800.66,553.29,24.09,120.2,30.54,Kerala,Sugarcane,Rabi,23.78
+3831.4,1318.42,25.31,116.68,41.51,Tamil Nadu,Rice,Kharif,64.78
+3129.27,1482.84,24.78,116.53,49.22,Maharashtra,Cotton,Kharif,85.16
+595.5,978.26,28.34,124.66,15.13,Tamil Nadu,Cotton,Kharif,31.87
+512.12,588.85,17.79,138.53,48.1,Kerala,Sugarcane,Kharif,51.34
+3534.75,699.54,15.6,162.95,20.08,Maharashtra,Rice,Rabi,97.82
+456.54,420.23,21.16,61.27,19.89,Kerala,Sugarcane,Kharif,72.61
+4127.11,1405.73,29.09,166.76,17.68,Kerala,Cotton,Whole Year,101.34
+3560.59,529.53,19.04,104.67,27.53,Tamil Nadu,Rice,Whole Year,64.55
+498.61,1034.17,28.47,24.64,8.55,Maharashtra,Rice,Rabi,33.15
+515.7,701.46,34.4,21.12,28.13,Kerala,Sugarcane,Kharif,60.7
+4934.53,1009.6,16.88,73.51,27.54,Maharashtra,Wheat,Whole Year,69.61
+1933.93,1116.56,28.45,159.13,38.33,Tamil Nadu,Sugarcane,Rabi,73.46
+1916.15,1312.72,23.88,144.46,41.85,Kerala,Cotton,Kharif,68.48
+4082.72,627.06,32.36,159.84,22.58,Tamil Nadu,Cotton,Whole Year,67.92
+4741.52,412.1,18.54,108.28,15.81,Maharashtra,Cotton,Whole Year,78.01
+4931.41,550.57,28.85,93.64,13.71,Maharashtra,Cotton,Rabi,51.52
+3791.55,1390.02,31.76,38.02,10.54,Tamil Nadu,Cotton,Kharif,37.62
+1943.67,1361.28,33.89,72.36,3.82,Punjab,Wheat,Kharif,52.23
+509.15,1057.15,28.66,92.46,17.78,Kerala,Rice,Whole Year,18.14
+3908.02,1060.57,24.94,26.83,14.24,Maharashtra,Sugarcane,Whole Year,16.77
+2836.18,1131.54,27.36,51.92,48.35,Maharashtra,Sugarcane,Whole Year,12.82
+2178.69,592.91,32.38,123.66,28.33,Kerala,Cotton,Kharif,26.15
+4541.14,1405.85,26.41,149.78,18.02,Tamil Nadu,Sugarcane,Rabi,96.14
+644.87,860.65,15.61,199.69,29.44,Tamil Nadu,Cotton,Rabi,93.28
+2513.86,821.45,33.62,187.29,7.82,Tamil Nadu,Wheat,Kharif,52.8
+155.63,970.81,28.79,132.09,22.76,Punjab,Wheat,Rabi,24.02
+2396.44,451.66,28.53,90.04,31.69,Punjab,Rice,Whole Year,23.77
+375.89,582.91,19.31,130.87,24.96,Maharashtra,Wheat,Rabi,33.46
+682.21,1211.84,28.18,159.27,20.69,Tamil Nadu,Wheat,Rabi,43.19
+675.88,491.08,22.88,32.48,49.7,Kerala,Rice,Rabi,33.99
+3281.13,1063.47,28.02,87.88,44.14,Maharashtra,Sugarcane,Whole Year,35.34
+3755.62,669.88,17.13,169.56,31.55,Kerala,Cotton,Kharif,89.98
+2958.51,828.23,28.16,82.93,28.9,Maharashtra,Cotton,Whole Year,21.46
+4814.65,717.56,34.99,118.66,31.41,Punjab,Sugarcane,Kharif,49.13
+1936.87,791.24,15.96,121.68,10.86,Maharashtra,Rice,Kharif,58.1
+1499.99,1190.95,34.54,45.05,20.36,Punjab,Sugarcane,Kharif,60.82
+4356.14,726.83,23.14,78.82,2.93,Maharashtra,Wheat,Rabi,30.08
+1195.62,1023.05,32.42,73.56,24.3,Tamil Nadu,Rice,Rabi,7.39
+4819.79,923.66,30.65,14.98,27.61,Kerala,Rice,Kharif,20.39
+159.56,1130.04,26.34,14.6,12.16,Tamil Nadu,Rice,Kharif,34.53
+4852.41,1430.51,29.77,168.02,48.24,Maharashtra,Cotton,Rabi,98.95
+311.48,1205.83,32.57,61.88,45.56,Maharashtra,Sugarcane,Whole Year,61.95
+4466.6,636.43,23.08,108.43,36.39,Maharashtra,Rice,Kharif,81.23
+2685.74,434.3,21.54,66.76,27.14,Punjab,Rice,Whole Year,10.16
+4965.53,688.49,28.35,188.73,43.63,Kerala,Rice,Rabi,96.94
+461.6,1054.59,31.16,59.27,7.4,Kerala,Sugarcane,Kharif,70.89
+2813.89,456.57,30.25,91.63,39.73,Maharashtra,Cotton,Whole Year,26.22
+4849.58,946.0,30.96,175.82,7.12,Maharashtra,Wheat,Whole Year,91.97
+2663.18,1056.53,23.71,169.97,39.92,Punjab,Cotton,Whole Year,87.35
+3184.05,767.67,31.36,45.36,14.51,Tamil Nadu,Rice,Rabi,8.69
+3509.17,1248.0,17.4,162.5,43.98,Tamil Nadu,Cotton,Rabi,116.4
+2327.25,517.26,25.89,97.06,47.26,Kerala,Cotton,Whole Year,35.75
+3175.03,482.65,15.12,101.76,8.29,Punjab,Wheat,Whole Year,70.36
+2963.14,1201.01,21.49,35.36,23.67,Maharashtra,Sugarcane,Rabi,17.69
+4515.67,945.04,22.33,25.31,49.07,Kerala,Sugarcane,Whole Year,43.99
+322.69,1157.24,22.92,148.31,24.69,Punjab,Cotton,Whole Year,47.46
+1476.72,878.31,28.91,104.33,43.31,Tamil Nadu,Cotton,Rabi,20.03
+4757.02,671.04,22.77,93.0,29.85,Punjab,Sugarcane,Whole Year,64.66
+4462.29,1301.01,23.97,148.61,19.39,Tamil Nadu,Sugarcane,Whole Year,100.02
+2332.72,1279.36,19.75,155.45,15.0,Punjab,Wheat,Whole Year,76.42
+3138.65,1164.17,22.47,40.19,10.96,Kerala,Rice,Rabi,28.1
+1459.17,699.36,19.55,125.94,38.33,Tamil Nadu,Cotton,Whole Year,67.34
+1021.79,1049.25,16.46,35.72,19.94,Kerala,Sugarcane,Rabi,1.45
+2372.12,797.07,27.07,152.76,26.05,Kerala,Cotton,Rabi,76.76
+1831.43,500.74,28.36,134.82,25.12,Tamil Nadu,Cotton,Kharif,36.59
+2959.91,1409.04,27.39,191.76,29.29,Tamil Nadu,Sugarcane,Kharif,75.5
+480.9,550.5,24.27,23.1,43.41,Maharashtra,Wheat,Whole Year,54.12
+4874.53,1445.26,22.6,20.84,49.06,Maharashtra,Cotton,Rabi,33.24
+4932.43,890.61,32.27,63.62,20.97,Maharashtra,Wheat,Kharif,28.17
+1799.49,612.85,16.67,161.52,19.72,Punjab,Wheat,Rabi,77.36
+2768.64,599.02,17.79,164.42,19.6,Punjab,Wheat,Rabi,77.91
+2303.76,755.38,22.43,152.68,13.44,Punjab,Wheat,Rabi,84.97
+1522.9,613.29,23.43,158.2,14.72,Punjab,Wheat,Rabi,78.32
+2569.68,668.69,23.15,135.24,13.97,Punjab,Wheat,Rabi,73.19
+1509.4,725.38,22.98,131.97,13.29,Punjab,Wheat,Rabi,78.51
+3493.35,702.86,14.91,112.59,11.64,Punjab,Wheat,Rabi,63.83
+1939.83,569.06,17.82,164.79,17.94,Punjab,Wheat,Rabi,74.01
+3421.91,808.23,14.11,149.64,20.23,Punjab,Wheat,Rabi,81.44
+2530.6,583.47,18.35,134.95,24.31,Punjab,Wheat,Rabi,68.69
+3164.8,629.02,19.01,119.83,23.69,Punjab,Wheat,Rabi,68.32
+2525.16,732.69,15.53,151.94,18.09,Punjab,Wheat,Rabi,79.28
+2902.29,709.11,14.01,127.83,10.29,Punjab,Wheat,Rabi,78.23
+3045.5,642.25,14.58,158.29,24.2,Punjab,Wheat,Rabi,76.41
+1031.26,695.8,14.69,151.83,21.49,Punjab,Wheat,Rabi,81.86
+2284.47,629.52,22.72,133.27,13.18,Punjab,Wheat,Rabi,73.25
+2256.1,768.98,16.01,127.14,24.93,Punjab,Wheat,Rabi,73.12
+2197.45,586.3,16.25,128.59,18.82,Punjab,Wheat,Rabi,64.75
+1421.31,616.07,14.71,144.71,13.43,Punjab,Wheat,Rabi,78.71
+991.31,621.4,20.69,121.78,11.98,Punjab,Wheat,Rabi,63.46
+3325.89,721.31,18.73,153.15,22.11,Punjab,Wheat,Rabi,81.51
+1963.84,677.07,18.67,150.1,20.1,Punjab,Wheat,Rabi,79.38
+3457.25,579.53,18.03,128.66,22.93,Punjab,Wheat,Rabi,67.13
+2011.26,676.56,16.79,123.74,23.85,Punjab,Wheat,Rabi,71.86
+1996.45,808.4,19.5,112.78,24.99,Punjab,Wheat,Rabi,76.44
+3301.19,804.61,15.66,136.71,13.21,Punjab,Wheat,Rabi,72.72
+1882.81,567.59,17.79,164.19,13.98,Punjab,Wheat,Rabi,78.34
+1942.12,837.2,23.95,140.57,20.78,Punjab,Wheat,Rabi,78.96
+1217.95,639.01,23.69,141.85,18.13,Punjab,Wheat,Rabi,73.84
+2377.28,700.86,22.53,118.66,24.41,Punjab,Wheat,Rabi,68.34
+1016.3,605.75,19.95,147.14,13.53,Punjab,Wheat,Rabi,78.68
+1464.78,728.36,20.19,133.06,18.76,Punjab,Wheat,Rabi,79.45
+2211.51,830.41,16.04,149.39,13.58,Punjab,Wheat,Rabi,81.08
+1609.99,644.85,21.52,113.99,16.87,Punjab,Wheat,Rabi,68.21
+3495.83,848.83,14.73,121.72,13.98,Punjab,Wheat,Rabi,82.62
+3174.03,660.86,15.58,155.86,20.55,Punjab,Wheat,Rabi,76.62
+2451.53,846.17,20.54,110.43,22.26,Punjab,Wheat,Rabi,71.89
+3335.11,590.29,15.15,115.89,18.3,Punjab,Wheat,Rabi,67.89
+1535.34,731.45,21.18,121.2,19.51,Punjab,Wheat,Rabi,71.22
+3244.41,803.83,14.92,133.3,14.15,Punjab,Wheat,Rabi,82.0
+809.57,781.34,20.37,124.41,21.12,Punjab,Wheat,Rabi,71.69
+826.11,572.57,22.83,159.72,18.18,Punjab,Wheat,Rabi,75.43
+3053.41,724.75,15.48,117.01,14.62,Punjab,Wheat,Rabi,74.29
+3123.9,819.68,16.1,123.72,11.54,Punjab,Wheat,Rabi,73.01
+2906.31,815.24,18.06,144.14,12.32,Punjab,Wheat,Rabi,87.87
+4121.48,1024.31,35.05,121.36,34.73,Punjab,Rice,Kharif,62.48
+1996.21,1072.33,34.42,167.52,36.21,Punjab,Rice,Kharif,78.09
+1256.72,1048.87,34.87,132.23,36.33,Punjab,Rice,Kharif,73.0
+2419.0,822.08,34.36,132.52,20.47,Punjab,Rice,Kharif,62.73
+3752.36,1086.76,30.23,155.28,27.99,Punjab,Rice,Kharif,77.9
+4137.79,914.49,35.51,126.34,39.41,Punjab,Rice,Kharif,65.84
+1776.04,743.36,31.48,160.07,26.27,Punjab,Rice,Kharif,73.17
+2900.49,904.57,31.08,151.71,25.09,Punjab,Rice,Kharif,69.43
+3954.4,915.38,33.76,160.81,33.41,Punjab,Rice,Kharif,72.09
+2101.93,727.99,33.31,138.16,26.28,Punjab,Rice,Kharif,63.14
+1891.06,823.71,31.27,142.13,25.91,Punjab,Rice,Kharif,61.11
+1320.05,868.18,35.52,157.25,38.06,Punjab,Rice,Kharif,68.24
+2708.19,700.16,30.3,143.64,31.6,Punjab,Rice,Kharif,59.91
+3060.53,886.0,31.54,131.75,29.46,Punjab,Rice,Kharif,67.37
+1459.98,733.92,32.12,154.81,26.7,Punjab,Rice,Kharif,62.64
+3600.8,1000.46,33.38,132.36,23.98,Punjab,Rice,Kharif,68.97
+2467.95,1039.9,28.58,142.79,32.6,Punjab,Rice,Kharif,71.27
+1541.64,978.54,31.96,133.42,33.12,Punjab,Rice,Kharif,71.07
+3441.15,742.63,31.4,129.67,39.16,Punjab,Rice,Kharif,59.0
+2609.26,720.09,29.99,166.66,29.13,Punjab,Rice,Kharif,69.42
+4160.05,938.18,35.6,169.03,32.25,Punjab,Rice,Kharif,71.4
+3273.6,901.91,34.64,150.13,37.94,Punjab,Rice,Kharif,68.85
+1755.33,798.9,33.1,162.12,30.43,Punjab,Rice,Kharif,66.23
+2968.27,809.84,28.62,135.72,25.43,Punjab,Rice,Kharif,61.02
+1356.63,792.5,33.55,158.85,21.28,Punjab,Rice,Kharif,71.14
+2245.08,917.04,31.33,131.38,28.4,Punjab,Rice,Kharif,67.23
+3195.23,1042.69,34.12,140.92,20.12,Punjab,Rice,Kharif,68.58
+2060.8,1001.39,34.83,172.44,28.38,Punjab,Rice,Kharif,77.81
+2890.73,788.22,29.76,143.97,20.58,Punjab,Rice,Kharif,60.7
+2009.23,971.66,31.23,129.08,29.35,Punjab,Rice,Kharif,67.86
+988.99,857.61,32.52,121.49,32.85,Punjab,Rice,Kharif,62.6
+1347.81,884.68,28.4,140.85,24.23,Punjab,Rice,Kharif,63.89
+2151.12,1000.8,34.66,133.87,21.64,Punjab,Rice,Kharif,71.39
+963.96,915.77,36.0,139.25,33.0,Punjab,Rice,Kharif,67.17
+3388.97,1079.84,29.59,121.12,23.05,Punjab,Rice,Kharif,62.51
+1316.53,967.78,32.51,131.99,33.99,Punjab,Rice,Kharif,66.14
+2903.92,999.17,28.92,165.06,39.29,Punjab,Rice,Kharif,74.21
+1256.73,710.27,30.5,157.25,39.16,Punjab,Rice,Kharif,62.02
+1150.79,976.25,33.02,125.6,35.45,Punjab,Rice,Kharif,67.02
+3705.97,940.16,28.97,174.11,35.65,Punjab,Rice,Kharif,74.94
+2122.88,902.38,30.73,166.73,36.45,Punjab,Rice,Kharif,75.75
+1248.28,1084.32,33.08,165.58,34.15,Punjab,Rice,Kharif,74.46
+4086.06,808.03,34.47,149.6,29.67,Punjab,Rice,Kharif,67.81
+2337.4,992.41,30.15,166.84,36.61,Punjab,Rice,Kharif,80.76
+1704.75,885.88,32.88,140.84,20.57,Punjab,Rice,Kharif,68.82
+2487.0,663.64,30.12,128.88,32.83,Punjab,Cotton,Kharif,40.4
+1280.16,603.55,37.48,89.71,41.56,Punjab,Cotton,Kharif,23.71
+1726.01,865.36,34.91,120.52,36.29,Punjab,Cotton,Kharif,41.96
+1165.35,842.13,31.06,116.99,35.88,Punjab,Cotton,Kharif,39.09
+1814.94,748.93,35.46,103.19,41.17,Punjab,Cotton,Kharif,33.69
+953.38,667.4,29.2,114.47,42.53,Punjab,Cotton,Kharif,36.07
+1088.81,675.73,32.84,124.85,47.46,Punjab,Cotton,Kharif,35.12
+911.1,667.94,30.27,94.87,25.33,Punjab,Cotton,Kharif,29.16
+1821.68,696.01,37.74,115.43,41.04,Punjab,Cotton,Kharif,38.74
+1730.85,905.45,33.74,110.82,35.13,Punjab,Cotton,Kharif,43.95
+1087.16,617.98,37.41,111.28,43.91,Punjab,Cotton,Kharif,31.22
+2021.84,618.76,29.49,115.96,31.99,Punjab,Cotton,Kharif,33.71
+2787.23,641.46,35.64,118.35,43.19,Punjab,Cotton,Kharif,34.87
+1646.08,754.95,36.6,139.45,32.02,Punjab,Cotton,Kharif,45.9
+2004.16,813.37,35.4,137.12,29.78,Punjab,Cotton,Kharif,45.05
+1029.82,660.83,28.75,85.15,35.36,Punjab,Cotton,Kharif,30.28
+1947.0,701.94,30.31,123.88,41.17,Punjab,Cotton,Kharif,34.09
+2640.21,875.74,34.25,121.37,46.47,Punjab,Cotton,Kharif,43.24
+1592.79,790.6,34.48,134.96,44.01,Punjab,Cotton,Kharif,44.28
+1345.98,862.14,33.69,100.87,27.86,Punjab,Cotton,Kharif,37.39
+2146.22,844.91,37.43,112.53,36.36,Punjab,Cotton,Kharif,39.7
+1607.26,712.81,30.5,90.02,47.12,Punjab,Cotton,Kharif,29.95
+2455.51,801.32,37.51,139.98,40.46,Punjab,Cotton,Kharif,44.45
+2288.16,764.68,34.52,135.38,29.17,Punjab,Cotton,Kharif,42.99
+1929.19,822.17,32.92,90.02,33.0,Punjab,Cotton,Kharif,31.11
+2501.24,715.43,34.94,100.85,46.74,Punjab,Cotton,Kharif,35.45
+2408.49,792.53,32.55,102.3,32.44,Punjab,Cotton,Kharif,37.42
+1780.65,945.84,34.58,114.84,34.5,Punjab,Cotton,Kharif,42.25
+1093.92,726.62,35.56,119.4,42.48,Punjab,Cotton,Kharif,38.11
+2648.11,753.34,34.98,91.68,47.38,Punjab,Cotton,Kharif,34.14
+1978.63,683.75,29.58,115.3,37.7,Punjab,Cotton,Kharif,41.19
+2617.15,761.51,29.17,130.77,36.46,Punjab,Cotton,Kharif,45.22
+2204.87,778.11,30.73,130.91,47.55,Punjab,Cotton,Kharif,41.73
+1505.53,922.65,33.08,133.36,44.87,Punjab,Cotton,Kharif,49.59
+1280.12,876.5,32.15,136.38,36.68,Punjab,Cotton,Kharif,46.75
+1326.97,805.43,37.99,111.93,28.42,Punjab,Cotton,Kharif,36.01
+1831.02,720.79,33.52,114.89,35.47,Punjab,Cotton,Kharif,35.28
+2164.75,800.13,30.34,127.65,26.0,Punjab,Cotton,Kharif,42.87
+2263.88,846.83,36.11,106.23,40.26,Punjab,Cotton,Kharif,40.52
+1740.19,612.96,33.02,117.46,45.0,Punjab,Cotton,Kharif,27.26
+2535.8,754.11,33.26,110.13,41.62,Punjab,Cotton,Kharif,32.84
+1024.16,764.32,37.69,103.62,40.93,Punjab,Cotton,Kharif,36.38
+2064.66,898.12,36.52,132.26,33.74,Punjab,Cotton,Kharif,43.99
+2294.74,905.33,28.36,88.76,39.52,Punjab,Cotton,Kharif,38.58
+2633.95,949.1,35.47,108.87,27.26,Punjab,Cotton,Kharif,38.08
+1837.01,708.2,24.03,107.53,23.15,Haryana,Wheat,Rabi,62.85
+1468.75,612.45,16.46,134.21,19.92,Haryana,Wheat,Rabi,71.03
+943.47,761.25,21.2,118.25,24.78,Haryana,Wheat,Rabi,70.45
+1100.64,638.34,17.54,119.04,12.13,Haryana,Wheat,Rabi,69.36
+2410.15,547.39,19.42,124.01,20.23,Haryana,Wheat,Rabi,59.66
+2315.4,627.29,17.5,151.49,14.79,Haryana,Wheat,Rabi,73.64
+1331.15,671.58,20.75,159.6,16.13,Haryana,Wheat,Rabi,82.07
+3145.96,697.47,17.74,136.13,21.6,Haryana,Wheat,Rabi,74.46
+2235.7,649.02,24.04,120.74,23.18,Haryana,Wheat,Rabi,67.43
+2237.31,605.7,21.37,139.15,21.49,Haryana,Wheat,Rabi,70.97
+2803.93,688.47,24.03,140.55,16.33,Haryana,Wheat,Rabi,71.44
+1830.02,673.87,22.32,109.96,16.13,Haryana,Wheat,Rabi,66.25
+1073.79,661.82,24.71,134.2,24.79,Haryana,Wheat,Rabi,70.85
+2784.66,577.09,23.25,131.5,23.29,Haryana,Wheat,Rabi,68.38
+1032.17,788.87,16.41,158.16,24.04,Haryana,Wheat,Rabi,81.77
+2524.33,793.98,24.67,149.25,17.12,Haryana,Wheat,Rabi,82.09
+2064.6,636.44,21.73,141.98,20.18,Haryana,Wheat,Rabi,73.26
+2764.92,782.09,16.08,117.86,12.35,Haryana,Wheat,Rabi,75.38
+2992.38,566.41,15.63,150.31,24.73,Haryana,Wheat,Rabi,70.92
+1490.37,622.49,16.4,157.04,16.26,Haryana,Wheat,Rabi,76.11
+2923.79,540.7,19.54,141.88,22.4,Haryana,Wheat,Rabi,69.93
+3067.64,625.74,22.42,113.5,17.81,Haryana,Wheat,Rabi,67.91
+1749.88,785.46,15.33,125.38,18.21,Haryana,Wheat,Rabi,76.83
+3078.86,756.64,15.99,142.71,19.62,Haryana,Wheat,Rabi,81.21
+1725.44,556.94,16.22,151.64,18.37,Haryana,Wheat,Rabi,72.88
+2373.78,692.51,20.97,106.17,23.02,Haryana,Wheat,Rabi,66.02
+2133.22,520.58,22.65,116.39,15.02,Haryana,Wheat,Rabi,63.4
+2880.75,598.57,16.48,154.53,12.04,Haryana,Wheat,Rabi,76.65
+1068.48,575.2,16.74,141.36,12.36,Haryana,Wheat,Rabi,69.92
+786.41,737.0,17.38,122.81,14.44,Haryana,Wheat,Rabi,76.59
+2038.91,723.7,19.76,147.79,19.19,Haryana,Wheat,Rabi,80.22
+1017.18,651.15,24.45,107.39,22.97,Haryana,Wheat,Rabi,66.87
+1872.2,789.21,15.61,131.34,17.62,Haryana,Wheat,Rabi,74.35
+2430.94,647.08,24.1,109.04,13.13,Haryana,Wheat,Rabi,64.18
+1423.79,689.92,20.48,122.89,25.92,Haryana,Wheat,Rabi,69.88
+2049.86,636.11,21.05,110.45,21.82,Haryana,Wheat,Rabi,67.29
+2633.96,716.25,17.15,129.84,15.2,Haryana,Wheat,Rabi,70.34
+1580.38,636.05,19.16,110.23,17.97,Haryana,Wheat,Rabi,63.51
+1123.97,776.9,15.67,150.75,13.31,Haryana,Wheat,Rabi,79.44
+986.58,721.64,23.12,135.6,20.21,Haryana,Wheat,Rabi,73.05
+1049.47,606.08,21.65,146.27,24.15,Haryana,Wheat,Rabi,72.77
+2516.6,790.52,21.0,124.34,20.09,Haryana,Wheat,Rabi,75.83
+1299.4,532.47,23.45,125.22,22.68,Haryana,Wheat,Rabi,68.78
+2156.55,742.17,23.45,158.6,23.46,Haryana,Wheat,Rabi,79.57
+814.32,778.73,23.29,119.71,14.53,Haryana,Wheat,Rabi,70.59
+2767.56,773.59,29.72,115.31,35.4,Haryana,Rice,Kharif,51.18
+1197.25,903.27,27.25,152.31,22.3,Haryana,Rice,Kharif,66.79
+1975.53,786.36,29.96,151.08,33.54,Haryana,Rice,Kharif,63.23
+947.3,712.96,31.94,148.7,23.44,Haryana,Rice,Kharif,61.02
+2653.43,844.26,30.54,128.66,33.1,Haryana,Rice,Kharif,61.42
+1593.09,921.39,30.89,148.36,18.91,Haryana,Rice,Kharif,68.99
+1906.74,889.73,27.06,130.07,22.22,Haryana,Rice,Kharif,62.33
+1718.74,653.09,32.98,123.78,25.6,Haryana,Rice,Kharif,54.11
+2770.28,850.1,33.67,155.31,19.44,Haryana,Rice,Kharif,67.7
+852.48,1018.46,33.9,143.79,29.47,Haryana,Rice,Kharif,68.03
+2786.6,817.08,27.92,116.04,24.5,Haryana,Rice,Kharif,56.1
+3129.67,1017.91,27.71,157.22,22.87,Haryana,Rice,Kharif,69.09
+2448.84,859.59,30.17,130.51,24.79,Haryana,Rice,Kharif,59.56
+2229.35,695.61,31.08,160.3,24.99,Haryana,Rice,Kharif,65.67
+2836.66,977.58,33.52,126.81,20.93,Haryana,Rice,Kharif,63.71
+2928.6,912.2,28.42,153.64,27.88,Haryana,Rice,Kharif,71.76
+2912.45,953.95,30.59,161.21,29.29,Haryana,Rice,Kharif,69.45
+3219.89,900.89,28.21,118.41,26.84,Haryana,Rice,Kharif,55.32
+1647.9,759.87,27.45,140.37,24.21,Haryana,Rice,Kharif,59.55
+3128.75,680.69,33.91,157.76,30.3,Haryana,Rice,Kharif,63.44
+2219.79,835.08,31.43,154.59,35.92,Haryana,Rice,Kharif,62.15
+2625.14,778.61,30.81,122.54,19.24,Haryana,Rice,Kharif,57.22
+1089.81,1009.65,29.75,150.72,28.09,Haryana,Rice,Kharif,71.26
+2025.72,825.77,31.18,122.94,25.46,Haryana,Rice,Kharif,58.91
+1592.1,813.51,29.71,144.89,33.78,Haryana,Rice,Kharif,62.62
+1064.62,921.35,29.27,151.19,31.13,Haryana,Rice,Kharif,67.26
+3337.76,999.31,29.67,144.14,20.83,Haryana,Rice,Kharif,64.24
+2755.74,806.78,31.76,161.9,24.19,Haryana,Rice,Kharif,73.33
+1854.7,966.66,33.51,148.51,34.58,Haryana,Rice,Kharif,68.24
+2273.9,908.41,30.39,133.09,25.25,Haryana,Rice,Kharif,58.56
+1304.74,735.68,34.58,139.31,22.53,Haryana,Rice,Kharif,60.07
+3164.4,690.46,33.17,156.76,35.67,Haryana,Rice,Kharif,63.94
+905.69,784.71,33.13,121.55,25.53,Haryana,Rice,Kharif,58.19
+2959.07,973.62,28.32,136.88,26.22,Haryana,Rice,Kharif,69.48
+2693.82,745.01,30.55,129.25,32.97,Haryana,Rice,Kharif,53.76
+1666.51,973.45,30.75,156.76,25.36,Haryana,Rice,Kharif,72.08
+3451.96,1043.78,30.69,129.09,25.64,Haryana,Rice,Kharif,58.52
+3087.3,970.5,28.11,127.5,30.82,Haryana,Rice,Kharif,61.43
+3247.53,871.82,27.82,157.29,35.02,Haryana,Rice,Kharif,67.44
+1563.82,1012.12,28.18,136.87,36.93,Haryana,Rice,Kharif,70.68
+1421.71,830.45,29.8,116.33,19.07,Haryana,Rice,Kharif,53.56
+3584.67,799.97,27.23,161.54,34.78,Haryana,Rice,Kharif,67.58
+2619.89,966.55,28.1,129.34,34.6,Haryana,Rice,Kharif,62.53
+2775.5,829.44,27.04,118.96,23.12,Haryana,Rice,Kharif,54.85
+3137.9,869.52,32.82,141.39,20.22,Haryana,Rice,Kharif,63.23
+1371.9,1138.92,33.53,159.71,17.55,Uttar Pradesh,Sugarcane,Whole Year,88.83
+4458.53,1218.53,24.2,163.5,20.56,Uttar Pradesh,Sugarcane,Whole Year,92.2
+3413.31,1058.25,29.0,173.18,16.97,Uttar Pradesh,Sugarcane,Whole Year,90.23
+4708.76,980.46,30.31,162.98,37.73,Uttar Pradesh,Sugarcane,Whole Year,77.96
+2892.49,1236.05,35.77,146.49,15.37,Uttar Pradesh,Sugarcane,Whole Year,83.95
+4038.67,1105.16,32.8,170.84,32.74,Uttar Pradesh,Sugarcane,Whole Year,87.85
+1359.61,1195.71,33.76,141.38,32.92,Uttar Pradesh,Sugarcane,Whole Year,78.92
+2872.64,1262.93,31.58,182.75,16.45,Uttar Pradesh,Sugarcane,Whole Year,98.04
+2256.39,969.71,26.39,132.72,36.47,Uttar Pradesh,Sugarcane,Whole Year,67.61
+3055.38,1395.11,30.52,146.47,32.33,Uttar Pradesh,Sugarcane,Whole Year,91.93
+4011.03,1339.61,27.98,138.09,23.46,Uttar Pradesh,Sugarcane,Whole Year,89.31
+4402.15,1284.49,34.74,155.13,37.4,Uttar Pradesh,Sugarcane,Whole Year,85.31
+4527.52,1183.67,33.61,177.26,16.82,Uttar Pradesh,Sugarcane,Whole Year,93.0
+3368.83,1320.05,30.55,150.88,16.84,Uttar Pradesh,Sugarcane,Whole Year,87.82
+3369.44,1141.75,32.28,152.85,15.97,Uttar Pradesh,Sugarcane,Whole Year,81.22
+4332.13,1108.65,35.98,147.85,37.54,Uttar Pradesh,Sugarcane,Whole Year,82.46
+3495.05,1113.49,33.61,174.16,36.91,Uttar Pradesh,Sugarcane,Whole Year,89.02
+1714.01,1223.41,33.38,132.26,16.55,Uttar Pradesh,Sugarcane,Whole Year,80.89
+2578.28,1205.26,31.26,174.14,36.82,Uttar Pradesh,Sugarcane,Whole Year,89.3
+2539.25,1293.39,30.89,164.41,24.15,Uttar Pradesh,Sugarcane,Whole Year,91.13
+1608.42,1281.05,29.99,155.15,27.92,Uttar Pradesh,Sugarcane,Whole Year,87.22
+2142.4,1067.13,29.36,194.76,21.57,Uttar Pradesh,Sugarcane,Whole Year,97.9
+1641.49,1333.77,29.42,188.41,25.24,Uttar Pradesh,Sugarcane,Whole Year,99.53
+1516.05,1256.87,34.15,150.77,22.99,Uttar Pradesh,Sugarcane,Whole Year,91.34
+4408.79,1333.11,32.54,190.28,29.67,Uttar Pradesh,Sugarcane,Whole Year,103.97
+4057.31,1178.94,25.46,143.06,18.19,Uttar Pradesh,Sugarcane,Whole Year,82.29
+3194.48,1116.01,33.64,165.86,29.07,Uttar Pradesh,Sugarcane,Whole Year,86.18
+1510.38,1089.18,36.0,176.73,27.09,Uttar Pradesh,Sugarcane,Whole Year,90.23
+1465.5,1387.57,31.71,159.25,30.64,Uttar Pradesh,Sugarcane,Whole Year,87.77
+2440.25,1345.08,33.36,171.59,19.19,Uttar Pradesh,Sugarcane,Whole Year,100.53
+4478.56,974.94,25.49,139.95,18.79,Uttar Pradesh,Sugarcane,Whole Year,73.16
+2361.58,1269.2,28.15,191.16,35.58,Uttar Pradesh,Sugarcane,Whole Year,101.78
+3486.21,1197.88,25.5,149.68,27.27,Uttar Pradesh,Sugarcane,Whole Year,82.56
+3009.26,1025.89,35.3,140.02,30.15,Uttar Pradesh,Sugarcane,Whole Year,74.88
+4233.11,1203.63,33.9,131.84,16.05,Uttar Pradesh,Sugarcane,Whole Year,74.63
+3509.23,1209.55,31.81,179.85,24.58,Uttar Pradesh,Sugarcane,Whole Year,91.9
+3457.79,1080.35,35.48,161.39,33.51,Uttar Pradesh,Sugarcane,Whole Year,81.1
+3665.97,1083.85,24.88,133.89,25.11,Uttar Pradesh,Sugarcane,Whole Year,73.48
+3383.98,1090.66,32.62,177.72,34.8,Uttar Pradesh,Sugarcane,Whole Year,90.03
+4711.35,1008.84,28.45,166.51,22.34,Uttar Pradesh,Sugarcane,Whole Year,80.66
+2092.51,993.57,27.48,154.97,29.15,Uttar Pradesh,Sugarcane,Whole Year,79.9
+2093.77,1339.39,25.92,151.28,28.29,Uttar Pradesh,Sugarcane,Whole Year,87.91
+2993.76,1181.63,29.99,150.06,15.53,Uttar Pradesh,Sugarcane,Whole Year,90.0
+4602.84,1177.45,35.6,143.98,23.12,Uttar Pradesh,Sugarcane,Whole Year,86.31
+4376.42,1244.42,29.65,164.88,34.48,Uttar Pradesh,Sugarcane,Whole Year,92.49
+2235.88,908.86,23.28,138.19,15.12,Uttar Pradesh,Wheat,Rabi,70.75
+1503.43,793.63,16.74,125.21,20.7,Uttar Pradesh,Wheat,Rabi,67.88
+1767.13,946.18,22.8,105.94,23.65,Uttar Pradesh,Wheat,Rabi,61.5
+1951.16,928.63,23.55,109.95,17.13,Uttar Pradesh,Wheat,Rabi,68.71
+2450.24,615.86,17.37,116.65,16.63,Uttar Pradesh,Wheat,Rabi,54.0
+2498.07,714.79,22.13,108.13,23.87,Uttar Pradesh,Wheat,Rabi,59.16
+3191.89,704.73,19.36,141.41,17.45,Uttar Pradesh,Wheat,Rabi,67.18
+3428.82,728.93,22.74,148.99,18.17,Uttar Pradesh,Wheat,Rabi,68.65
+3369.94,853.86,22.88,101.33,16.64,Uttar Pradesh,Wheat,Rabi,65.29
+3306.1,802.17,23.21,129.18,12.39,Uttar Pradesh,Wheat,Rabi,66.39
+2849.98,816.91,24.41,107.39,19.53,Uttar Pradesh,Wheat,Rabi,67.65
+1240.68,606.63,19.14,107.57,19.67,Uttar Pradesh,Wheat,Rabi,55.73
+2172.17,871.24,25.21,143.64,20.3,Uttar Pradesh,Wheat,Rabi,75.24
+1542.76,713.77,22.62,126.27,14.39,Uttar Pradesh,Wheat,Rabi,64.11
+1436.87,919.24,19.42,117.71,20.81,Uttar Pradesh,Wheat,Rabi,67.11
+3049.27,813.53,17.92,112.33,17.81,Uttar Pradesh,Wheat,Rabi,58.98
+1597.09,940.52,18.98,114.45,12.9,Uttar Pradesh,Wheat,Rabi,66.89
+1981.29,926.8,23.95,113.67,11.71,Uttar Pradesh,Wheat,Rabi,64.63
+2997.53,732.89,25.8,140.92,23.36,Uttar Pradesh,Wheat,Rabi,69.27
+1791.65,849.95,19.46,122.12,13.59,Uttar Pradesh,Wheat,Rabi,64.76
+2385.15,670.72,21.39,146.65,19.75,Uttar Pradesh,Wheat,Rabi,70.56
+2719.17,684.86,22.7,126.55,18.93,Uttar Pradesh,Wheat,Rabi,65.46
+1062.72,744.66,23.17,105.03,20.79,Uttar Pradesh,Wheat,Rabi,61.6
+3780.21,742.42,25.35,143.92,16.68,Uttar Pradesh,Wheat,Rabi,69.85
+1518.31,937.37,19.21,132.29,22.71,Uttar Pradesh,Wheat,Rabi,75.64
+2558.97,853.09,25.37,145.66,12.45,Uttar Pradesh,Wheat,Rabi,75.75
+3634.96,661.53,25.2,149.86,15.56,Uttar Pradesh,Wheat,Rabi,62.64
+3882.61,924.11,24.77,100.46,17.95,Uttar Pradesh,Wheat,Rabi,63.01
+1232.63,944.05,18.85,149.45,17.61,Uttar Pradesh,Wheat,Rabi,71.81
+3538.29,763.81,17.93,105.63,12.27,Uttar Pradesh,Wheat,Rabi,59.32
+2322.63,690.04,17.86,136.83,21.07,Uttar Pradesh,Wheat,Rabi,61.86
+1444.03,899.65,24.97,141.35,17.21,Uttar Pradesh,Wheat,Rabi,72.33
+1168.89,834.24,17.85,107.03,14.53,Uttar Pradesh,Wheat,Rabi,61.84
+1630.12,863.81,25.54,115.1,20.12,Uttar Pradesh,Wheat,Rabi,67.24
+935.45,828.79,22.93,103.11,11.66,Uttar Pradesh,Wheat,Rabi,59.53
+2457.81,913.29,23.04,115.55,11.64,Uttar Pradesh,Wheat,Rabi,69.48
+3740.0,703.26,22.15,110.96,11.87,Uttar Pradesh,Wheat,Rabi,61.17
+2777.79,745.55,21.49,123.54,17.53,Uttar Pradesh,Wheat,Rabi,67.39
+2958.69,676.44,18.47,137.74,22.22,Uttar Pradesh,Wheat,Rabi,68.23
+3081.67,627.34,21.64,103.09,17.67,Uttar Pradesh,Wheat,Rabi,55.23
+2467.01,800.45,17.5,116.41,17.28,Uttar Pradesh,Wheat,Rabi,64.82
+2707.76,631.83,21.1,140.43,16.35,Uttar Pradesh,Wheat,Rabi,66.25
+2491.07,759.88,16.58,123.12,21.3,Uttar Pradesh,Wheat,Rabi,63.7
+3431.01,861.03,21.78,102.26,14.82,Uttar Pradesh,Wheat,Rabi,58.67
+1097.66,947.94,25.35,103.45,23.07,Uttar Pradesh,Wheat,Rabi,67.16
+1784.15,679.75,22.83,161.98,30.51,Uttar Pradesh,Potatoes,Rabi,88.0
+2187.14,564.74,21.96,178.94,29.39,Uttar Pradesh,Potatoes,Rabi,84.74
+1370.74,646.06,17.78,131.6,33.43,Uttar Pradesh,Potatoes,Rabi,73.06
+1351.92,668.36,16.78,120.23,20.57,Uttar Pradesh,Potatoes,Rabi,73.82
+1380.0,609.58,21.59,136.09,28.65,Uttar Pradesh,Potatoes,Rabi,81.47
+896.17,731.22,20.8,127.33,40.24,Uttar Pradesh,Potatoes,Rabi,75.39
+1990.76,454.69,16.65,126.56,20.84,Uttar Pradesh,Potatoes,Rabi,69.69
+1476.01,660.99,15.39,168.14,30.06,Uttar Pradesh,Potatoes,Rabi,88.4
+1954.71,466.93,19.03,138.8,40.39,Uttar Pradesh,Potatoes,Rabi,73.23
+1716.73,545.67,19.78,163.71,28.02,Uttar Pradesh,Potatoes,Rabi,81.0
+1588.38,516.31,17.4,123.96,43.71,Uttar Pradesh,Potatoes,Rabi,70.88
+1983.49,723.47,20.01,147.77,32.39,Uttar Pradesh,Potatoes,Rabi,92.96
+1608.42,685.74,17.55,147.06,23.73,Uttar Pradesh,Potatoes,Rabi,82.17
+1077.63,676.32,18.79,175.21,27.52,Uttar Pradesh,Potatoes,Rabi,89.32
+2046.53,618.72,22.74,156.22,23.35,Uttar Pradesh,Potatoes,Rabi,77.32
+837.15,511.0,20.17,179.94,41.18,Uttar Pradesh,Potatoes,Rabi,88.74
+742.87,530.54,20.39,159.19,41.84,Uttar Pradesh,Potatoes,Rabi,82.43
+738.69,678.51,20.79,156.33,31.98,Uttar Pradesh,Potatoes,Rabi,87.69
+2122.64,454.6,22.5,182.54,22.93,Uttar Pradesh,Potatoes,Rabi,80.43
+2199.23,593.68,16.94,159.29,25.11,Uttar Pradesh,Potatoes,Rabi,86.08
+1795.92,564.2,19.27,143.35,26.54,Uttar Pradesh,Potatoes,Rabi,74.73
+1323.07,599.18,15.79,183.79,31.74,Uttar Pradesh,Potatoes,Rabi,93.42
+1067.27,574.18,19.5,134.38,23.65,Uttar Pradesh,Potatoes,Rabi,68.78
+869.39,730.43,19.63,147.14,23.81,Uttar Pradesh,Potatoes,Rabi,84.1
+1900.05,599.79,20.24,164.52,26.43,Uttar Pradesh,Potatoes,Rabi,87.06
+1878.87,739.95,20.13,151.89,24.21,Uttar Pradesh,Potatoes,Rabi,87.91
+1696.56,596.49,22.34,155.24,36.05,Uttar Pradesh,Potatoes,Rabi,79.72
+505.72,460.15,21.77,181.44,36.71,Uttar Pradesh,Potatoes,Rabi,82.78
+1916.58,519.43,20.66,120.59,32.64,Uttar Pradesh,Potatoes,Rabi,65.12
+1071.76,635.35,20.33,160.07,32.08,Uttar Pradesh,Potatoes,Rabi,84.38
+1392.96,453.56,19.24,137.86,44.44,Uttar Pradesh,Potatoes,Rabi,70.14
+430.86,693.95,20.39,172.4,42.74,Uttar Pradesh,Potatoes,Rabi,92.02
+668.02,507.58,19.21,172.99,26.68,Uttar Pradesh,Potatoes,Rabi,83.26
+1114.41,561.92,18.25,156.73,44.76,Uttar Pradesh,Potatoes,Rabi,81.13
+1926.16,646.12,21.87,169.37,22.34,Uttar Pradesh,Potatoes,Rabi,92.63
+1082.68,615.81,15.45,120.61,24.28,Uttar Pradesh,Potatoes,Rabi,69.49
+1811.88,619.76,21.86,126.2,33.2,Uttar Pradesh,Potatoes,Rabi,74.64
+476.59,513.43,21.94,177.69,31.89,Uttar Pradesh,Potatoes,Rabi,85.14
+2066.05,719.79,19.51,122.14,43.22,Uttar Pradesh,Potatoes,Rabi,78.55
+966.07,738.44,19.7,168.9,37.82,Uttar Pradesh,Potatoes,Rabi,90.97
+692.41,522.14,21.68,145.3,42.41,Uttar Pradesh,Potatoes,Rabi,76.14
+997.11,676.68,16.12,184.25,38.1,Uttar Pradesh,Potatoes,Rabi,84.71
+496.65,581.13,21.71,142.14,39.23,Uttar Pradesh,Potatoes,Rabi,77.21
+2118.75,569.01,21.19,121.93,26.83,Uttar Pradesh,Potatoes,Rabi,74.8
+1040.46,732.34,18.45,164.18,36.52,Uttar Pradesh,Potatoes,Rabi,90.24
+1391.36,959.31,33.18,119.22,29.97,Maharashtra,Cotton,Kharif,39.48
+3255.26,1019.83,28.85,85.86,28.12,Maharashtra,Cotton,Kharif,33.15
+2148.11,829.96,28.43,87.29,32.5,Maharashtra,Cotton,Kharif,22.85
+2487.35,663.13,29.19,85.12,42.35,Maharashtra,Cotton,Kharif,22.66
+2203.06,842.62,28.63,101.33,30.03,Maharashtra,Cotton,Kharif,34.42
+4425.79,935.98,27.53,100.94,31.33,Maharashtra,Cotton,Kharif,28.65
+2123.85,896.56,26.57,103.91,38.11,Maharashtra,Cotton,Kharif,30.76
+1955.78,773.3,31.63,112.66,32.69,Maharashtra,Cotton,Kharif,31.41
+1463.71,802.33,34.54,98.27,42.88,Maharashtra,Cotton,Kharif,28.96
+2238.1,1057.74,33.74,133.58,31.27,Maharashtra,Cotton,Kharif,41.0
+2190.26,1123.64,27.81,97.28,51.15,Maharashtra,Cotton,Kharif,37.22
+3462.86,895.5,31.18,93.33,37.03,Maharashtra,Cotton,Kharif,28.58
+3876.08,846.47,27.02,111.01,42.21,Maharashtra,Cotton,Kharif,28.8
+2970.34,1126.5,30.15,118.96,38.52,Maharashtra,Cotton,Kharif,39.78
+2090.53,996.42,33.37,123.76,37.82,Maharashtra,Cotton,Kharif,35.59
+1922.87,979.33,32.44,123.4,29.78,Maharashtra,Cotton,Kharif,38.76
+4468.38,889.62,29.61,107.86,50.09,Maharashtra,Cotton,Kharif,31.51
+3788.45,829.76,34.06,109.53,43.32,Maharashtra,Cotton,Kharif,28.76
+1388.94,1034.48,31.92,99.53,43.53,Maharashtra,Cotton,Kharif,40.78
+3403.4,849.81,32.77,133.11,38.33,Maharashtra,Cotton,Kharif,40.4
+1135.86,779.37,30.6,108.53,41.93,Maharashtra,Cotton,Kharif,27.89
+2429.86,1036.17,31.3,107.53,36.28,Maharashtra,Cotton,Kharif,34.59
+1183.51,702.27,29.74,132.9,30.79,Maharashtra,Cotton,Kharif,36.34
+2160.43,877.67,27.86,106.56,39.43,Maharashtra,Cotton,Kharif,31.54
+2589.76,998.38,28.87,96.51,47.44,Maharashtra,Cotton,Kharif,35.86
+3303.1,988.57,27.48,134.11,33.85,Maharashtra,Cotton,Kharif,45.05
+1693.14,730.07,31.04,132.72,33.56,Maharashtra,Cotton,Kharif,34.24
+3277.63,866.07,26.26,113.78,32.74,Maharashtra,Cotton,Kharif,34.6
+3113.49,844.42,32.34,91.32,46.06,Maharashtra,Cotton,Kharif,27.65
+1445.96,1085.99,27.68,97.93,38.98,Maharashtra,Cotton,Kharif,33.6
+1992.0,1081.32,30.75,115.15,42.33,Maharashtra,Cotton,Kharif,36.26
+2282.94,1072.76,31.56,124.76,44.94,Maharashtra,Cotton,Kharif,39.0
+2111.31,957.24,26.76,87.37,30.83,Maharashtra,Cotton,Kharif,28.26
+3457.68,905.41,29.76,87.58,37.21,Maharashtra,Cotton,Kharif,29.24
+1731.56,967.75,32.24,115.49,52.0,Maharashtra,Cotton,Kharif,33.62
+1577.01,807.29,30.06,82.95,36.62,Maharashtra,Cotton,Kharif,23.29
+1132.58,718.27,33.34,133.01,40.13,Maharashtra,Cotton,Kharif,31.52
+2513.14,1069.95,30.4,84.55,28.74,Maharashtra,Cotton,Kharif,30.72
+3687.59,796.04,28.47,109.57,32.04,Maharashtra,Cotton,Kharif,26.95
+3704.13,924.86,27.02,86.28,46.6,Maharashtra,Cotton,Kharif,28.92
+3899.16,833.43,33.4,82.29,45.26,Maharashtra,Cotton,Kharif,17.28
+1448.22,1065.04,32.76,96.37,51.98,Maharashtra,Cotton,Kharif,31.36
+2629.09,824.29,33.35,104.15,51.85,Maharashtra,Cotton,Kharif,30.53
+3856.39,943.96,29.16,119.09,43.19,Maharashtra,Cotton,Kharif,34.96
+1664.34,719.62,27.86,91.38,29.42,Maharashtra,Cotton,Kharif,23.31
+2616.31,961.83,33.45,143.81,24.42,Maharashtra,Sugarcane,Whole Year,80.43
+3574.05,1292.74,33.15,131.19,41.11,Maharashtra,Sugarcane,Whole Year,85.96
+3977.46,1233.52,26.52,181.3,23.99,Maharashtra,Sugarcane,Whole Year,89.77
+3134.18,1214.24,34.14,168.96,29.75,Maharashtra,Sugarcane,Whole Year,90.61
+2242.68,1026.0,32.6,182.21,20.23,Maharashtra,Sugarcane,Whole Year,90.04
+2546.84,939.11,36.24,148.99,40.81,Maharashtra,Sugarcane,Whole Year,78.95
+3322.41,1166.36,33.77,154.8,33.94,Maharashtra,Sugarcane,Whole Year,87.64
+2074.67,831.67,31.41,139.16,28.31,Maharashtra,Sugarcane,Whole Year,73.68
+3485.03,968.88,31.94,161.8,29.65,Maharashtra,Sugarcane,Whole Year,86.25
+2031.22,1141.28,25.58,131.47,36.81,Maharashtra,Sugarcane,Whole Year,78.24
+3572.95,1020.64,25.01,187.27,22.86,Maharashtra,Sugarcane,Whole Year,93.03
+3065.78,865.96,32.8,135.33,40.39,Maharashtra,Sugarcane,Whole Year,72.21
+1751.17,985.92,35.85,135.76,27.51,Maharashtra,Sugarcane,Whole Year,81.44
+1916.53,1149.72,27.81,167.61,34.89,Maharashtra,Sugarcane,Whole Year,94.49
+1398.1,913.1,33.16,125.6,34.69,Maharashtra,Sugarcane,Whole Year,71.53
+3451.33,1294.08,30.07,133.59,19.7,Maharashtra,Sugarcane,Whole Year,80.98
+1307.28,956.68,35.57,133.91,36.56,Maharashtra,Sugarcane,Whole Year,78.85
+3259.47,866.57,36.92,134.29,30.73,Maharashtra,Sugarcane,Whole Year,77.52
+2320.3,1161.22,32.54,134.84,27.88,Maharashtra,Sugarcane,Whole Year,81.74
+3059.7,1229.98,26.04,131.53,36.06,Maharashtra,Sugarcane,Whole Year,79.74
+3889.75,957.25,26.68,143.0,20.02,Maharashtra,Sugarcane,Whole Year,76.09
+2660.19,1100.0,32.29,175.63,34.57,Maharashtra,Sugarcane,Whole Year,94.38
+1904.95,1058.87,31.11,173.61,25.09,Maharashtra,Sugarcane,Whole Year,85.72
+1163.71,1248.96,36.46,157.17,20.71,Maharashtra,Sugarcane,Whole Year,86.04
+2584.86,1288.85,36.84,185.71,21.17,Maharashtra,Sugarcane,Whole Year,100.04
+3582.44,1084.19,29.38,169.39,36.31,Maharashtra,Sugarcane,Whole Year,94.79
+1050.07,833.77,28.15,127.59,19.45,Maharashtra,Sugarcane,Whole Year,68.12
+3367.87,1053.31,32.54,157.57,27.97,Maharashtra,Sugarcane,Whole Year,84.5
+2609.69,1108.02,28.33,145.14,30.27,Maharashtra,Sugarcane,Whole Year,81.58
+1609.59,1204.03,31.44,150.4,33.22,Maharashtra,Sugarcane,Whole Year,89.84
+1198.35,1149.34,33.76,180.02,19.39,Maharashtra,Sugarcane,Whole Year,89.89
+1258.64,1017.24,30.44,164.57,25.42,Maharashtra,Sugarcane,Whole Year,85.61
+1358.33,1153.95,33.42,135.65,40.87,Maharashtra,Sugarcane,Whole Year,75.99
+2569.02,1191.49,33.65,135.85,21.05,Maharashtra,Sugarcane,Whole Year,83.18
+3659.24,1185.72,25.35,177.46,24.53,Maharashtra,Sugarcane,Whole Year,91.99
+1191.62,1156.16,31.92,130.01,28.92,Maharashtra,Sugarcane,Whole Year,77.41
+2700.66,983.84,28.06,131.69,31.77,Maharashtra,Sugarcane,Whole Year,78.39
+3168.34,914.2,31.11,127.86,38.71,Maharashtra,Sugarcane,Whole Year,72.32
+2148.94,875.04,36.17,180.74,31.27,Maharashtra,Sugarcane,Whole Year,90.21
+3741.84,1170.33,30.03,145.92,27.99,Maharashtra,Sugarcane,Whole Year,84.47
+1233.66,986.4,31.02,183.63,22.3,Maharashtra,Sugarcane,Whole Year,87.9
+3413.01,1290.71,36.45,129.48,29.16,Maharashtra,Sugarcane,Whole Year,82.42
+1981.9,1076.55,25.1,138.04,31.53,Maharashtra,Sugarcane,Whole Year,86.28
+1911.73,1111.36,30.57,163.46,29.84,Maharashtra,Sugarcane,Whole Year,88.65
+3701.33,1180.24,27.94,125.41,27.84,Maharashtra,Sugarcane,Whole Year,77.11
+1359.19,873.21,31.72,89.47,27.22,Maharashtra,Soybean,Kharif,46.99
+2837.61,1063.61,25.83,73.84,15.81,Maharashtra,Soybean,Kharif,42.82
+1980.87,729.95,32.98,82.02,13.49,Maharashtra,Soybean,Kharif,42.74
+2047.42,1050.42,27.98,93.85,13.36,Maharashtra,Soybean,Kharif,46.08
+1029.38,766.76,31.56,53.37,21.09,Maharashtra,Soybean,Kharif,24.73
+1368.25,830.5,27.52,86.04,23.21,Maharashtra,Soybean,Kharif,44.01
+2564.85,859.03,27.18,53.36,15.24,Maharashtra,Soybean,Kharif,32.94
+1172.99,782.19,28.73,68.29,20.57,Maharashtra,Soybean,Kharif,32.09
+3115.12,803.82,27.47,61.93,13.92,Maharashtra,Soybean,Kharif,35.76
+2783.33,1048.44,25.32,87.62,17.24,Maharashtra,Soybean,Kharif,49.66
+1018.91,824.11,27.85,73.11,22.83,Maharashtra,Soybean,Kharif,37.07
+874.6,902.2,28.62,83.66,16.0,Maharashtra,Soybean,Kharif,49.67
+1908.9,1101.95,26.12,50.54,25.29,Maharashtra,Soybean,Kharif,37.87
+2776.82,886.12,30.04,79.01,21.32,Maharashtra,Soybean,Kharif,40.47
+1421.17,1106.37,25.17,52.9,26.44,Maharashtra,Soybean,Kharif,36.22
+2972.19,1114.68,27.65,51.92,19.38,Maharashtra,Soybean,Kharif,37.72
+1203.17,986.94,31.57,67.77,12.47,Maharashtra,Soybean,Kharif,38.76
+1315.32,793.58,27.24,89.75,12.55,Maharashtra,Soybean,Kharif,40.54
+2286.02,822.89,27.36,68.54,20.81,Maharashtra,Soybean,Kharif,37.95
+1129.37,799.73,32.08,73.66,22.09,Maharashtra,Soybean,Kharif,37.92
+2725.2,1097.42,32.92,85.19,17.75,Maharashtra,Soybean,Kharif,44.25
+2990.42,951.2,28.11,58.09,17.1,Maharashtra,Soybean,Kharif,34.94
+1325.65,1147.88,31.23,52.64,27.86,Maharashtra,Soybean,Kharif,34.17
+3199.05,1186.99,25.8,79.56,16.26,Maharashtra,Soybean,Kharif,46.34
+2759.08,1158.63,25.45,94.84,15.51,Maharashtra,Soybean,Kharif,53.53
+1651.53,1119.61,31.76,57.92,21.48,Maharashtra,Soybean,Kharif,35.67
+2734.9,1048.81,32.31,51.27,23.21,Maharashtra,Soybean,Kharif,38.63
+2151.46,794.12,32.9,89.67,19.88,Maharashtra,Soybean,Kharif,40.88
+1541.73,945.22,25.72,60.47,15.5,Maharashtra,Soybean,Kharif,36.2
+3002.95,800.73,26.04,82.26,26.7,Maharashtra,Soybean,Kharif,39.78
+2826.28,861.79,25.18,76.4,26.68,Maharashtra,Soybean,Kharif,40.03
+2865.61,1180.28,27.99,92.39,18.33,Maharashtra,Soybean,Kharif,46.21
+1042.48,850.88,26.09,57.09,27.18,Maharashtra,Soybean,Kharif,34.88
+2358.03,787.1,32.75,81.21,26.86,Maharashtra,Soybean,Kharif,33.3
+2688.78,811.62,29.71,57.89,16.91,Maharashtra,Soybean,Kharif,32.24
+2549.19,1174.39,32.59,67.62,27.91,Maharashtra,Soybean,Kharif,42.09
+3116.44,716.19,29.82,91.45,27.48,Maharashtra,Soybean,Kharif,41.34
+3048.05,770.32,30.96,60.71,27.72,Maharashtra,Soybean,Kharif,35.74
+1202.93,1142.66,25.71,81.9,22.23,Maharashtra,Soybean,Kharif,48.84
+1436.51,824.77,25.54,61.55,13.73,Maharashtra,Soybean,Kharif,32.38
+803.07,892.97,30.86,93.61,26.15,Maharashtra,Soybean,Kharif,42.8
+2110.46,750.71,28.84,88.88,22.42,Maharashtra,Soybean,Kharif,40.83
+2449.18,781.33,25.59,88.06,16.72,Maharashtra,Soybean,Kharif,38.65
+978.08,785.05,28.0,82.94,20.75,Maharashtra,Soybean,Kharif,45.03
+2955.5,746.55,29.75,77.61,19.72,Maharashtra,Soybean,Kharif,42.89
+1527.99,1000.39,28.57,90.57,30.93,Gujarat,Cotton,Kharif,36.18
+1607.95,913.74,34.22,125.15,32.37,Gujarat,Cotton,Kharif,42.19
+1158.83,857.3,35.4,93.45,34.66,Gujarat,Cotton,Kharif,33.77
+2368.34,732.55,33.62,118.01,30.79,Gujarat,Cotton,Kharif,37.17
+1933.8,636.87,35.44,101.96,35.54,Gujarat,Cotton,Kharif,28.31
+2565.11,897.47,27.91,114.93,30.44,Gujarat,Cotton,Kharif,41.22
+2426.48,718.48,31.65,97.44,32.45,Gujarat,Cotton,Kharif,27.16
+1197.25,938.51,33.67,89.71,34.25,Gujarat,Cotton,Kharif,25.47
+2887.12,849.12,35.41,130.01,36.05,Gujarat,Cotton,Kharif,40.26
+2713.65,990.1,31.75,133.49,37.43,Gujarat,Cotton,Kharif,52.67
+3285.78,825.95,36.0,129.02,42.26,Gujarat,Cotton,Kharif,44.25
+2984.87,654.13,34.57,94.51,49.62,Gujarat,Cotton,Kharif,31.47
+1403.8,790.52,36.88,108.95,49.93,Gujarat,Cotton,Kharif,33.48
+3007.12,975.35,29.58,135.09,47.94,Gujarat,Cotton,Kharif,49.87
+2271.54,746.76,29.76,110.2,46.96,Gujarat,Cotton,Kharif,34.7
+3516.96,880.38,32.23,108.08,35.95,Gujarat,Cotton,Kharif,38.94
+3426.81,1022.84,36.25,115.95,28.42,Gujarat,Cotton,Kharif,46.03
+1915.5,841.04,30.44,107.6,35.19,Gujarat,Cotton,Kharif,31.47
+1119.89,723.94,28.44,118.48,42.65,Gujarat,Cotton,Kharif,35.69
+1124.1,1000.31,30.31,98.07,43.9,Gujarat,Cotton,Kharif,42.45
+1064.75,967.82,30.03,100.42,37.8,Gujarat,Cotton,Kharif,33.91
+3227.79,644.2,35.69,92.39,49.38,Gujarat,Cotton,Kharif,20.37
+1862.14,787.55,33.46,95.34,31.07,Gujarat,Cotton,Kharif,32.18
+3636.7,933.43,34.59,132.7,45.7,Gujarat,Cotton,Kharif,43.7
+1995.59,828.06,28.36,131.82,47.1,Gujarat,Cotton,Kharif,42.01
+1092.63,686.74,35.33,131.03,31.99,Gujarat,Cotton,Kharif,31.79
+3254.83,723.29,35.24,112.78,41.25,Gujarat,Cotton,Kharif,35.38
+1396.39,613.75,30.72,117.67,30.26,Gujarat,Cotton,Kharif,34.64
+2119.23,673.58,35.94,126.19,42.53,Gujarat,Cotton,Kharif,33.41
+1912.22,773.95,28.63,116.47,49.16,Gujarat,Cotton,Kharif,38.73
+3168.62,721.09,31.1,86.1,44.73,Gujarat,Cotton,Kharif,22.46
+3456.23,604.0,36.12,120.61,40.43,Gujarat,Cotton,Kharif,34.79
+3576.27,737.46,36.67,120.35,36.17,Gujarat,Cotton,Kharif,36.38
+2204.72,756.92,29.52,110.67,42.25,Gujarat,Cotton,Kharif,35.26
+1327.4,830.18,33.62,131.38,34.98,Gujarat,Cotton,Kharif,39.52
+3071.49,874.07,29.98,90.95,27.53,Gujarat,Cotton,Kharif,35.53
+3756.77,717.52,34.11,134.08,33.17,Gujarat,Cotton,Kharif,39.45
+1479.77,944.46,36.0,129.3,45.26,Gujarat,Cotton,Kharif,41.27
+3178.42,924.58,33.55,139.86,32.23,Gujarat,Cotton,Kharif,44.76
+2339.41,774.72,27.35,123.94,39.73,Gujarat,Cotton,Kharif,40.07
+1711.56,840.59,34.85,134.86,42.12,Gujarat,Cotton,Kharif,47.73
+2623.41,980.44,35.41,133.21,30.35,Gujarat,Cotton,Kharif,48.08
+1827.69,963.75,34.63,95.07,42.31,Gujarat,Cotton,Kharif,36.02
+2074.02,640.18,30.55,125.93,33.37,Gujarat,Cotton,Kharif,35.79
+1833.79,732.32,35.51,110.88,46.79,Gujarat,Cotton,Kharif,30.82
+1942.22,927.72,26.57,76.13,18.01,Gujarat,Groundnut,Kharif,48.37
+1286.22,571.62,32.83,49.81,13.2,Gujarat,Groundnut,Kharif,28.59
+1541.14,777.76,33.25,61.02,15.06,Gujarat,Groundnut,Kharif,37.76
+1721.44,802.41,27.41,67.21,10.08,Gujarat,Groundnut,Kharif,37.64
+1229.11,854.48,27.35,71.76,17.83,Gujarat,Groundnut,Kharif,43.95
+2013.3,803.4,29.23,78.79,16.13,Gujarat,Groundnut,Kharif,44.17
+686.77,629.77,28.98,45.49,15.16,Gujarat,Groundnut,Kharif,30.65
+2156.52,800.67,27.99,69.27,15.51,Gujarat,Groundnut,Kharif,40.65
+896.54,703.42,30.71,50.85,23.18,Gujarat,Groundnut,Kharif,32.93
+2274.01,788.55,28.7,76.08,25.93,Gujarat,Groundnut,Kharif,45.46
+1388.29,910.55,28.87,51.59,25.17,Gujarat,Groundnut,Kharif,40.25
+1125.36,840.87,27.05,70.69,19.44,Gujarat,Groundnut,Kharif,42.17
+988.66,696.64,31.2,46.31,24.02,Gujarat,Groundnut,Kharif,31.68
+711.75,947.87,31.3,67.87,10.32,Gujarat,Groundnut,Kharif,47.27
+2186.42,716.71,29.04,64.15,17.59,Gujarat,Groundnut,Kharif,40.03
+2049.72,670.45,31.29,68.19,14.32,Gujarat,Groundnut,Kharif,41.12
+1992.96,604.87,32.65,48.67,21.5,Gujarat,Groundnut,Kharif,31.23
+844.41,629.46,27.6,54.2,18.37,Gujarat,Groundnut,Kharif,33.57
+1063.85,831.37,28.36,46.38,17.94,Gujarat,Groundnut,Kharif,36.13
+1360.39,551.1,31.37,76.74,23.36,Gujarat,Groundnut,Kharif,43.3
+2138.75,609.66,26.72,62.91,21.58,Gujarat,Groundnut,Kharif,36.63
+1131.67,945.47,28.37,61.25,11.6,Gujarat,Groundnut,Kharif,43.38
+1001.81,565.78,28.32,73.06,15.0,Gujarat,Groundnut,Kharif,37.67
+2343.87,568.36,32.82,68.22,12.73,Gujarat,Groundnut,Kharif,35.25
+1422.31,725.09,30.97,75.75,11.49,Gujarat,Groundnut,Kharif,42.79
+1521.79,934.92,28.17,58.5,23.61,Gujarat,Groundnut,Kharif,40.06
+2439.77,809.54,32.38,48.96,21.14,Gujarat,Groundnut,Kharif,39.86
+966.61,716.41,30.73,73.08,20.85,Gujarat,Groundnut,Kharif,42.96
+1016.9,701.9,28.87,46.01,20.95,Gujarat,Groundnut,Kharif,34.75
+900.51,918.16,26.9,59.39,10.74,Gujarat,Groundnut,Kharif,36.43
+1201.71,675.7,31.64,68.73,22.28,Gujarat,Groundnut,Kharif,36.41
+2849.16,817.94,28.71,63.31,21.21,Gujarat,Groundnut,Kharif,38.97
+819.06,814.69,27.99,57.1,20.82,Gujarat,Groundnut,Kharif,35.09
+1884.19,945.12,26.44,67.52,12.51,Gujarat,Groundnut,Kharif,47.15
+2552.34,890.75,32.96,47.62,17.87,Gujarat,Groundnut,Kharif,36.94
+715.81,639.08,31.15,59.11,13.76,Gujarat,Groundnut,Kharif,40.25
+1655.92,870.5,29.58,74.98,17.15,Gujarat,Groundnut,Kharif,47.11
+2102.76,591.06,29.3,64.5,10.0,Gujarat,Groundnut,Kharif,37.11
+809.06,791.68,30.95,55.66,18.13,Gujarat,Groundnut,Kharif,37.89
+2785.82,695.34,26.43,52.8,17.27,Gujarat,Groundnut,Kharif,36.9
+1888.35,797.9,29.79,68.0,21.45,Gujarat,Groundnut,Kharif,43.98
+1110.02,686.54,32.64,78.76,14.67,Gujarat,Groundnut,Kharif,44.7
+1800.57,830.84,26.37,50.75,12.25,Gujarat,Groundnut,Kharif,35.62
+846.01,794.34,27.5,77.56,16.29,Gujarat,Groundnut,Kharif,41.19
+1651.21,862.57,31.73,48.77,16.63,Gujarat,Groundnut,Kharif,39.92
+2484.2,1324.68,29.6,134.51,34.12,Tamil Nadu,Rice,Kharif,66.45
+1030.84,1174.36,30.24,97.91,33.71,Tamil Nadu,Rice,Kharif,57.07
+2226.67,1406.64,27.42,129.71,29.61,Tamil Nadu,Rice,Kharif,66.68
+1010.82,1113.07,30.8,147.96,25.08,Tamil Nadu,Rice,Kharif,61.53
+3530.91,1319.31,28.19,152.82,34.41,Tamil Nadu,Rice,Kharif,79.39
+2049.11,973.35,29.3,137.0,29.97,Tamil Nadu,Rice,Kharif,59.99
+3354.26,1291.53,33.48,132.95,19.02,Tamil Nadu,Rice,Kharif,72.14
+2597.34,1059.82,28.76,135.34,34.63,Tamil Nadu,Rice,Kharif,58.58
+2212.46,1281.87,28.58,101.92,22.04,Tamil Nadu,Rice,Kharif,52.87
+2137.18,1213.85,31.34,120.05,29.96,Tamil Nadu,Rice,Kharif,63.66
+3311.36,1344.57,30.18,96.52,17.91,Tamil Nadu,Rice,Kharif,56.85
+2744.81,1009.95,32.0,104.66,20.73,Tamil Nadu,Rice,Kharif,53.25
+2809.9,1062.33,32.03,96.94,31.28,Tamil Nadu,Rice,Kharif,58.02
+927.94,1377.42,31.92,146.89,29.85,Tamil Nadu,Rice,Kharif,71.62
+3109.78,1339.35,28.3,134.87,33.53,Tamil Nadu,Rice,Kharif,68.59
+1840.17,1426.19,33.81,113.76,26.04,Tamil Nadu,Rice,Kharif,67.84
+2585.8,1329.51,32.96,144.8,33.23,Tamil Nadu,Rice,Kharif,72.12
+2854.81,1256.2,32.04,127.8,27.07,Tamil Nadu,Rice,Kharif,66.74
+1541.37,997.58,31.46,106.22,18.48,Tamil Nadu,Rice,Kharif,45.87
+2244.31,1107.46,29.43,128.4,17.6,Tamil Nadu,Rice,Kharif,60.19
+1657.8,1290.33,27.24,104.22,21.45,Tamil Nadu,Rice,Kharif,58.61
+762.74,1412.81,30.92,134.71,24.81,Tamil Nadu,Rice,Kharif,68.59
+3108.9,1074.82,27.76,106.03,16.36,Tamil Nadu,Rice,Kharif,53.95
+2216.45,1128.76,30.3,100.52,19.42,Tamil Nadu,Rice,Kharif,55.52
+1754.55,1020.14,32.02,126.83,34.93,Tamil Nadu,Rice,Kharif,62.25
+3235.8,1439.62,26.07,135.14,23.91,Tamil Nadu,Rice,Kharif,75.21
+2587.62,1427.39,31.46,114.26,33.32,Tamil Nadu,Rice,Kharif,63.46
+3623.96,1112.23,30.32,111.97,33.23,Tamil Nadu,Rice,Kharif,58.96
+3169.01,1145.06,26.35,148.9,18.85,Tamil Nadu,Rice,Kharif,66.15
+2244.46,1421.52,27.34,152.38,25.76,Tamil Nadu,Rice,Kharif,77.29
+2745.07,1325.47,32.92,120.45,17.08,Tamil Nadu,Rice,Kharif,65.13
+2320.81,1286.51,33.81,141.51,27.93,Tamil Nadu,Rice,Kharif,74.57
+1092.01,1152.57,28.65,100.25,16.09,Tamil Nadu,Rice,Kharif,53.59
+3141.49,1206.95,30.6,108.66,20.17,Tamil Nadu,Rice,Kharif,55.83
+1985.68,909.29,31.39,127.09,27.83,Tamil Nadu,Rice,Kharif,59.82
+2578.72,1315.78,30.68,137.05,16.45,Tamil Nadu,Rice,Kharif,70.72
+3118.05,1065.74,26.69,140.92,23.75,Tamil Nadu,Rice,Kharif,64.03
+1864.36,1263.4,29.79,127.01,17.73,Tamil Nadu,Rice,Kharif,61.34
+2346.32,1428.07,27.15,135.64,33.28,Tamil Nadu,Rice,Kharif,75.06
+3144.05,1301.13,28.99,151.97,26.07,Tamil Nadu,Rice,Kharif,71.83
+616.1,1228.16,30.3,151.82,21.09,Tamil Nadu,Rice,Kharif,70.98
+2994.55,1396.95,28.75,119.76,27.92,Tamil Nadu,Rice,Kharif,64.82
+1306.52,1359.11,27.55,105.88,30.99,Tamil Nadu,Rice,Kharif,61.69
+3327.2,1368.26,33.46,154.66,24.23,Tamil Nadu,Rice,Kharif,73.25
+815.56,954.01,31.8,124.23,21.62,Tamil Nadu,Rice,Kharif,56.63
+971.82,1177.74,24.7,124.07,30.2,Tamil Nadu,Rice,Rabi,69.46
+2387.39,1002.84,28.09,121.11,20.56,Tamil Nadu,Rice,Rabi,68.33
+1517.37,1064.15,24.03,103.54,17.99,Tamil Nadu,Rice,Rabi,61.44
+3036.32,917.15,29.13,138.28,22.33,Tamil Nadu,Rice,Rabi,65.19
+1640.35,1002.74,27.86,99.67,24.92,Tamil Nadu,Rice,Rabi,62.08
+1006.0,1119.31,25.84,138.75,15.38,Tamil Nadu,Rice,Rabi,68.82
+818.66,859.32,27.55,91.72,24.47,Tamil Nadu,Rice,Rabi,49.49
+3228.28,1125.8,27.8,144.93,22.5,Tamil Nadu,Rice,Rabi,77.99
+2848.07,1032.91,25.56,132.47,27.2,Tamil Nadu,Rice,Rabi,68.75
+2080.19,1048.39,27.52,126.45,29.26,Tamil Nadu,Rice,Rabi,71.37
+2938.97,1157.02,25.16,118.28,22.03,Tamil Nadu,Rice,Rabi,71.62
+2512.3,1333.87,29.15,116.59,20.46,Tamil Nadu,Rice,Rabi,79.09
+1234.58,1093.82,24.44,110.32,14.77,Tamil Nadu,Rice,Rabi,66.2
+1647.63,1084.84,27.18,92.55,31.65,Tamil Nadu,Rice,Rabi,65.08
+1539.81,1201.87,27.65,135.63,29.03,Tamil Nadu,Rice,Rabi,74.62
+1104.16,1176.84,26.56,125.93,29.04,Tamil Nadu,Rice,Rabi,75.04
+2098.32,1038.16,30.35,118.4,20.35,Tamil Nadu,Rice,Rabi,67.78
+1998.12,1152.11,27.51,97.64,16.98,Tamil Nadu,Rice,Rabi,59.61
+823.56,1171.74,25.48,100.28,20.52,Tamil Nadu,Rice,Rabi,63.14
+1268.0,1255.59,29.04,116.48,22.62,Tamil Nadu,Rice,Rabi,69.07
+1211.04,930.62,29.83,91.23,14.78,Tamil Nadu,Rice,Rabi,52.89
+2425.67,869.6,28.01,93.08,18.65,Tamil Nadu,Rice,Rabi,52.66
+1122.11,1329.12,28.2,121.0,14.34,Tamil Nadu,Rice,Rabi,72.96
+1422.02,892.87,27.14,144.6,29.61,Tamil Nadu,Rice,Rabi,65.36
+1094.64,1265.18,28.21,133.7,28.77,Tamil Nadu,Rice,Rabi,77.79
+1367.11,1212.09,26.4,114.94,24.63,Tamil Nadu,Rice,Rabi,72.88
+1266.46,1042.73,24.76,101.13,29.47,Tamil Nadu,Rice,Rabi,57.27
+1033.73,898.15,27.33,123.81,14.7,Tamil Nadu,Rice,Rabi,63.4
+2873.22,1101.66,24.82,116.52,16.35,Tamil Nadu,Rice,Rabi,62.13
+3201.21,1237.44,28.54,118.71,20.67,Tamil Nadu,Rice,Rabi,67.37
+725.97,1114.91,25.61,134.13,28.21,Tamil Nadu,Rice,Rabi,69.32
+2750.04,1230.77,28.88,95.37,16.41,Tamil Nadu,Rice,Rabi,66.17
+1983.71,966.26,30.01,105.58,29.78,Tamil Nadu,Rice,Rabi,58.12
+2656.53,1244.71,28.05,96.48,14.13,Tamil Nadu,Rice,Rabi,65.23
+2498.18,1193.88,26.21,109.92,16.79,Tamil Nadu,Rice,Rabi,65.63
+3079.43,1061.78,26.56,105.16,26.25,Tamil Nadu,Rice,Rabi,60.23
+2789.42,1056.61,29.49,116.54,20.66,Tamil Nadu,Rice,Rabi,63.25
+1489.29,1022.18,28.94,130.47,29.39,Tamil Nadu,Rice,Rabi,67.94
+2511.92,1223.91,27.13,128.46,16.91,Tamil Nadu,Rice,Rabi,73.99
+1581.47,1125.29,28.88,128.87,16.89,Tamil Nadu,Rice,Rabi,73.82
+3397.25,852.65,24.64,97.99,30.67,Tamil Nadu,Rice,Rabi,53.5
+1243.13,890.02,24.26,111.14,31.72,Tamil Nadu,Rice,Rabi,59.86
+2380.5,1110.5,28.98,122.86,31.02,Tamil Nadu,Rice,Rabi,70.5
+1873.02,950.85,28.6,134.22,19.15,Tamil Nadu,Rice,Rabi,64.17
+697.47,1149.76,27.61,102.74,17.05,Tamil Nadu,Rice,Rabi,65.75
+800.78,1036.59,35.97,170.68,23.77,Tamil Nadu,Sugarcane,Whole Year,91.29
+1866.89,1272.34,31.66,167.9,17.51,Tamil Nadu,Sugarcane,Whole Year,99.23
+3040.36,1453.25,30.13,182.61,22.08,Tamil Nadu,Sugarcane,Whole Year,108.29
+2437.18,1056.99,35.37,157.37,21.74,Tamil Nadu,Sugarcane,Whole Year,85.58
+995.44,1111.84,35.52,172.19,37.05,Tamil Nadu,Sugarcane,Whole Year,94.32
+3165.51,1397.23,32.17,165.12,37.25,Tamil Nadu,Sugarcane,Whole Year,93.64
+2845.18,1478.68,31.13,149.95,28.91,Tamil Nadu,Sugarcane,Whole Year,94.57
+873.85,1013.95,27.61,161.19,37.87,Tamil Nadu,Sugarcane,Whole Year,85.81
+1652.47,1475.5,31.65,120.63,34.31,Tamil Nadu,Sugarcane,Whole Year,85.2
+1470.3,1001.16,33.06,173.37,17.67,Tamil Nadu,Sugarcane,Whole Year,94.3
+1754.55,1441.87,29.42,181.56,31.03,Tamil Nadu,Sugarcane,Whole Year,104.25
+3256.8,1224.45,28.8,167.8,35.2,Tamil Nadu,Sugarcane,Whole Year,95.92
+1474.18,1290.23,28.4,126.93,36.24,Tamil Nadu,Sugarcane,Whole Year,86.55
+2624.69,1314.88,32.52,169.68,27.91,Tamil Nadu,Sugarcane,Whole Year,102.58
+2475.8,1220.79,35.87,178.3,35.11,Tamil Nadu,Sugarcane,Whole Year,99.6
+2125.17,1491.42,35.24,138.22,20.89,Tamil Nadu,Sugarcane,Whole Year,92.56
+2958.03,1213.08,31.87,152.66,24.66,Tamil Nadu,Sugarcane,Whole Year,89.53
+2653.11,1046.14,35.79,165.39,26.12,Tamil Nadu,Sugarcane,Whole Year,89.06
+1369.03,1269.55,29.93,159.83,21.71,Tamil Nadu,Sugarcane,Whole Year,93.51
+2281.12,1080.43,31.24,159.85,24.05,Tamil Nadu,Sugarcane,Whole Year,85.98
+2691.92,1154.77,34.69,138.18,19.96,Tamil Nadu,Sugarcane,Whole Year,83.8
+1154.08,1266.74,29.06,126.49,21.94,Tamil Nadu,Sugarcane,Whole Year,83.69
+1828.39,1030.21,35.63,129.72,33.72,Tamil Nadu,Sugarcane,Whole Year,81.34
+1276.84,1224.78,35.96,175.21,27.37,Tamil Nadu,Sugarcane,Whole Year,96.44
+1610.09,1259.18,32.11,145.9,31.19,Tamil Nadu,Sugarcane,Whole Year,82.95
+962.1,1397.6,31.29,160.94,25.9,Tamil Nadu,Sugarcane,Whole Year,96.37
+2312.95,1462.51,29.32,121.29,18.67,Tamil Nadu,Sugarcane,Whole Year,90.41
+3141.9,1479.71,28.79,157.43,30.28,Tamil Nadu,Sugarcane,Whole Year,102.35
+1758.79,1320.26,31.39,167.87,35.57,Tamil Nadu,Sugarcane,Whole Year,103.78
+1828.89,1107.59,32.69,129.42,19.69,Tamil Nadu,Sugarcane,Whole Year,80.8
+2504.44,1264.4,34.64,124.64,19.56,Tamil Nadu,Sugarcane,Whole Year,79.56
+1416.19,1124.28,29.62,137.39,30.18,Tamil Nadu,Sugarcane,Whole Year,82.11
+3129.58,1149.74,32.28,182.76,25.11,Tamil Nadu,Sugarcane,Whole Year,101.79
+1296.49,962.71,33.55,163.03,36.69,Tamil Nadu,Sugarcane,Whole Year,85.62
+1250.66,1006.66,27.57,177.11,28.07,Tamil Nadu,Sugarcane,Whole Year,90.42
+871.19,1168.36,33.88,125.41,21.77,Tamil Nadu,Sugarcane,Whole Year,83.12
+3190.77,1120.15,29.23,138.47,29.78,Tamil Nadu,Sugarcane,Whole Year,87.31
+1154.45,1411.18,27.26,163.13,34.93,Tamil Nadu,Sugarcane,Whole Year,97.33
+3432.45,1247.32,29.45,148.91,37.33,Tamil Nadu,Sugarcane,Whole Year,93.64
+2683.58,1047.37,32.38,161.02,29.99,Tamil Nadu,Sugarcane,Whole Year,83.79
+2526.73,1120.31,30.12,155.08,33.7,Tamil Nadu,Sugarcane,Whole Year,86.4
+1993.02,1151.18,29.34,139.73,16.0,Tamil Nadu,Sugarcane,Whole Year,87.03
+1728.49,1208.06,27.07,179.94,36.83,Tamil Nadu,Sugarcane,Whole Year,92.09
+2088.08,955.02,30.87,139.04,21.09,Tamil Nadu,Sugarcane,Whole Year,81.77
+1911.69,1258.3,30.55,130.61,32.22,Tamil Nadu,Sugarcane,Whole Year,84.57
+1179.45,1578.36,26.84,96.11,16.31,Kerala,Rice,Kharif,51.85
+2015.15,1884.64,26.99,112.15,26.56,Kerala,Rice,Kharif,53.97
+1225.81,2053.48,26.28,89.48,23.46,Kerala,Rice,Kharif,53.37
+1645.51,1387.79,25.14,77.48,21.63,Kerala,Rice,Kharif,41.58
+771.88,1302.27,26.88,110.76,25.09,Kerala,Rice,Kharif,52.69
+1387.16,1541.91,27.18,114.97,29.96,Kerala,Rice,Kharif,58.37
+1327.37,1991.42,27.31,117.18,29.13,Kerala,Rice,Kharif,67.52
+542.77,1670.15,26.35,117.08,26.71,Kerala,Rice,Kharif,60.68
+2056.5,1321.96,30.38,87.45,25.88,Kerala,Rice,Kharif,41.13
+467.02,1660.83,30.4,101.06,29.68,Kerala,Rice,Kharif,55.46
+1345.65,1881.44,27.18,91.15,23.32,Kerala,Rice,Kharif,59.8
+1441.85,1453.31,29.47,84.94,27.98,Kerala,Rice,Kharif,47.96
+2127.32,1417.79,25.79,106.65,17.84,Kerala,Rice,Kharif,53.75
+639.3,1989.14,25.06,77.1,26.1,Kerala,Rice,Kharif,52.28
+1350.54,1796.21,27.6,79.47,14.84,Kerala,Rice,Kharif,51.98
+2261.7,2196.97,29.38,77.99,23.6,Kerala,Rice,Kharif,55.27
+1802.66,1991.47,25.88,86.63,29.67,Kerala,Rice,Kharif,54.49
+2011.05,1638.72,26.35,109.46,18.45,Kerala,Rice,Kharif,51.66
+669.46,2098.66,28.4,96.88,17.3,Kerala,Rice,Kharif,57.31
+773.25,1547.66,30.13,88.77,26.96,Kerala,Rice,Kharif,46.88
+2228.95,1754.52,25.48,82.75,17.32,Kerala,Rice,Kharif,49.01
+401.44,1838.03,27.65,84.28,12.34,Kerala,Rice,Kharif,53.41
+2113.66,1976.02,26.67,111.05,23.85,Kerala,Rice,Kharif,58.17
+1448.14,1697.55,28.86,105.65,17.81,Kerala,Rice,Kharif,55.08
+1681.81,1310.46,28.66,78.33,27.03,Kerala,Rice,Kharif,46.31
+804.16,1685.37,25.69,103.55,27.05,Kerala,Rice,Kharif,59.08
+1715.84,1725.82,29.91,87.8,18.59,Kerala,Rice,Kharif,49.63
+2260.42,1408.74,28.44,119.49,13.44,Kerala,Rice,Kharif,55.91
+2002.04,1260.7,28.91,121.91,19.49,Kerala,Rice,Kharif,52.53
+2047.29,1465.82,25.28,78.52,17.47,Kerala,Rice,Kharif,47.59
+2289.21,2160.59,25.68,111.26,21.57,Kerala,Rice,Kharif,64.46
+897.53,1825.33,26.25,112.46,19.47,Kerala,Rice,Kharif,62.64
+611.03,1838.62,27.51,97.94,23.97,Kerala,Rice,Kharif,56.3
+760.79,1601.56,27.36,82.91,29.97,Kerala,Rice,Kharif,46.27
+1286.02,1552.32,27.21,124.57,17.84,Kerala,Rice,Kharif,56.64
+1261.18,1925.87,29.26,103.16,15.85,Kerala,Rice,Kharif,61.2
+1931.42,2126.15,26.78,123.08,20.05,Kerala,Rice,Kharif,62.89
+2365.91,1795.76,28.62,124.67,17.43,Kerala,Rice,Kharif,65.66
+1000.67,1421.89,30.99,76.09,26.79,Kerala,Rice,Kharif,42.23
+1507.33,1756.32,31.48,82.74,12.68,Kerala,Rice,Kharif,47.16
+1111.31,1338.41,27.57,104.11,16.19,Kerala,Rice,Kharif,51.32
+1199.6,2117.88,30.14,111.18,26.27,Kerala,Rice,Kharif,61.5
+745.8,2025.71,29.83,103.81,28.34,Kerala,Rice,Kharif,57.23
+1861.58,1776.28,25.55,77.8,25.88,Kerala,Rice,Kharif,46.61
+1095.86,2017.14,27.92,118.39,27.66,Kerala,Rice,Kharif,64.27
+1484.14,1108.0,29.66,92.21,16.88,Kerala,Rice,Rabi,52.48
+474.13,1477.95,25.9,97.61,15.53,Kerala,Rice,Rabi,61.38
+1107.19,1411.93,28.57,97.71,15.55,Kerala,Rice,Rabi,57.25
+921.61,1376.03,25.79,78.71,21.14,Kerala,Rice,Rabi,51.07
+553.14,1451.28,29.64,80.87,14.16,Kerala,Rice,Rabi,51.32
+1406.73,1441.5,28.91,83.82,21.86,Kerala,Rice,Rabi,51.13
+528.96,1643.74,26.94,116.59,13.43,Kerala,Rice,Rabi,64.6
+1609.15,1396.48,27.09,89.43,21.5,Kerala,Rice,Rabi,54.96
+2177.77,1531.35,30.94,94.9,14.33,Kerala,Rice,Rabi,57.3
+480.78,1672.72,26.2,91.82,24.12,Kerala,Rice,Rabi,59.21
+498.17,1764.26,30.56,114.09,25.12,Kerala,Rice,Rabi,66.91
+424.72,1585.66,25.67,95.25,12.36,Kerala,Rice,Rabi,58.94
+766.84,1466.29,26.55,96.74,23.68,Kerala,Rice,Rabi,59.88
+654.43,1589.13,25.11,101.24,22.62,Kerala,Rice,Rabi,61.94
+911.22,1652.43,28.71,77.39,22.48,Kerala,Rice,Rabi,53.28
+415.0,1372.05,26.63,113.34,22.56,Kerala,Rice,Rabi,61.07
+1961.34,1554.59,26.39,92.13,27.63,Kerala,Rice,Rabi,55.92
+579.29,1320.82,30.2,98.92,14.98,Kerala,Rice,Rabi,51.4
+2067.43,1115.04,26.48,98.82,17.34,Kerala,Rice,Rabi,50.83
+1108.12,1209.9,27.08,90.84,22.0,Kerala,Rice,Rabi,50.37
+1302.25,1668.33,28.75,114.54,26.25,Kerala,Rice,Rabi,74.4
+1866.75,1120.63,28.33,87.61,14.43,Kerala,Rice,Rabi,50.27
+558.03,1367.54,30.76,102.56,22.01,Kerala,Rice,Rabi,54.2
+809.37,1268.25,25.92,118.67,26.56,Kerala,Rice,Rabi,59.03
+772.16,1197.0,28.25,111.0,25.8,Kerala,Rice,Rabi,59.87
+956.2,1593.6,28.14,81.09,27.93,Kerala,Rice,Rabi,54.67
+2079.45,1741.98,26.9,100.08,27.18,Kerala,Rice,Rabi,62.34
+613.1,1322.32,30.28,107.72,24.25,Kerala,Rice,Rabi,59.95
+1140.25,1410.1,30.6,115.24,26.93,Kerala,Rice,Rabi,60.03
+892.83,1645.38,25.64,83.31,24.2,Kerala,Rice,Rabi,53.08
+1420.68,1261.64,26.39,105.93,17.75,Kerala,Rice,Rabi,54.58
+1638.65,1433.62,28.01,102.21,23.39,Kerala,Rice,Rabi,53.85
+1284.6,1196.26,26.16,76.45,24.23,Kerala,Rice,Rabi,48.26
+427.03,1288.9,27.48,108.41,27.81,Kerala,Rice,Rabi,57.48
+2068.79,1789.94,30.2,97.05,17.2,Kerala,Rice,Rabi,61.29
+1223.58,1272.75,27.43,76.88,23.77,Kerala,Rice,Rabi,43.96
+1500.71,1619.73,28.56,98.64,26.01,Kerala,Rice,Rabi,61.57
+1816.46,1464.45,27.71,112.22,12.68,Kerala,Rice,Rabi,65.44
+1112.1,1614.62,28.35,98.23,22.09,Kerala,Rice,Rabi,59.53
+488.73,1303.83,27.39,88.7,25.24,Kerala,Rice,Rabi,47.67
+1503.64,1138.18,28.1,81.4,25.28,Kerala,Rice,Rabi,45.72
+1213.06,1605.85,25.68,110.04,27.01,Kerala,Rice,Rabi,63.2
+1144.41,1415.62,26.07,101.56,23.4,Kerala,Rice,Rabi,55.78
+763.48,1418.28,26.5,106.13,26.51,Kerala,Rice,Rabi,60.26
+622.38,1179.92,27.7,91.33,20.38,Kerala,Rice,Rabi,44.93
+1383.4,2170.17,30.09,171.73,22.57,Kerala,Sugarcane,Whole Year,89.17
+2598.18,1922.04,31.28,119.76,32.38,Kerala,Sugarcane,Whole Year,79.35
+911.39,2083.25,29.36,130.12,30.37,Kerala,Sugarcane,Whole Year,76.3
+770.37,1444.73,27.62,150.47,20.06,Kerala,Sugarcane,Whole Year,79.54
+1554.88,2240.95,30.35,110.37,32.65,Kerala,Sugarcane,Whole Year,77.4
+1594.14,1751.17,26.64,149.01,19.89,Kerala,Sugarcane,Whole Year,85.8
+1758.89,1981.74,30.46,163.64,15.98,Kerala,Sugarcane,Whole Year,91.31
+584.46,2239.21,31.34,164.47,20.97,Kerala,Sugarcane,Whole Year,95.78
+2616.88,1353.93,29.34,121.59,28.44,Kerala,Sugarcane,Whole Year,65.13
+1868.43,2166.04,27.42,139.6,26.58,Kerala,Sugarcane,Whole Year,81.06
+2642.4,1402.44,28.39,133.96,22.58,Kerala,Sugarcane,Whole Year,76.02
+1766.08,1622.12,27.08,155.15,20.49,Kerala,Sugarcane,Whole Year,83.0
+1712.22,1877.11,31.57,149.78,17.19,Kerala,Sugarcane,Whole Year,82.79
+2770.54,1832.03,31.51,170.7,34.73,Kerala,Sugarcane,Whole Year,84.11
+1160.53,1969.73,28.53,144.15,34.9,Kerala,Sugarcane,Whole Year,81.96
+1794.06,1871.68,31.05,142.01,18.6,Kerala,Sugarcane,Whole Year,82.48
+1901.63,2079.45,33.83,110.1,15.48,Kerala,Sugarcane,Whole Year,73.82
+2450.56,2179.52,33.99,136.91,21.68,Kerala,Sugarcane,Whole Year,82.51
+1788.96,2001.25,26.09,123.08,20.63,Kerala,Sugarcane,Whole Year,78.23
+1665.39,1656.32,26.05,154.58,21.83,Kerala,Sugarcane,Whole Year,79.22
+2166.11,1977.59,26.23,121.42,21.61,Kerala,Sugarcane,Whole Year,74.28
+2607.18,2176.98,31.17,141.3,27.54,Kerala,Sugarcane,Whole Year,88.9
+2551.73,1890.66,28.68,160.96,23.28,Kerala,Sugarcane,Whole Year,86.35
+1188.49,2097.46,28.52,144.83,19.17,Kerala,Sugarcane,Whole Year,78.73
+2076.63,2179.49,33.1,132.98,34.39,Kerala,Sugarcane,Whole Year,82.41
+2762.32,1989.16,32.74,147.11,22.79,Kerala,Sugarcane,Whole Year,84.84
+1868.94,2251.05,32.01,155.84,21.29,Kerala,Sugarcane,Whole Year,93.04
+1643.23,1561.41,29.62,171.8,19.32,Kerala,Sugarcane,Whole Year,86.09
+1195.33,1423.45,32.28,160.56,33.27,Kerala,Sugarcane,Whole Year,79.9
+1610.13,1850.06,27.52,170.04,29.65,Kerala,Sugarcane,Whole Year,88.88
+1704.34,2153.09,27.15,166.67,31.44,Kerala,Sugarcane,Whole Year,96.0
+805.25,2097.03,29.67,156.39,25.45,Kerala,Sugarcane,Whole Year,86.16
+509.45,2325.57,31.5,148.63,16.74,Kerala,Sugarcane,Whole Year,87.79
+1697.33,2024.88,28.5,147.54,21.24,Kerala,Sugarcane,Whole Year,84.83
+2551.91,1652.97,27.54,127.98,21.38,Kerala,Sugarcane,Whole Year,72.98
+843.44,1601.0,26.12,150.49,25.28,Kerala,Sugarcane,Whole Year,80.62
+975.13,1685.35,28.55,119.2,29.09,Kerala,Sugarcane,Whole Year,71.95
+663.86,1974.59,28.71,138.84,17.6,Kerala,Sugarcane,Whole Year,83.92
+1582.69,2043.05,26.85,113.5,23.53,Kerala,Sugarcane,Whole Year,77.28
+1863.34,2219.79,31.59,150.06,21.25,Kerala,Sugarcane,Whole Year,91.69
+2380.12,2084.19,31.37,144.68,34.47,Kerala,Sugarcane,Whole Year,84.71
+803.13,2194.14,33.36,140.44,24.11,Kerala,Sugarcane,Whole Year,81.23
+2074.3,2081.24,29.72,125.06,19.48,Kerala,Sugarcane,Whole Year,81.96
+2599.58,1731.28,31.6,153.24,30.78,Kerala,Sugarcane,Whole Year,79.07
+2529.53,1798.61,26.24,140.9,22.03,Kerala,Sugarcane,Whole Year,78.0
+3103.82,1152.22,27.15,106.18,34.35,Andhra Pradesh,Rice,Kharif,61.71
+3190.27,1012.93,31.85,147.55,28.65,Andhra Pradesh,Rice,Kharif,66.53
+2662.62,1123.97,34.77,123.03,24.81,Andhra Pradesh,Rice,Kharif,66.86
+3241.75,1145.49,33.06,126.12,33.75,Andhra Pradesh,Rice,Kharif,64.47
+2787.84,888.95,34.38,134.45,27.73,Andhra Pradesh,Rice,Kharif,61.7
+2576.49,1081.45,31.0,149.32,21.52,Andhra Pradesh,Rice,Kharif,72.2
+1126.23,1257.03,32.94,122.73,27.89,Andhra Pradesh,Rice,Kharif,68.1
+2780.49,895.27,33.35,153.24,36.07,Andhra Pradesh,Rice,Kharif,67.48
+1240.18,924.61,30.78,123.4,29.56,Andhra Pradesh,Rice,Kharif,60.16
+1387.0,1190.76,28.85,134.22,36.26,Andhra Pradesh,Rice,Kharif,67.51
+2104.18,1341.29,29.1,105.36,18.16,Andhra Pradesh,Rice,Kharif,72.33
+3759.26,1052.1,27.15,117.65,25.38,Andhra Pradesh,Rice,Kharif,60.95
+2910.06,1260.38,29.23,151.67,35.31,Andhra Pradesh,Rice,Kharif,76.01
+1505.72,1201.11,29.55,119.09,25.66,Andhra Pradesh,Rice,Kharif,63.34
+2787.46,1087.44,27.69,123.08,36.49,Andhra Pradesh,Rice,Kharif,66.66
+3319.89,927.13,34.98,140.2,20.69,Andhra Pradesh,Rice,Kharif,65.26
+2964.02,1093.35,29.93,159.41,19.69,Andhra Pradesh,Rice,Kharif,74.4
+2726.73,1057.93,30.1,147.34,30.09,Andhra Pradesh,Rice,Kharif,68.4
+2328.24,1126.03,30.05,121.32,21.72,Andhra Pradesh,Rice,Kharif,65.53
+2613.72,1138.97,33.62,114.2,28.03,Andhra Pradesh,Rice,Kharif,60.05
+1900.91,1339.12,31.11,142.29,20.26,Andhra Pradesh,Rice,Kharif,77.67
+2244.6,1195.25,27.28,143.88,37.67,Andhra Pradesh,Rice,Kharif,77.52
+2194.81,889.12,34.01,105.31,27.45,Andhra Pradesh,Rice,Kharif,53.91
+3025.06,1330.21,26.7,138.02,33.96,Andhra Pradesh,Rice,Kharif,74.0
+1830.64,1239.26,30.22,130.76,27.38,Andhra Pradesh,Rice,Kharif,70.99
+3001.44,1060.51,34.65,147.89,23.78,Andhra Pradesh,Rice,Kharif,76.6
+3048.28,1213.49,31.07,103.69,27.46,Andhra Pradesh,Rice,Kharif,63.59
+1307.24,875.81,34.91,148.53,30.49,Andhra Pradesh,Rice,Kharif,65.48
+2316.79,1275.72,28.5,107.95,23.62,Andhra Pradesh,Rice,Kharif,66.04
+3373.58,857.1,27.0,110.48,29.84,Andhra Pradesh,Rice,Kharif,56.83
+3223.52,980.63,32.31,129.1,33.99,Andhra Pradesh,Rice,Kharif,65.7
+3386.04,1021.42,26.76,108.7,36.68,Andhra Pradesh,Rice,Kharif,60.58
+3780.76,1235.18,28.14,126.41,30.75,Andhra Pradesh,Rice,Kharif,71.62
+1432.57,1217.18,29.11,138.54,33.11,Andhra Pradesh,Rice,Kharif,72.96
+1996.23,1000.68,32.72,145.15,28.65,Andhra Pradesh,Rice,Kharif,69.15
+1939.4,1202.8,30.27,108.71,35.41,Andhra Pradesh,Rice,Kharif,69.82
+2146.46,1189.25,34.66,140.97,18.82,Andhra Pradesh,Rice,Kharif,72.1
+3553.14,1168.71,34.61,125.91,36.36,Andhra Pradesh,Rice,Kharif,68.66
+1601.26,899.14,31.89,123.47,33.46,Andhra Pradesh,Rice,Kharif,57.55
+3047.27,1217.16,31.3,111.7,24.75,Andhra Pradesh,Rice,Kharif,63.75
+2442.84,1186.4,33.49,100.72,19.95,Andhra Pradesh,Rice,Kharif,58.98
+1111.72,1072.97,27.97,117.0,21.86,Andhra Pradesh,Rice,Kharif,63.46
+3615.52,1178.3,33.52,157.03,30.76,Andhra Pradesh,Rice,Kharif,75.86
+2924.23,909.99,33.71,107.79,31.13,Andhra Pradesh,Rice,Kharif,58.63
+3701.5,1298.0,32.26,115.2,27.34,Andhra Pradesh,Rice,Kharif,65.2
+3427.69,987.45,35.3,100.2,34.82,Andhra Pradesh,Cotton,Kharif,36.74
+1773.19,772.88,27.67,127.74,33.8,Andhra Pradesh,Cotton,Kharif,32.5
+1798.17,727.03,35.6,99.56,35.13,Andhra Pradesh,Cotton,Kharif,20.61
+2547.82,780.3,31.43,92.91,42.68,Andhra Pradesh,Cotton,Kharif,26.38
+1489.64,989.5,35.21,124.35,27.38,Andhra Pradesh,Cotton,Kharif,42.5
+1576.61,900.65,35.07,93.19,39.73,Andhra Pradesh,Cotton,Kharif,30.61
+3418.81,999.07,29.4,123.5,45.81,Andhra Pradesh,Cotton,Kharif,36.78
+3437.76,920.81,30.92,131.42,42.96,Andhra Pradesh,Cotton,Kharif,38.26
+3020.53,943.06,27.03,137.48,43.81,Andhra Pradesh,Cotton,Kharif,38.5
+3424.61,861.51,33.14,107.03,39.54,Andhra Pradesh,Cotton,Kharif,32.16
+3488.82,740.8,31.81,137.85,26.85,Andhra Pradesh,Cotton,Kharif,32.63
+2649.04,779.48,27.35,106.13,29.39,Andhra Pradesh,Cotton,Kharif,30.61
+2778.88,1103.41,32.68,104.76,26.95,Andhra Pradesh,Cotton,Kharif,34.41
+1277.85,786.89,33.48,117.61,36.25,Andhra Pradesh,Cotton,Kharif,29.61
+1070.08,943.25,29.77,114.37,44.19,Andhra Pradesh,Cotton,Kharif,27.69
+1000.02,725.22,34.09,87.35,27.72,Andhra Pradesh,Cotton,Kharif,25.9
+3079.18,1000.29,31.13,122.29,45.11,Andhra Pradesh,Cotton,Kharif,41.24
+3397.0,716.59,28.27,120.96,35.84,Andhra Pradesh,Cotton,Kharif,34.54
+3378.65,720.61,33.31,92.18,28.96,Andhra Pradesh,Cotton,Kharif,26.48
+3042.98,905.28,28.54,117.51,43.81,Andhra Pradesh,Cotton,Kharif,36.3
+1187.09,923.71,34.19,97.13,43.5,Andhra Pradesh,Cotton,Kharif,26.56
+3551.92,1005.28,29.92,138.67,38.25,Andhra Pradesh,Cotton,Kharif,45.74
+1270.79,1076.39,34.14,127.03,38.64,Andhra Pradesh,Cotton,Kharif,41.71
+1281.34,886.82,33.27,115.44,35.09,Andhra Pradesh,Cotton,Kharif,35.73
+3399.32,718.31,27.9,131.61,39.09,Andhra Pradesh,Cotton,Kharif,34.74
+2214.81,702.86,28.61,89.9,39.99,Andhra Pradesh,Cotton,Kharif,22.91
+3294.67,887.3,34.27,127.49,40.92,Andhra Pradesh,Cotton,Kharif,38.78
+2312.33,885.41,35.44,118.58,25.87,Andhra Pradesh,Cotton,Kharif,38.93
+1386.0,924.95,35.55,119.5,43.0,Andhra Pradesh,Cotton,Kharif,36.49
+1536.23,752.88,31.77,90.26,33.32,Andhra Pradesh,Cotton,Kharif,24.89
+2955.05,942.88,28.97,127.37,40.16,Andhra Pradesh,Cotton,Kharif,38.86
+3050.86,1008.36,35.72,111.09,29.06,Andhra Pradesh,Cotton,Kharif,38.16
+2709.39,719.4,32.8,100.68,35.0,Andhra Pradesh,Cotton,Kharif,24.25
+2947.7,719.49,33.66,135.87,29.05,Andhra Pradesh,Cotton,Kharif,39.8
+3020.83,918.28,28.04,134.23,41.59,Andhra Pradesh,Cotton,Kharif,38.42
+1436.63,1004.58,29.93,127.84,32.5,Andhra Pradesh,Cotton,Kharif,39.55
+1164.77,1031.99,34.83,105.65,30.08,Andhra Pradesh,Cotton,Kharif,32.77
+3304.32,765.22,35.35,110.02,33.91,Andhra Pradesh,Cotton,Kharif,30.71
+1268.29,1023.92,32.69,138.66,29.65,Andhra Pradesh,Cotton,Kharif,46.85
+1061.06,761.43,34.66,110.22,28.94,Andhra Pradesh,Cotton,Kharif,32.95
+1827.66,1098.88,32.43,128.43,39.67,Andhra Pradesh,Cotton,Kharif,42.1
+3519.37,1084.75,27.78,132.13,36.25,Andhra Pradesh,Cotton,Kharif,42.91
+3588.29,966.21,34.53,100.35,41.79,Andhra Pradesh,Cotton,Kharif,32.48
+1783.7,960.76,35.03,117.55,28.43,Andhra Pradesh,Cotton,Kharif,35.09
+2448.99,702.28,35.82,87.2,35.83,Andhra Pradesh,Cotton,Kharif,22.71
+2652.7,989.63,32.18,81.96,16.79,Madhya Pradesh,Soybean,Kharif,41.5
+1693.69,1029.24,25.11,77.93,24.25,Madhya Pradesh,Soybean,Kharif,43.09
+3037.21,795.36,29.32,58.72,20.55,Madhya Pradesh,Soybean,Kharif,32.56
+3731.14,1123.64,25.22,65.47,21.58,Madhya Pradesh,Soybean,Kharif,41.71
+3506.53,935.21,29.18,73.5,22.91,Madhya Pradesh,Soybean,Kharif,36.7
+1133.31,1196.72,28.0,46.47,16.39,Madhya Pradesh,Soybean,Kharif,35.1
+2690.04,1147.24,32.09,48.64,23.21,Madhya Pradesh,Soybean,Kharif,41.19
+3328.01,777.41,33.51,75.36,23.32,Madhya Pradesh,Soybean,Kharif,37.44
+2943.14,932.79,26.58,70.15,11.01,Madhya Pradesh,Soybean,Kharif,38.85
+3240.81,852.36,33.83,55.74,11.7,Madhya Pradesh,Soybean,Kharif,25.74
+2814.39,1229.55,26.89,78.53,13.38,Madhya Pradesh,Soybean,Kharif,46.89
+2063.95,883.68,31.12,57.47,10.95,Madhya Pradesh,Soybean,Kharif,30.99
+2638.05,811.35,31.39,75.52,17.99,Madhya Pradesh,Soybean,Kharif,38.73
+1864.47,1060.48,32.2,87.54,22.13,Madhya Pradesh,Soybean,Kharif,46.11
+3843.28,978.94,25.72,85.41,14.33,Madhya Pradesh,Soybean,Kharif,42.61
+4056.87,804.68,27.48,76.37,17.44,Madhya Pradesh,Soybean,Kharif,38.62
+2970.01,896.58,33.73,69.36,11.98,Madhya Pradesh,Soybean,Kharif,34.33
+2044.11,971.93,30.8,58.12,10.94,Madhya Pradesh,Soybean,Kharif,35.8
+4026.58,1072.34,28.71,60.43,19.69,Madhya Pradesh,Soybean,Kharif,36.14
+1976.81,1046.68,31.27,82.89,16.68,Madhya Pradesh,Soybean,Kharif,43.17
+3504.85,835.87,27.34,66.79,24.56,Madhya Pradesh,Soybean,Kharif,35.54
+3440.17,773.66,28.18,65.52,12.5,Madhya Pradesh,Soybean,Kharif,36.02
+1841.31,1236.6,32.55,76.18,20.0,Madhya Pradesh,Soybean,Kharif,43.84
+1406.5,868.95,25.37,59.25,11.9,Madhya Pradesh,Soybean,Kharif,32.67
+2756.21,767.34,27.85,60.47,15.59,Madhya Pradesh,Soybean,Kharif,32.54
+2681.56,831.3,27.71,86.42,16.07,Madhya Pradesh,Soybean,Kharif,38.79
+2411.53,910.11,25.04,78.23,24.63,Madhya Pradesh,Soybean,Kharif,39.34
+1993.23,1102.73,29.27,58.04,24.16,Madhya Pradesh,Soybean,Kharif,40.43
+1385.38,1032.62,33.16,64.89,20.34,Madhya Pradesh,Soybean,Kharif,37.52
+3314.41,1200.09,26.25,69.79,14.62,Madhya Pradesh,Soybean,Kharif,39.14
+2371.71,796.24,25.5,73.86,18.75,Madhya Pradesh,Soybean,Kharif,38.3
+1633.07,1217.83,27.5,46.01,18.08,Madhya Pradesh,Soybean,Kharif,32.76
+1188.34,1005.89,26.75,59.3,19.08,Madhya Pradesh,Soybean,Kharif,36.87
+4013.23,1204.22,28.25,51.66,22.81,Madhya Pradesh,Soybean,Kharif,35.95
+1839.35,925.68,33.8,84.34,11.31,Madhya Pradesh,Soybean,Kharif,43.19
+3301.92,972.11,33.93,81.17,14.33,Madhya Pradesh,Soybean,Kharif,43.7
+2298.65,1198.21,26.26,71.42,11.29,Madhya Pradesh,Soybean,Kharif,37.36
+1585.69,987.31,32.81,89.4,10.99,Madhya Pradesh,Soybean,Kharif,48.21
+1191.88,954.73,33.23,63.65,18.34,Madhya Pradesh,Soybean,Kharif,34.89
+3243.82,1127.62,26.23,53.37,15.73,Madhya Pradesh,Soybean,Kharif,35.78
+3626.62,1167.29,27.74,70.17,16.95,Madhya Pradesh,Soybean,Kharif,42.08
+988.57,751.22,27.36,88.02,22.51,Madhya Pradesh,Soybean,Kharif,35.49
+3845.87,958.58,29.43,75.95,13.67,Madhya Pradesh,Soybean,Kharif,40.27
+1293.87,888.61,33.95,48.0,21.18,Madhya Pradesh,Soybean,Kharif,27.11
+3765.54,1064.0,29.28,76.24,11.79,Madhya Pradesh,Soybean,Kharif,40.46
+2488.83,701.34,24.3,103.14,10.7,Madhya Pradesh,Wheat,Rabi,56.56
+1320.04,557.16,18.0,115.98,20.95,Madhya Pradesh,Wheat,Rabi,62.63
+2003.55,601.45,20.83,141.82,16.17,Madhya Pradesh,Wheat,Rabi,66.9
+1192.98,763.42,20.98,138.62,19.92,Madhya Pradesh,Wheat,Rabi,69.37
+3023.4,605.38,22.54,129.42,11.15,Madhya Pradesh,Wheat,Rabi,59.11
+939.98,681.36,19.1,119.24,14.08,Madhya Pradesh,Wheat,Rabi,60.49
+3723.44,535.85,16.7,106.06,12.26,Madhya Pradesh,Wheat,Rabi,57.15
+3477.39,683.98,20.85,122.56,19.08,Madhya Pradesh,Wheat,Rabi,61.7
+1253.3,661.17,15.84,135.94,21.08,Madhya Pradesh,Wheat,Rabi,64.76
+2023.96,785.96,24.79,124.88,19.16,Madhya Pradesh,Wheat,Rabi,68.04
+1960.34,748.46,15.32,135.73,12.67,Madhya Pradesh,Wheat,Rabi,70.56
+1602.38,543.87,16.43,98.93,18.29,Madhya Pradesh,Wheat,Rabi,51.42
+3330.49,527.21,23.52,132.87,10.51,Madhya Pradesh,Wheat,Rabi,65.32
+2491.79,520.74,16.31,107.65,10.79,Madhya Pradesh,Wheat,Rabi,57.16
+2969.52,764.09,23.61,141.0,12.46,Madhya Pradesh,Wheat,Rabi,73.03
+1989.75,531.77,24.3,142.09,21.39,Madhya Pradesh,Wheat,Rabi,63.63
+1978.29,556.2,20.51,131.43,12.9,Madhya Pradesh,Wheat,Rabi,61.23
+2692.21,504.89,17.39,104.58,13.38,Madhya Pradesh,Wheat,Rabi,52.42
+3695.15,687.99,25.71,99.93,12.57,Madhya Pradesh,Wheat,Rabi,53.42
+2036.04,706.28,19.84,142.89,12.17,Madhya Pradesh,Wheat,Rabi,70.29
+1999.95,632.87,17.36,106.38,11.35,Madhya Pradesh,Wheat,Rabi,58.84
+1241.98,547.57,23.39,130.24,16.69,Madhya Pradesh,Wheat,Rabi,61.54
+1025.89,614.84,16.27,109.18,17.2,Madhya Pradesh,Wheat,Rabi,55.1
+2276.26,693.87,18.2,137.77,12.27,Madhya Pradesh,Wheat,Rabi,75.0
+1115.79,794.37,20.23,128.96,12.15,Madhya Pradesh,Wheat,Rabi,72.18
+1226.03,653.32,22.24,99.25,11.72,Madhya Pradesh,Wheat,Rabi,56.11
+2141.94,706.7,16.12,141.26,21.73,Madhya Pradesh,Wheat,Rabi,76.33
+1949.76,708.24,25.9,101.14,20.06,Madhya Pradesh,Wheat,Rabi,61.18
+3148.12,597.48,22.85,124.1,13.28,Madhya Pradesh,Wheat,Rabi,62.4
+2140.73,666.54,21.63,115.22,15.81,Madhya Pradesh,Wheat,Rabi,57.59
+1764.56,768.8,16.19,107.53,15.97,Madhya Pradesh,Wheat,Rabi,61.26
+1208.77,518.5,15.75,128.91,21.66,Madhya Pradesh,Wheat,Rabi,59.36
+2086.16,737.72,16.68,126.1,11.16,Madhya Pradesh,Wheat,Rabi,70.35
+3279.47,777.46,17.22,128.1,15.88,Madhya Pradesh,Wheat,Rabi,70.39
+1711.16,620.27,24.46,122.33,21.43,Madhya Pradesh,Wheat,Rabi,64.38
+3736.31,634.27,18.46,113.82,15.52,Madhya Pradesh,Wheat,Rabi,60.25
+1001.87,694.83,24.46,110.15,18.47,Madhya Pradesh,Wheat,Rabi,59.22
+3118.74,670.61,16.2,128.75,17.92,Madhya Pradesh,Wheat,Rabi,65.25
+3024.66,700.27,20.24,137.72,16.08,Madhya Pradesh,Wheat,Rabi,66.39
+3909.7,715.93,18.88,143.89,13.85,Madhya Pradesh,Wheat,Rabi,72.88
+987.26,515.79,24.21,112.44,18.9,Madhya Pradesh,Wheat,Rabi,60.85
+1957.9,534.07,18.8,112.87,14.22,Madhya Pradesh,Wheat,Rabi,57.14
+2949.84,586.66,22.13,124.63,20.92,Madhya Pradesh,Wheat,Rabi,63.31
+1946.54,506.9,18.59,118.05,20.36,Madhya Pradesh,Wheat,Rabi,57.73
+2660.95,815.49,17.93,129.8,17.06,Madhya Pradesh,Wheat,Rabi,72.6
+1575.75,857.64,30.08,91.0,24.15,Karnataka,Maize,Kharif,47.06
+1439.92,826.25,29.65,105.37,23.07,Karnataka,Maize,Kharif,48.37
+1842.38,981.3,29.87,135.42,21.65,Karnataka,Maize,Kharif,66.1
+1318.39,621.39,31.96,109.12,16.07,Karnataka,Maize,Kharif,45.45
+2710.47,642.63,25.37,89.04,26.42,Karnataka,Maize,Kharif,39.08
+1788.17,694.38,29.96,124.09,17.43,Karnataka,Maize,Kharif,53.01
+1949.87,690.03,26.02,122.5,20.16,Karnataka,Maize,Kharif,48.3
+2508.61,681.27,22.19,127.2,27.53,Karnataka,Maize,Kharif,50.57
+3005.29,933.99,26.67,141.23,21.59,Karnataka,Maize,Kharif,62.92
+2136.06,946.1,26.34,118.97,23.28,Karnataka,Maize,Kharif,55.04
+969.36,667.71,28.85,103.02,19.84,Karnataka,Maize,Kharif,44.73
+1396.63,973.6,22.64,97.21,19.42,Karnataka,Maize,Kharif,54.48
+1241.12,870.55,26.06,91.81,15.45,Karnataka,Maize,Kharif,44.02
+1213.97,972.25,26.64,118.59,19.85,Karnataka,Maize,Kharif,58.07
+998.4,661.39,24.58,133.21,23.86,Karnataka,Maize,Kharif,52.89
+1039.96,983.63,31.64,114.15,12.36,Karnataka,Maize,Kharif,58.46
+2104.0,990.23,31.01,109.42,18.54,Karnataka,Maize,Kharif,55.51
+2243.58,640.64,31.43,128.45,14.53,Karnataka,Maize,Kharif,55.36
+2932.34,834.88,30.29,141.98,28.77,Karnataka,Maize,Kharif,64.38
+1229.52,998.05,24.38,92.34,26.52,Karnataka,Maize,Kharif,49.93
+1574.88,936.77,24.36,110.37,14.6,Karnataka,Maize,Kharif,58.72
+1037.89,1036.47,26.39,100.26,22.61,Karnataka,Maize,Kharif,52.31
+2971.78,742.42,26.24,125.96,29.34,Karnataka,Maize,Kharif,54.06
+2798.58,1021.64,25.63,127.94,26.78,Karnataka,Maize,Kharif,70.56
+2114.54,978.66,28.62,141.45,24.43,Karnataka,Maize,Kharif,66.33
+2572.01,707.85,27.53,103.56,29.25,Karnataka,Maize,Kharif,42.86
+905.13,990.13,30.58,108.31,28.38,Karnataka,Maize,Kharif,60.39
+1582.44,1040.1,24.56,90.42,26.81,Karnataka,Maize,Kharif,52.74
+2825.62,1012.15,28.31,137.77,25.8,Karnataka,Maize,Kharif,67.3
+1615.72,615.25,30.66,134.39,28.93,Karnataka,Maize,Kharif,49.44
+2702.91,922.82,30.77,134.21,26.84,Karnataka,Maize,Kharif,62.13
+2346.21,827.85,25.52,121.13,26.64,Karnataka,Maize,Kharif,54.77
+668.38,623.44,28.42,122.81,26.24,Karnataka,Maize,Kharif,46.14
+940.23,780.3,28.28,103.82,13.48,Karnataka,Maize,Kharif,50.7
+3024.16,973.78,29.63,135.82,24.34,Karnataka,Maize,Kharif,66.6
+2581.61,743.73,26.78,129.11,16.69,Karnataka,Maize,Kharif,52.64
+2598.82,689.4,26.14,95.91,27.78,Karnataka,Maize,Kharif,38.49
+2961.89,997.95,24.24,141.89,28.62,Karnataka,Maize,Kharif,63.4
+2867.11,1038.36,23.98,127.08,15.04,Karnataka,Maize,Kharif,59.54
+1602.59,793.01,24.6,90.34,18.62,Karnataka,Maize,Kharif,46.66
+2396.46,795.82,31.2,112.22,24.12,Karnataka,Maize,Kharif,51.05
+896.28,921.1,23.91,136.72,26.08,Karnataka,Maize,Kharif,61.39
+925.5,985.35,28.0,144.71,17.09,Karnataka,Maize,Kharif,69.86
+2292.97,788.25,26.09,93.76,17.22,Karnataka,Maize,Kharif,45.75
+2868.32,766.34,28.84,112.49,12.19,Karnataka,Maize,Kharif,54.95
+1059.65,1027.79,31.62,159.65,31.41,Karnataka,Sugarcane,Whole Year,85.09
+1391.81,902.4,24.65,136.64,20.4,Karnataka,Sugarcane,Whole Year,70.51
+3152.21,1398.21,34.33,177.87,28.76,Karnataka,Sugarcane,Whole Year,102.49
+1384.87,1190.81,27.33,140.66,23.53,Karnataka,Sugarcane,Whole Year,84.28
+3313.76,1157.76,30.39,131.92,26.59,Karnataka,Sugarcane,Whole Year,88.31
+1056.18,1024.52,29.83,124.22,17.69,Karnataka,Sugarcane,Whole Year,72.63
+819.24,920.33,33.59,169.26,32.2,Karnataka,Sugarcane,Whole Year,89.07
+3067.73,1187.11,32.38,132.14,22.2,Karnataka,Sugarcane,Whole Year,81.38
+3110.21,1023.55,34.94,164.64,18.48,Karnataka,Sugarcane,Whole Year,91.09
+2855.19,879.27,25.63,129.94,15.82,Karnataka,Sugarcane,Whole Year,69.26
+1402.6,1238.28,28.8,179.69,36.33,Karnataka,Sugarcane,Whole Year,101.77
+2614.38,1116.86,29.42,169.98,34.94,Karnataka,Sugarcane,Whole Year,93.06
+1033.87,901.47,33.55,126.74,18.87,Karnataka,Sugarcane,Whole Year,70.21
+3105.42,1172.12,30.42,178.16,27.1,Karnataka,Sugarcane,Whole Year,96.1
+2241.13,1079.03,24.85,164.94,30.57,Karnataka,Sugarcane,Whole Year,90.24
+2539.54,1224.35,28.34,153.37,36.88,Karnataka,Sugarcane,Whole Year,89.65
+2959.84,934.58,24.89,169.0,30.17,Karnataka,Sugarcane,Whole Year,78.41
+2304.35,853.19,34.67,157.65,36.87,Karnataka,Sugarcane,Whole Year,83.58
+1577.27,1252.35,32.08,177.23,28.09,Karnataka,Sugarcane,Whole Year,98.49
+2437.84,1027.74,24.61,119.6,36.89,Karnataka,Sugarcane,Whole Year,75.46
+1729.76,1069.37,25.96,177.73,34.91,Karnataka,Sugarcane,Whole Year,99.08
+1139.94,1278.72,27.13,163.92,30.04,Karnataka,Sugarcane,Whole Year,98.56
+1025.63,1119.96,28.76,167.41,22.13,Karnataka,Sugarcane,Whole Year,90.78
+2496.9,1307.63,29.64,146.83,35.36,Karnataka,Sugarcane,Whole Year,88.79
+1986.39,1159.68,28.65,164.17,33.65,Karnataka,Sugarcane,Whole Year,88.81
+1850.25,872.24,27.76,145.13,20.16,Karnataka,Sugarcane,Whole Year,75.34
+2552.84,935.29,29.45,155.92,27.07,Karnataka,Sugarcane,Whole Year,81.9
+3149.46,1112.69,25.63,123.31,35.77,Karnataka,Sugarcane,Whole Year,81.54
+2972.15,1137.7,27.25,118.1,16.76,Karnataka,Sugarcane,Whole Year,78.61
+1847.27,901.97,31.27,151.95,20.83,Karnataka,Sugarcane,Whole Year,81.18
+1388.12,894.97,29.54,122.41,30.22,Karnataka,Sugarcane,Whole Year,72.47
+1760.98,895.81,33.64,134.35,28.51,Karnataka,Sugarcane,Whole Year,77.19
+1928.5,1218.64,30.86,132.23,37.23,Karnataka,Sugarcane,Whole Year,85.14
+1199.74,1260.87,30.64,171.66,17.45,Karnataka,Sugarcane,Whole Year,95.12
+2142.82,853.22,25.28,126.16,25.97,Karnataka,Sugarcane,Whole Year,68.95
+3307.67,1181.04,29.35,155.2,37.4,Karnataka,Sugarcane,Whole Year,82.89
+1673.97,1220.59,31.59,140.67,21.96,Karnataka,Sugarcane,Whole Year,86.61
+1002.16,858.74,34.68,170.84,19.81,Karnataka,Sugarcane,Whole Year,85.67
+2451.28,1207.36,28.79,155.69,33.17,Karnataka,Sugarcane,Whole Year,91.48
+1951.25,1110.69,24.24,125.8,18.51,Karnataka,Sugarcane,Whole Year,81.36
+2597.01,1380.13,29.19,170.89,28.46,Karnataka,Sugarcane,Whole Year,101.24
+2951.36,878.01,24.09,155.98,31.4,Karnataka,Sugarcane,Whole Year,85.62
+3344.61,1316.74,32.11,153.73,27.75,Karnataka,Sugarcane,Whole Year,91.83
+2012.47,1175.07,30.73,159.11,33.78,Karnataka,Sugarcane,Whole Year,94.48
+2017.33,1242.86,29.81,142.43,22.26,Karnataka,Sugarcane,Whole Year,94.21
+1909.7,1186.67,29.96,141.64,20.24,Bihar,Rice,Kharif,64.92
+2722.79,960.4,28.3,100.57,20.19,Bihar,Rice,Kharif,47.2
+3336.3,1119.58,30.82,136.34,25.83,Bihar,Rice,Kharif,61.72
+1080.36,1096.7,31.69,142.79,29.0,Bihar,Rice,Kharif,59.17
+3008.32,1349.88,32.76,124.2,19.08,Bihar,Rice,Kharif,58.22
+2872.84,1283.53,27.03,100.97,24.9,Bihar,Rice,Kharif,56.48
+3581.92,1101.83,27.68,92.59,14.33,Bihar,Rice,Kharif,49.65
+3254.63,1128.52,27.27,135.54,30.1,Bihar,Rice,Kharif,60.83
+1948.8,1258.78,26.97,102.33,18.64,Bihar,Rice,Kharif,54.33
+1686.94,1127.62,26.37,138.27,18.81,Bihar,Rice,Kharif,62.9
+2194.62,1284.74,31.65,140.96,21.88,Bihar,Rice,Kharif,68.03
+2025.69,1370.8,26.89,95.82,24.99,Bihar,Rice,Kharif,56.2
+3088.47,970.98,26.84,124.65,29.68,Bihar,Rice,Kharif,47.45
+3341.86,1028.52,28.34,114.28,23.11,Bihar,Rice,Kharif,51.99
+2576.57,1117.3,27.1,136.67,21.9,Bihar,Rice,Kharif,58.8
+1905.67,1334.52,27.96,134.5,20.14,Bihar,Rice,Kharif,63.18
+1780.07,1327.42,28.89,126.57,16.73,Bihar,Rice,Kharif,62.0
+2885.17,1160.86,27.83,134.1,21.44,Bihar,Rice,Kharif,57.88
+3171.93,1347.3,28.89,91.64,16.62,Bihar,Rice,Kharif,54.86
+728.85,1353.12,33.55,94.66,19.67,Bihar,Rice,Kharif,55.77
+878.26,1329.6,31.28,125.28,30.25,Bihar,Rice,Kharif,61.57
+867.65,1265.8,31.71,126.32,23.36,Bihar,Rice,Kharif,59.85
+2674.52,1226.81,28.43,130.85,30.37,Bihar,Rice,Kharif,63.38
+722.92,1089.89,30.22,140.62,26.61,Bihar,Rice,Kharif,58.75
+2278.83,1344.17,31.22,128.36,29.98,Bihar,Rice,Kharif,63.45
+2966.53,1152.25,27.58,106.58,14.67,Bihar,Rice,Kharif,50.79
+2846.15,1013.0,33.94,105.62,15.67,Bihar,Rice,Kharif,53.05
+2300.18,1210.67,32.06,98.8,14.5,Bihar,Rice,Kharif,53.13
+1399.89,1337.08,31.81,144.28,15.99,Bihar,Rice,Kharif,63.6
+873.84,1136.49,31.02,109.5,14.86,Bihar,Rice,Kharif,52.51
+1564.09,1318.43,29.63,144.06,28.5,Bihar,Rice,Kharif,65.33
+3568.1,1232.8,33.15,124.53,23.6,Bihar,Rice,Kharif,57.41
+1525.15,1342.39,31.72,126.98,26.86,Bihar,Rice,Kharif,61.13
+2207.03,1073.82,28.62,122.03,28.81,Bihar,Rice,Kharif,54.41
+2763.76,1364.22,26.66,93.42,29.99,Bihar,Rice,Kharif,55.06
+2081.13,1173.08,28.95,118.94,24.59,Bihar,Rice,Kharif,54.03
+1464.71,1199.41,29.39,114.2,30.76,Bihar,Rice,Kharif,55.62
+2119.67,1436.64,32.59,97.94,16.29,Bihar,Rice,Kharif,56.65
+2743.12,1381.64,26.94,101.7,22.52,Bihar,Rice,Kharif,55.42
+2864.84,1422.03,28.95,142.35,24.83,Bihar,Rice,Kharif,67.19
+2358.12,970.14,27.23,110.43,31.84,Bihar,Rice,Kharif,50.51
+1579.45,1192.96,32.33,97.82,24.61,Bihar,Rice,Kharif,56.66
+3278.27,1057.79,32.55,116.88,16.2,Bihar,Rice,Kharif,55.09
+1711.08,1385.21,29.34,121.52,24.18,Bihar,Rice,Kharif,65.62
+2078.16,1310.02,30.85,131.91,23.09,Bihar,Rice,Kharif,60.42
+1560.15,657.48,20.49,141.98,17.2,Bihar,Maize,Rabi,64.18
+1442.15,581.49,19.95,122.46,27.33,Bihar,Maize,Rabi,50.07
+2547.1,757.57,22.46,141.96,23.32,Bihar,Maize,Rabi,61.72
+2127.02,696.37,17.24,123.56,15.08,Bihar,Maize,Rabi,56.66
+1923.02,701.9,16.53,124.21,15.03,Bihar,Maize,Rabi,53.02
+776.65,827.66,17.8,91.14,24.59,Bihar,Maize,Rabi,55.76
+1064.16,746.97,24.88,116.65,24.91,Bihar,Maize,Rabi,56.57
+603.46,801.69,16.23,116.22,18.64,Bihar,Maize,Rabi,59.02
+2477.19,611.08,18.57,96.88,13.59,Bihar,Maize,Rabi,49.02
+1087.78,531.37,19.07,114.44,14.71,Bihar,Maize,Rabi,51.63
+1913.29,613.85,16.27,93.51,18.24,Bihar,Maize,Rabi,45.99
+1245.7,631.43,24.28,97.26,15.24,Bihar,Maize,Rabi,51.9
+2229.91,705.11,20.93,135.14,18.16,Bihar,Maize,Rabi,63.47
+1569.09,642.48,20.84,114.45,15.74,Bihar,Maize,Rabi,55.09
+2538.16,594.21,25.63,130.51,15.94,Bihar,Maize,Rabi,52.1
+1200.61,642.36,16.84,128.15,15.26,Bihar,Maize,Rabi,56.48
+2726.2,630.66,25.85,136.92,20.6,Bihar,Maize,Rabi,54.4
+1539.01,500.35,20.65,139.76,16.63,Bihar,Maize,Rabi,59.28
+2735.79,500.19,25.34,118.93,21.57,Bihar,Maize,Rabi,51.84
+1308.26,721.27,21.85,120.62,12.73,Bihar,Maize,Rabi,56.62
+2200.12,697.08,19.01,113.72,13.97,Bihar,Maize,Rabi,58.73
+1142.75,651.19,22.1,147.45,17.09,Bihar,Maize,Rabi,67.1
+2068.83,619.92,18.61,135.16,19.24,Bihar,Maize,Rabi,59.65
+1285.75,660.93,22.0,90.95,23.07,Bihar,Maize,Rabi,57.06
+1986.82,500.72,20.77,144.09,22.76,Bihar,Maize,Rabi,51.92
+2117.59,766.86,21.38,137.24,22.39,Bihar,Maize,Rabi,68.95
+678.3,510.83,24.32,130.3,22.76,Bihar,Maize,Rabi,50.54
+2403.17,625.29,17.77,136.08,23.15,Bihar,Maize,Rabi,64.33
+519.39,661.94,25.36,116.67,15.54,Bihar,Maize,Rabi,58.21
+2619.22,625.24,16.9,126.81,16.85,Bihar,Maize,Rabi,57.56
+2150.96,581.99,20.94,111.78,16.49,Bihar,Maize,Rabi,55.25
+980.9,568.63,24.21,113.77,25.92,Bihar,Maize,Rabi,48.69
+1808.94,672.9,21.52,129.59,21.05,Bihar,Maize,Rabi,58.24
+650.33,544.89,16.65,105.58,21.12,Bihar,Maize,Rabi,44.57
+1024.32,683.08,23.82,101.51,22.85,Bihar,Maize,Rabi,56.9
+1725.77,588.52,21.6,117.24,27.01,Bihar,Maize,Rabi,52.89
+1974.22,830.08,16.52,146.33,18.92,Bihar,Maize,Rabi,73.03
+2064.4,663.31,19.61,135.54,26.14,Bihar,Maize,Rabi,61.11
+1016.46,597.28,20.2,116.93,12.08,Bihar,Maize,Rabi,53.8
+1815.19,508.88,23.37,148.69,18.78,Bihar,Maize,Rabi,60.24
+671.21,587.49,17.64,108.65,22.02,Bihar,Maize,Rabi,53.49
+2358.54,707.39,22.26,110.06,16.01,Bihar,Maize,Rabi,57.58
+748.03,583.43,19.41,93.27,17.34,Bihar,Maize,Rabi,48.1
+2284.22,716.85,23.64,127.52,21.26,Bihar,Maize,Rabi,53.92
+696.73,521.24,16.33,108.8,25.56,Bihar,Maize,Rabi,49.62
+3741.17,1431.44,28.11,129.44,16.25,West Bengal,Rice,Kharif,63.4
+2968.21,1519.44,28.06,115.98,16.82,West Bengal,Rice,Kharif,60.52
+2718.64,1594.79,26.07,116.12,30.11,West Bengal,Rice,Kharif,59.74
+3615.8,1564.42,28.38,146.57,29.88,West Bengal,Rice,Kharif,67.39
+1415.94,1177.02,30.17,98.71,30.0,West Bengal,Rice,Kharif,50.95
+1419.57,1529.91,30.46,109.1,23.0,West Bengal,Rice,Kharif,58.27
+1578.09,1697.77,26.42,112.14,23.28,West Bengal,Rice,Kharif,59.34
+3871.17,1665.78,28.18,143.69,29.73,West Bengal,Rice,Kharif,71.93
+1897.28,1376.62,26.06,127.25,27.89,West Bengal,Rice,Kharif,63.23
+983.42,1480.33,31.85,142.23,23.02,West Bengal,Rice,Kharif,67.78
+3707.2,1688.95,28.39,131.73,28.2,West Bengal,Rice,Kharif,69.28
+3942.15,1549.82,28.32,126.81,33.3,West Bengal,Rice,Kharif,61.87
+1319.3,1440.73,31.52,97.32,19.17,West Bengal,Rice,Kharif,52.16
+811.83,1267.27,27.61,129.32,19.54,West Bengal,Rice,Kharif,59.55
+1860.85,1655.06,27.44,105.13,33.81,West Bengal,Rice,Kharif,52.94
+1961.01,1155.3,26.21,101.34,20.52,West Bengal,Rice,Kharif,51.88
+3249.7,1132.93,26.21,105.88,18.31,West Bengal,Rice,Kharif,54.94
+3633.22,1639.13,28.38,125.5,18.39,West Bengal,Rice,Kharif,70.22
+3714.08,1115.75,30.74,115.84,29.96,West Bengal,Rice,Kharif,54.75
+1155.1,1802.09,28.14,108.21,30.38,West Bengal,Rice,Kharif,59.38
+3926.73,1848.27,32.17,143.31,16.24,West Bengal,Rice,Kharif,67.83
+1262.18,1793.12,31.56,105.54,22.19,West Bengal,Rice,Kharif,59.34
+3926.34,1283.41,26.32,128.88,18.59,West Bengal,Rice,Kharif,62.95
+2513.5,1692.19,28.29,97.93,30.12,West Bengal,Rice,Kharif,61.92
+3898.83,1764.38,27.46,99.48,23.94,West Bengal,Rice,Kharif,55.98
+2923.21,1148.65,29.56,136.32,27.26,West Bengal,Rice,Kharif,57.08
+2285.66,1341.37,28.62,133.2,28.6,West Bengal,Rice,Kharif,62.27
+2383.33,1301.25,28.81,145.67,26.1,West Bengal,Rice,Kharif,67.15
+1449.6,1747.38,28.77,111.83,31.89,West Bengal,Rice,Kharif,63.39
+2628.39,1801.62,28.62,125.28,17.55,West Bengal,Rice,Kharif,70.1
+1925.04,1537.97,29.26,129.16,23.1,West Bengal,Rice,Kharif,65.94
+2296.16,1406.71,31.63,112.44,22.27,West Bengal,Rice,Kharif,58.57
+2865.14,1369.32,26.58,141.34,24.74,West Bengal,Rice,Kharif,66.96
+2859.69,1689.4,32.49,100.41,16.36,West Bengal,Rice,Kharif,60.62
+1429.27,1346.93,28.12,139.86,27.99,West Bengal,Rice,Kharif,64.83
+1678.29,1629.23,32.99,149.91,29.3,West Bengal,Rice,Kharif,71.29
+827.31,1324.61,31.76,138.07,22.67,West Bengal,Rice,Kharif,57.56
+2098.43,1534.97,30.59,120.96,24.74,West Bengal,Rice,Kharif,62.23
+2072.02,1270.19,31.24,121.09,24.8,West Bengal,Rice,Kharif,56.42
+3315.12,1668.22,31.06,120.38,30.05,West Bengal,Rice,Kharif,63.4
+3264.42,1623.46,27.47,119.75,25.61,West Bengal,Rice,Kharif,64.81
+1999.04,1533.13,26.9,146.88,15.18,West Bengal,Rice,Kharif,71.22
+1887.43,1414.36,30.8,117.19,29.79,West Bengal,Rice,Kharif,54.37
+2520.33,1344.56,26.16,138.19,32.52,West Bengal,Rice,Kharif,67.72
+1856.8,1572.38,30.22,128.43,31.47,West Bengal,Rice,Kharif,70.32
+2458.36,521.47,19.13,147.07,22.52,West Bengal,Potatoes,Rabi,83.7
+1348.22,763.16,16.75,121.26,31.27,West Bengal,Potatoes,Rabi,85.02
+467.32,691.16,19.91,126.2,19.67,West Bengal,Potatoes,Rabi,83.55
+889.38,680.85,16.56,118.45,30.44,West Bengal,Potatoes,Rabi,77.67
+760.83,750.9,19.29,124.42,20.66,West Bengal,Potatoes,Rabi,79.31
+544.4,784.28,22.93,122.8,22.94,West Bengal,Potatoes,Rabi,82.88
+1307.62,698.39,19.8,151.22,40.54,West Bengal,Potatoes,Rabi,85.58
+1838.16,546.4,16.06,123.56,19.54,West Bengal,Potatoes,Rabi,72.45
+1238.4,732.65,20.21,169.62,39.1,West Bengal,Potatoes,Rabi,91.63
+1948.31,550.77,23.05,142.38,34.81,West Bengal,Potatoes,Rabi,81.28
+1894.46,554.11,20.9,163.6,22.2,West Bengal,Potatoes,Rabi,86.78
+1939.81,610.24,23.29,126.01,31.65,West Bengal,Potatoes,Rabi,84.58
+1226.46,780.99,17.92,167.23,24.57,West Bengal,Potatoes,Rabi,95.07
+2324.22,694.32,21.78,128.04,29.84,West Bengal,Potatoes,Rabi,79.77
+2484.02,643.49,23.96,119.59,20.53,West Bengal,Potatoes,Rabi,77.41
+1346.97,538.47,20.05,142.73,19.76,West Bengal,Potatoes,Rabi,77.03
+1858.42,712.41,19.05,159.76,38.54,West Bengal,Potatoes,Rabi,91.55
+640.83,771.0,18.62,159.92,29.63,West Bengal,Potatoes,Rabi,94.6
+543.3,641.95,17.94,172.0,21.37,West Bengal,Potatoes,Rabi,95.41
+758.24,456.32,16.8,132.65,30.83,West Bengal,Potatoes,Rabi,68.0
+1220.78,477.15,22.11,155.64,21.68,West Bengal,Potatoes,Rabi,79.87
+472.33,686.27,17.73,156.8,38.08,West Bengal,Potatoes,Rabi,91.73
+2104.17,674.35,21.73,168.82,27.37,West Bengal,Potatoes,Rabi,92.74
+409.8,720.34,22.14,170.73,26.99,West Bengal,Potatoes,Rabi,96.51
+900.93,481.99,19.37,174.36,26.09,West Bengal,Potatoes,Rabi,88.78
+863.19,758.8,22.38,164.83,22.03,West Bengal,Potatoes,Rabi,99.75
+750.8,595.49,16.86,134.63,31.49,West Bengal,Potatoes,Rabi,80.52
+1537.58,778.62,16.97,127.83,26.56,West Bengal,Potatoes,Rabi,87.02
+764.61,590.75,18.53,138.35,29.01,West Bengal,Potatoes,Rabi,86.02
+1764.88,579.14,16.54,128.11,25.24,West Bengal,Potatoes,Rabi,79.47
+1657.63,794.09,16.81,147.17,41.77,West Bengal,Potatoes,Rabi,92.57
+2413.97,659.95,23.85,156.78,34.27,West Bengal,Potatoes,Rabi,87.35
+2441.97,692.8,18.66,153.12,39.22,West Bengal,Potatoes,Rabi,86.56
+1412.47,567.29,20.87,150.1,27.18,West Bengal,Potatoes,Rabi,88.91
+1745.24,531.35,20.7,174.3,23.58,West Bengal,Potatoes,Rabi,83.97
+1048.58,708.27,22.06,152.19,19.44,West Bengal,Potatoes,Rabi,84.93
+1186.5,553.82,17.21,127.26,18.91,West Bengal,Potatoes,Rabi,79.66
+2386.34,708.74,18.63,131.69,33.45,West Bengal,Potatoes,Rabi,81.36
+1997.04,632.31,23.82,153.88,24.92,West Bengal,Potatoes,Rabi,93.09
+1095.67,534.79,20.31,169.4,33.96,West Bengal,Potatoes,Rabi,88.63
+921.51,690.57,21.76,151.48,27.16,West Bengal,Potatoes,Rabi,87.06
+412.69,754.45,16.56,126.55,33.22,West Bengal,Potatoes,Rabi,86.76
+697.22,521.48,16.73,150.56,37.95,West Bengal,Potatoes,Rabi,83.66
+564.15,703.75,18.49,158.3,23.88,West Bengal,Potatoes,Rabi,90.16
+770.51,537.14,18.28,141.9,33.25,West Bengal,Potatoes,Rabi,78.79
