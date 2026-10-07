@@ -270,15 +270,23 @@ For production deployment, consider:
    - Configure logging to files
 
 4. **Docker Deployment**:
-   Create a `Dockerfile`:
-   ```dockerfile
-   FROM python:3.11-slim
-   WORKDIR /app
-   COPY requirements.txt .
-   RUN pip install -r requirements.txt
-   COPY . .
-   CMD ["python", "run.py"]
+   The repository includes a production-ready `Dockerfile` and `docker-compose.yml`.
+
+   **Using Docker Compose (Recommended):**
+   ```bash
+   docker compose up --build
    ```
+
+   **Using Standalone Docker:**
+   ```bash
+   # Build image
+   docker build -t agropredict-ai .
+
+   # Run container
+   docker run -d -p 8000:8000 --name agropredict agropredict-ai
+   ```
+   Access the web app at `http://localhost:8000`.
+
 
 ---
 
